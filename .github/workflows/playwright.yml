@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 120
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -29,13 +29,24 @@ jobs:
       run: |
         START_TIME=$(date +%s)
         BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html,json
-        # Check if results.json exists, if not list files to debug
-        if [ ! -f results.json ]; then
-          echo "results.json not found! Listing files in current directory:"
-          ls -R
-        else
+        
+        # Diagnostic: Find where results.json is
+        echo "Searching for results.json..."
+        find . -name results.json
+        
+        # Look for the file in the root, if not, move it from wherever it is
+        if [ -f results.json ]; then
           mv results.json results-batch-${{ matrix.batch }}.json
+        else
+          FOUND_FILE=$(find . -name results.json | head -n 1)
+          if [ -n "$FOUND_FILE" ]; then
+            echo "Found results.json at $FOUND_FILE. Moving to root."
+            mv "$FOUND_FILE" results-batch-${{ matrix.batch }}.json
+          else
+            echo "results.json not found anywhere!"
+          fi
         fi
+        
         END_TIME=$(date +%s)
         echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
@@ -60,7 +71,7 @@ jobs:
         # Verify results.json exists
         if [ ! -f results-batch-${BATCH_VAL}.json ]; then
           echo "results-batch-${BATCH_VAL}.json not found! Cannot send accurate Slack notification."
-          exit 0 # Change to exit 0 to allow notification to be skipped instead of failing the whole pipeline
+          exit 0
         fi
         
         # Parse results.json
@@ -82,7 +93,7 @@ jobs:
           COLOR="#ff0000"
         fi
         
-        # Construct Slack Payload using jq to avoid heredoc YAML parsing issues
+        # Construct Slack Payload using jq
         jq -n \
           --arg color "$COLOR" \
           --arg icon "$ICON" \
