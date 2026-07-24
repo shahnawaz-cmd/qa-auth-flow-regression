@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    timeout-minutes: 120
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -28,13 +28,16 @@ jobs:
     - name: Run Playwright tests
       run: |
         START_TIME=$(date +%s)
+        echo "Running tests for BATCH_ID: ${{ matrix.batch }}"
         BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html,json
+        EXIT_CODE=$?
+        echo "Playwright test exit code: $EXIT_CODE"
         
         # Diagnostic: Find where results.json is
         echo "Searching for results.json..."
         find . -name results.json
         
-        # Look for the file in the root, if not, move it from wherever it is
+        # Look for the file in the root
         if [ -f results.json ]; then
           mv results.json results-batch-${{ matrix.batch }}.json
         else
@@ -44,6 +47,8 @@ jobs:
             mv "$FOUND_FILE" results-batch-${{ matrix.batch }}.json
           else
             echo "results.json not found anywhere!"
+            echo "Listing all files for debugging:"
+            ls -R
           fi
         fi
         
