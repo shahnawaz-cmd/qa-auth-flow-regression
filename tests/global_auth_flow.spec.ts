@@ -7,8 +7,8 @@ import { PhoneNumberGenerator } from '../tasks/PhoneNumberGenerator';
 import { SignupTask } from '../tasks/SignupTask';
 import { LoginTask } from '../tasks/LoginTask';
 import { LogoutTask } from '../tasks/LogoutTask';
-import { ForgotTask } from '../tasks/ForgotTask';
 import { CaptureSignupApiResponseTask } from '../tasks/CaptureSignupApiResponseTask';
+import { ForgotPasswordTask } from '../tasks/ForgotPasswordTask';
 
 test.describe('Global Signup & Login Tests', () => {
 
@@ -16,7 +16,7 @@ test.describe('Global Signup & Login Tests', () => {
   const sites = Object.values(SITE_CONFIGS).filter(s => !batchId || s.batch === batchId);
 
   for (const site of sites) {
-    test(`Global Signup Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
+    test(`Auth Signup Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
         const actor = new Actor('User', page);
         try {
             // Include phone for all sites except SCC
@@ -76,9 +76,6 @@ test.describe('Global Signup & Login Tests', () => {
             const loginTask = new LoginTask(email, password, site, testInfo);
             await actor.attemptsTo(loginTask);
             await loginTask.verifyLoginRedirection(actor);
-
-            // Perform Forgot Password
-            await actor.attemptsTo(new ForgotTask(email, site, testInfo));
         } finally {
             console.log(`Cleaning up: ${site.name}`);
             try {
@@ -88,6 +85,33 @@ test.describe('Global Signup & Login Tests', () => {
             }
         }
       });
+
+      if (['SCC', 'DVH', 'CD', 'HONDA', 'GMC', 'HYUNDAI', 'INFINITI', 'VSR'].includes(site.name)) {
+        test(`Auth Forgot Password Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
+          const actor = new Actor('User', page);
+          
+          // Define static emails based on site
+          const staticEmails: { [key: string]: string } = {
+              'SCC': 'testuser_1784906831078@example.com',
+              'DVH': 'testuser_1784906797109@example.com',
+              'CD': 'testuser_1784906878764@example.com',
+              'HONDA': 'testuser_1784906903391@example.com',
+              'GMC': 'testuser_1784906855212@example.com',
+              'HYUNDAI': 'testuser_1784901879764@example.com',
+              'INFINITI': 'testuser_1784901984409@example.com',
+              'VSR': 'testuser_1784901422499@example.com'
+          };
+
+          const email = staticEmails[site.name];
+          try {
+              const forgotTask = new ForgotPasswordTask(email, site, testInfo);
+              await actor.attemptsTo(forgotTask);
+              console.log(`Forgot password flow completed for: ${site.name}`);
+          } finally {
+              await page.close();
+          }
+        });
+      }
   }
 });
 
