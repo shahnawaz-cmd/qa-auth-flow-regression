@@ -40,22 +40,30 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         DURATION: ${{ env.DURATION }}
+        BATCH_VAL: ${{ matrix.batch }}
+        GITHUB_SERVER: ${{ github.server_url }}
+        GITHUB_REPO: ${{ github.repository }}
+        GITHUB_RUN: ${{ github.run_id }}
+        GITHUB_ACTOR: ${{ github.actor }}
+        GITHUB_REF: ${{ github.ref_name }}
+        GITHUB_SHA_VAL: ${{ github.sha }}
+        GITHUB_EVENT: ${{ github.event_name }}
       run: |
         sudo apt-get install -y jq
         
         # Verify results.json exists
-        if [ ! -f results-batch-${{ matrix.batch }}.json ]; then
-          echo "results-batch-${{ matrix.batch }}.json not found! Cannot send accurate Slack notification."
+        if [ ! -f results-batch-${BATCH_VAL}.json ]; then
+          echo "results-batch-${BATCH_VAL}.json not found! Cannot send accurate Slack notification."
           exit 1
         fi
         
         # Parse results.json
-        TOTAL_TESTS=$(jq '[.. | .tests? | select(. != null) | .[]] | length' results-batch-${{ matrix.batch }}.json || echo "0")
-        FAILED_TESTS=$(jq '[.. | .status? | select(. == "failed")] | length' results-batch-${{ matrix.batch }}.json || echo "0")
+        TOTAL_TESTS=$(jq '[.. | .tests? | select(. != null) | .[]] | length' results-batch-${BATCH_VAL}.json || echo "0")
+        FAILED_TESTS=$(jq '[.. | .status? | select(. == "failed")] | length' results-batch-${BATCH_VAL}.json || echo "0")
         PASSED_TESTS=$((TOTAL_TESTS - FAILED_TESTS))
         
         # Get names AND error messages of up to 3 failed tests
-        FAILED_DETAILS=$(jq -r '[.. | select(.status? == "failed") | {title: .title, error: .error.message}] | .[0:3] | .[] | "• \(.title)\n   _Error: \(.error | gsub("\n"; " "))_" ' results-batch-${{ matrix.batch }}.json || echo "")
+        FAILED_DETAILS=$(jq -r '[.. | select(.status? == "failed") | {title: .title, error: .error.message}] | .[0:3] | .[] | "• \(.title)\n   _Error: \(.error | gsub("\n"; " "))_" ' results-batch-${BATCH_VAL}.json || echo "")
         [ -n "$FAILED_DETAILS" ] && FAILED_SECTION="\n*Failed Tests:*\n$FAILED_DETAILS" || FAILED_SECTION=""
 
         if [ "$FAILED_TESTS" -eq 0 ]; then
@@ -77,13 +85,13 @@ jobs:
               "blocks": [
                 {
                   "type": "header",
-                  "text": { "type": "plain_text", "text": "$ICON Regression Test Result: $STATUS (Batch ${{ matrix.batch }})" }
+                  "text": { "type": "plain_text", "text": "$ICON Regression Test Result: $STATUS (Batch $BATCH_VAL)" }
                 },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Scope:* \`auth-multiproperty-automation\`\n*Batch:* ${{ matrix.batch }}\n*Triggered by:* <${{ github.server_url }}/${{ github.actor }}|${{ github.actor }}>\n*Branch:* \`${{ github.ref_name }}\`\n*Commit:* \`${{ github.sha }}\`\n*Duration:* $(($DURATION / 60))m $(($DURATION % 60))s\n*Trigger:* ${{ github.event_name }}$FAILED_SECTION"
+                    "text": "*Scope:* \`auth-multiproperty-automation\`\n*Batch:* $BATCH_VAL\n*Triggered by:* <$GITHUB_SERVER/$GITHUB_ACTOR|$GITHUB_ACTOR>\n*Branch:* \`$GITHUB_REF\`\n*Commit:* \`$GITHUB_SHA_VAL\`\n*Duration:* $(($DURATION / 60))m $(($DURATION % 60))s\n*Trigger:* $GITHUB_EVENT$FAILED_SECTION"
                   }
                 },
                 {
@@ -100,7 +108,7 @@ jobs:
                     {
                       "type": "button",
                       "text": { "type": "plain_text", "text": "View Workflow Run" },
-                      "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                      "url": "$GITHUB_SERVER/$GITHUB_REPO/actions/runs/$GITHUB_RUN"
                     }
                   ]
                 }
