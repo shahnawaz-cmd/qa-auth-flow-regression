@@ -33,6 +33,7 @@ jobs:
           echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
         CI: true
+        BATCH_ID: ${{ matrix.batch }}
 
     - name: Send Slack Notification
       if: always()
@@ -63,7 +64,7 @@ jobs:
               "type": "section",
               "text": {
                 "type": "mrkdwn",
-                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} seconds. <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
+                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} seconds.\n\n*Branch:* `${{ env.GITHUB_REF }}`\n*Triggered by:* `${{ env.GITHUB_ACTOR }}`\n*Event:* `${{ env.GITHUB_EVENT }}`\n*Commit:* `${{ env.GITHUB_SHA_VAL }}`\n\n🔗 <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
               }
             }
           ]
