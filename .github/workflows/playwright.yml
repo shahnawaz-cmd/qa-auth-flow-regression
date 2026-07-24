@@ -29,7 +29,13 @@ jobs:
       run: |
         START_TIME=$(date +%s)
         BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html,json
-        mv results.json results-batch-${{ matrix.batch }}.json
+        # Check if results.json exists, if not list files to debug
+        if [ ! -f results.json ]; then
+          echo "results.json not found! Listing files in current directory:"
+          ls -R
+        else
+          mv results.json results-batch-${{ matrix.batch }}.json
+        fi
         END_TIME=$(date +%s)
         echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
@@ -54,7 +60,7 @@ jobs:
         # Verify results.json exists
         if [ ! -f results-batch-${BATCH_VAL}.json ]; then
           echo "results-batch-${BATCH_VAL}.json not found! Cannot send accurate Slack notification."
-          exit 1
+          exit 0 # Change to exit 0 to allow notification to be skipped instead of failing the whole pipeline
         fi
         
         # Parse results.json
