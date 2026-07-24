@@ -7,6 +7,7 @@ import { PhoneNumberGenerator } from '../tasks/PhoneNumberGenerator';
 import { SignupTask } from '../tasks/SignupTask';
 import { LoginTask } from '../tasks/LoginTask';
 import { LogoutTask } from '../tasks/LogoutTask';
+import { ForgotTask } from '../tasks/ForgotTask';
 import { CaptureSignupApiResponseTask } from '../tasks/CaptureSignupApiResponseTask';
 
 test.describe('Global Signup & Login Tests', () => {
@@ -75,6 +76,9 @@ test.describe('Global Signup & Login Tests', () => {
             const loginTask = new LoginTask(email, password, site, testInfo);
             await actor.attemptsTo(loginTask);
             await loginTask.verifyLoginRedirection(actor);
+
+            // Perform Forgot Password
+            await actor.attemptsTo(new ForgotTask(email, site, testInfo));
         } finally {
             console.log(`Cleaning up: ${site.name}`);
             try {

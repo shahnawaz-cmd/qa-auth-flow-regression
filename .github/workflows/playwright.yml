@@ -21,12 +21,12 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: BATCH_ID=${{ matrix.batch }} npx playwright test
+      run: BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html
       env:
         CI: true
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
         name: playwright-report-batch-${{ matrix.batch }}
-        path: test-results/
+        path: playwright-report/
         retention-days: 30

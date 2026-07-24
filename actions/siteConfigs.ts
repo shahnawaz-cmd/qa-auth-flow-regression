@@ -2,14 +2,16 @@ const createDVHStyleConfig = (name: string, domain: string, batch: number) => ({
     name,
     signupUrl: `https://${domain}/signup`,
     loginUrl: `https://${domain}/login`,
+    forgotPasswordUrl: `https://${domain}/forgot-password`,
     apiEndpoint: '/api-cwa/register',
     loginApiEndpoint: '/api-cwa/login',
+    forgotApiEndpoint: '/api-cwa/reset-password', // Added
     timeout: 30000,
     selectors: {
         email: 'input[name="email"]',
         password: 'input[name="password"]',
-        confirmPassword: 'input[name="confirmPassword"]', // Added
-        phone: 'input[name="phone"]', // Added
+        confirmPassword: 'input[name="confirmPassword"]',
+        phone: 'input[name="phone"]',
         submit: 'button[type="submit"]'
     },
     batch
@@ -22,8 +24,10 @@ export const SITE_CONFIGS = {
         name: 'SCC',
         signupUrl: 'https://smartcarcheck.uk/members/signup',
         loginUrl: 'https://smartcarcheck.uk/members/login',
+        forgotPasswordUrl: 'https://smartcarcheck.uk/members/forgot-password',
         apiEndpoint: '/api-cwa/register',
         loginApiEndpoint: '/members/api/login',
+        forgotApiEndpoint: '/members/api/user/reset-password', // Added
         timeout: 45000,
         selectors: {
             email: 'input[name="email"]',
@@ -38,8 +42,10 @@ export const SITE_CONFIGS = {
         name: 'CD',
         signupUrl: 'https://classicdecoder.com/auth/signup',
         loginUrl: 'https://classicdecoder.com/auth/login',
+        forgotPasswordUrl: 'https://classicdecoder.com/auth/forgot-password',
         apiEndpoint: '/api/register',
         loginApiEndpoint: '/api/login',
+        forgotApiEndpoint: '/api/user/reset-password', // Added
         timeout: 30000,
         selectors: {
             email: 'textbox[name="Enter email address*"]',
