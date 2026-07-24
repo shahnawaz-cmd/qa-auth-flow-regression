@@ -56,7 +56,7 @@ jobs:
               "type": "header",
               "text": {
                 "type": "plain_text",
-                "text": "🚀 qa-auth-flow-orchestrator – Playwright CI – Batch ${{ env.BATCH_VAL }}",
+                "text": "🚀 qa-auth-flow-orchestrator – Playwright CI – Batch $BATCH_VAL",
                 "emoji": true
               }
             },
@@ -64,7 +64,7 @@ jobs:
               "type": "section",
               "text": {
                 "type": "mrkdwn",
-                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} seconds.\n\n*Branch:* `${{ env.GITHUB_REF }}`\n*Triggered by:* `${{ env.GITHUB_ACTOR }}`\n*Event:* `${{ env.GITHUB_EVENT }}`\n*Commit:* `${{ env.GITHUB_SHA_VAL }}`\n\n🔗 <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
+                "text": "_QA test suite for global authentication flows including login, signup, and password reset across multi-property environments. Covers functional, regression, and integration validation for all auth endpoints._\n\nPlaywright batch $BATCH_VAL completed in $DURATION seconds.\n\n*Branch:* \`$GITHUB_REF\`\n*Triggered by:* \`$GITHUB_ACTOR\`\n*Event:* \`$GITHUB_EVENT\`\n*Commit:* \`$GITHUB_SHA_VAL\`\n\n🔗 <$GITHUB_SERVER/$GITHUB_REPO/actions/runs/$GITHUB_RUN|View Workflow Run>"
               }
             }
           ]
