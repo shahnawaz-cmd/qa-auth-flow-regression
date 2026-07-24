@@ -22,38 +22,47 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
       
-    - name: Clean previous results
-      run: rm -rf results-batch-${{ matrix.batch }}.json playwright-report/
+    - name: Clean previous HTML report
+      run: rm -rf playwright-report/
       
     - name: Run Playwright tests
       run: |
-        START_TIME=$(date +%s)
-        echo "Running tests for BATCH_ID: ${{ matrix.batch }}"
-        BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html,json
-        EXIT_CODE=$?
-        echo "Playwright test exit code: $EXIT_CODE"
-        
-        # Diagnostic: Find where results.json is
-        echo "Searching for results.json..."
-        find . -name results.json
-        
-        # Look for the file in the root
-        if [ -f results.json ]; then
-          mv results.json results-batch-${{ matrix.batch }}.json
-        else
-          FOUND_FILE=$(find . -name results.json | head -n 1)
-          if [ -n "$FOUND_FILE" ]; then
-            echo "Found results.json at $FOUND_FILE. Moving to root."
-            mv "$FOUND_FILE" results-batch-${{ matrix.batch }}.json
-          else
-            echo "results.json not found anywhere!"
-            echo "Listing all files for debugging:"
-            ls -R
-          fi
-        fi
-        
-        END_TIME=$(date +%s)
-        echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
+          START_TIME=$(date +%s)
+          npx playwright test --reporter=list,html
+          END_TIME=$(date +%s)
+name: Playwright Tests
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        batch: [1, 2, 3, 4]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+      
+    - name: Clean previous HTML report
+      run: rm -rf playwright-report/
+      
+    - name: Run Playwright tests
+      run: |
+          START_TIME=$(date +%s)
+          npx playwright test --reporter=list,html
+          END_TIME=$(date +%s)
+          echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
         CI: true
 
@@ -71,62 +80,28 @@ jobs:
         GITHUB_SHA_VAL: ${{ github.sha }}
         GITHUB_EVENT: ${{ github.event_name }}
       run: |
-        sudo apt-get install -y jq
-        
-        # Verify results.json exists
-        if [ ! -f results-batch-${BATCH_VAL}.json ]; then
-          echo "results-batch-${BATCH_VAL}.json not found! Cannot send accurate Slack notification."
-          exit 0
-        fi
-        
-        # Parse results.json
-        TOTAL_TESTS=$(jq '[.. | .tests? | select(. != null) | .[]] | length' results-batch-${BATCH_VAL}.json || echo "0")
-        FAILED_TESTS=$(jq '[.. | .status? | select(. == "failed")] | length' results-batch-${BATCH_VAL}.json || echo "0")
-        PASSED_TESTS=$((TOTAL_TESTS - FAILED_TESTS))
-        
-        # Get names AND error messages of up to 3 failed tests
-        FAILED_DETAILS=$(jq -r '[.. | select(.status? == "failed") | {title: .title, error: .error.message}] | .[0:3] | .[] | "• \(.title)\n   _Error: \(.error | gsub("\n"; " "))_" ' results-batch-${BATCH_VAL}.json || echo "")
-        [ -n "$FAILED_DETAILS" ] && FAILED_SECTION="\n*Failed Tests:*\n$FAILED_DETAILS" || FAILED_SECTION=""
-
-        if [ "$FAILED_TESTS" -eq 0 ]; then
-          ICON="✅"
-          STATUS="Passed"
-          COLOR="#36a64f"
-        else
-          ICON="🚨"
-          STATUS="Failed"
-          COLOR="#ff0000"
-        fi
-        
-        # Construct Slack Payload using jq
-        jq -n \
-          --arg color "$COLOR" \
-          --arg icon "$ICON" \
-          --arg status "$STATUS" \
-          --arg batch "$BATCH_VAL" \
-          --arg total "$TOTAL_TESTS" \
-          --arg passed "$PASSED_TESTS" \
-          --arg failed "$FAILED_TESTS" \
-          --arg actor "$GITHUB_ACTOR" \
-          --arg branch "$GITHUB_REF" \
-          --arg commit "$GITHUB_SHA_VAL" \
-          --arg duration "$(($DURATION / 60))m $(($DURATION % 60))s" \
-          --arg trigger "$GITHUB_EVENT" \
-          --arg failed_section "$FAILED_SECTION" \
-          --arg url "$GITHUB_SERVER/$GITHUB_REPO/actions/runs/$GITHUB_RUN" \
-          '{
-            attachments: [{
-              color: $color,
-              blocks: [
-                { type: "header", text: { type: "plain_text", text: "\($icon) Regression Test Result: \($status) (Batch \($batch))" } },
-                { type: "section", text: { type: "mrkdwn", text: "*Scope:* `auth-multiproperty-automation`\n*Batch:* \($batch)\n*Triggered by:* <'"$GITHUB_SERVER"'/\($actor)|\($actor)>\n*Branch:* `\($branch)`\n*Commit:* `\($commit)`\n*Duration:* \($duration)\n*Trigger:* \($trigger)\($failed_section)" } },
-                { type: "section", fields: [ { type: "mrkdwn", text: "*Total Tests:*\n\($total)" }, { type: "mrkdwn", text: "*Passed:*\n\($passed)" }, { type: "mrkdwn", text: "*Failed:*\n\($failed)" } ] },
-                { type: "actions", elements: [ { type: "button", text: { type: "plain_text", text: "View Workflow Run" }, url: $url } ] }
-              ]
-            }]
-          }' > payload.json
-        
-        curl -X POST -H 'Content-type: application/json' --data @payload.json $SLACK_WEBHOOK_URL
+        curl -X POST -H 'Content-type: application/json' -d "$(cat <<EOF
+        {
+          "blocks": [
+            {
+              "type": "header",
+              "text": {
+                "type": "plain_text",
+                "text": "🚀 qa-auth-flow-orchestrator – Playwright CI – Batch ${{ env.BATCH_VAL }}",
+                "emoji": true
+              }
+            },
+            {
+              "type": "section",
+              "text": {
+                "type": "mrkdwn",
+                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} minutes. <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
+              }
+            }
+          ]
+        }
+        EOF
+        )" $SLACK_WEBHOOK_URL
 
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
@@ -134,5 +109,4 @@ jobs:
         name: playwright-report-batch-${{ matrix.batch }}
         path: |
           playwright-report/
-          results-batch-${{ matrix.batch }}.json
         retention-days: 30
