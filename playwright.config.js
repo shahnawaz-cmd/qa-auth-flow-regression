@@ -7,7 +7,7 @@ module.exports = defineConfig({
   reporter: [['html', { open: 'never' }], ['list'], ['json', { outputFile: 'results.json' }]],
   timeout: 60000,
   use: {
-    trace: 'on',
+    trace: 'off',
     video: 'off',
     screenshot: 'on',
   },
