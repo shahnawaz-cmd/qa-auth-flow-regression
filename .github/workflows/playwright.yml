@@ -30,38 +30,6 @@ jobs:
           START_TIME=$(date +%s)
           npx playwright test --reporter=list,html
           END_TIME=$(date +%s)
-name: Playwright Tests
-on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-
-jobs:
-  test:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        batch: [1, 2, 3, 4]
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-      
-    - name: Clean previous HTML report
-      run: rm -rf playwright-report/
-      
-    - name: Run Playwright tests
-      run: |
-          START_TIME=$(date +%s)
-          npx playwright test --reporter=list,html
-          END_TIME=$(date +%s)
           echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
         CI: true
@@ -95,7 +63,7 @@ jobs:
               "type": "section",
               "text": {
                 "type": "mrkdwn",
-                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} minutes. <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
+                "text": "Playwright batch ${{ env.BATCH_VAL }} completed in ${{ env.DURATION }} seconds. <${{ env.GITHUB_SERVER }}/${{ env.GITHUB_REPO }}/actions/runs/${{ env.GITHUB_RUN }}|View Workflow Run>"
               }
             }
           ]
