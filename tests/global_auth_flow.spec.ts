@@ -86,7 +86,7 @@ test.describe('Global Signup & Login Tests', () => {
         }
       });
 
-      if (['SCC', 'DVH', 'CD', 'HONDA', 'GMC', 'HYUNDAI', 'INFINITI', 'VSR'].includes(site.name)) {
+      if (['SCC', 'DVH', 'CD', 'HONDA', 'GMC', 'HYUNDAI', 'INFINITI', 'VSR', 'PORSCHE', 'RAM', 'MERCEDES', 'MOTORCYCLEVIN', 'VINNUMBER_CA', 'VEHICLEHISTORY_EU', 'INSTANTVINREPORTS'].includes(site.name)) {
         test(`Auth Forgot Password Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
           const actor = new Actor('User', page);
           
@@ -99,7 +99,14 @@ test.describe('Global Signup & Login Tests', () => {
               'GMC': 'testuser_1784906855212@example.com',
               'HYUNDAI': 'testuser_1784901879764@example.com',
               'INFINITI': 'testuser_1784901984409@example.com',
-              'VSR': 'testuser_1784901422499@example.com'
+              'VSR': 'testuser_1784901422499@example.com',
+              'PORSCHE': 'testuser_1784909356852@example.com',
+              'RAM': 'testuser_1784909364698@example.com',
+              'MERCEDES': 'testuser_1784909331162@example.com',
+              'MOTORCYCLEVIN': 'testuser_1784909241462@example.com',
+              'VINNUMBER_CA': 'testuser_1784909248783@example.com',
+              'VEHICLEHISTORY_EU': 'testuser_1784909235749@example.com',
+              'INSTANTVINREPORTS': 'testuser_1784910336086@example.com'
           };
 
           const email = staticEmails[site.name];

@@ -92,4 +92,22 @@ export const SITE_CONFIGS = {
     VEHICLEHISTORY_EU: createDVHStyleConfig('VEHICLEHISTORY_EU', 'vehiclehistory.eu', 4),
     MOTORCYCLEVIN: createDVHStyleConfig('MOTORCYCLEVIN', 'motorcyclevinlookup.com', 4),
     VINNUMBER_CA: createDVHStyleConfig('VINNUMBER_CA', 'vinnumber.ca', 4),
+    INSTANTVINREPORTS: {
+        name: 'INSTANTVINREPORTS',
+        signupUrl: 'https://instantvinreports.com/members/signup',
+        loginUrl: 'https://instantvinreports.com/members/login',
+        forgotPasswordUrl: 'https://instantvinreports.com/members/forgot-password',
+        apiEndpoint: '/api-cwa/register',
+        loginApiEndpoint: '/api-cwa/login',
+        forgotApiEndpoint: '/api-cwa/reset-password',
+        timeout: 30000,
+        selectors: {
+            email: 'input[name="email"]',
+            password: 'input[name="password"]',
+            confirmPassword: 'input[name="confirmPassword"]',
+            phone: 'input[name="phone"]',
+            submit: 'button[type="submit"]'
+        },
+        batch: 1
+    }
 };

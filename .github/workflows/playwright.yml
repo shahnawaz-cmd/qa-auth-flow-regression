@@ -4,6 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
 jobs:
   test:
     timeout-minutes: 60
@@ -20,13 +21,102 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+      
+    - name: Clean previous results
+      run: rm -rf results-batch-${{ matrix.batch }}.json playwright-report/
+      
     - name: Run Playwright tests
-      run: BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html
+      run: |
+        START_TIME=$(date +%s)
+        BATCH_ID=${{ matrix.batch }} npx playwright test --reporter=list,html,json
+        mv results.json results-batch-${{ matrix.batch }}.json
+        END_TIME=$(date +%s)
+        echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
       env:
         CI: true
+
+    - name: Send Slack Notification
+      if: always()
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        DURATION: ${{ env.DURATION }}
+      run: |
+        sudo apt-get install -y jq
+        
+        # Verify results.json exists
+        if [ ! -f results-batch-${{ matrix.batch }}.json ]; then
+          echo "results-batch-${{ matrix.batch }}.json not found! Cannot send accurate Slack notification."
+          exit 1
+        fi
+        
+        # Parse results.json
+        TOTAL_TESTS=$(jq '[.. | .tests? | select(. != null) | .[]] | length' results-batch-${{ matrix.batch }}.json || echo "0")
+        FAILED_TESTS=$(jq '[.. | .status? | select(. == "failed")] | length' results-batch-${{ matrix.batch }}.json || echo "0")
+        PASSED_TESTS=$((TOTAL_TESTS - FAILED_TESTS))
+        
+        # Get names AND error messages of up to 3 failed tests
+        FAILED_DETAILS=$(jq -r '[.. | select(.status? == "failed") | {title: .title, error: .error.message}] | .[0:3] | .[] | "• \(.title)\n   _Error: \(.error | gsub("\n"; " "))_" ' results-batch-${{ matrix.batch }}.json || echo "")
+        [ -n "$FAILED_DETAILS" ] && FAILED_SECTION="\n*Failed Tests:*\n$FAILED_DETAILS" || FAILED_SECTION=""
+
+        if [ "$FAILED_TESTS" -eq 0 ]; then
+          ICON="✅"
+          STATUS="Passed"
+          COLOR="#36a64f"
+        else
+          ICON="🚨"
+          STATUS="Failed"
+          COLOR="#ff0000"
+        fi
+        
+        # Construct Slack Payload
+        PAYLOAD=$(cat <<EOF
+        {
+          "attachments": [
+            {
+              "color": "$COLOR",
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": { "type": "plain_text", "text": "$ICON Regression Test Result: $STATUS (Batch ${{ matrix.batch }})" }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Scope:* \`auth-multiproperty-automation\`\n*Batch:* ${{ matrix.batch }}\n*Triggered by:* <${{ github.server_url }}/${{ github.actor }}|${{ github.actor }}>\n*Branch:* \`${{ github.ref_name }}\`\n*Commit:* \`${{ github.sha }}\`\n*Duration:* $(($DURATION / 60))m $(($DURATION % 60))s\n*Trigger:* ${{ github.event_name }}$FAILED_SECTION"
+                  }
+                },
+                {
+                  "type": "section",
+                  "fields": [
+                    { "type": "mrkdwn", "text": "*Total Tests:*\n$TOTAL_TESTS" },
+                    { "type": "mrkdwn", "text": "*Passed:*\n$PASSED_TESTS" },
+                    { "type": "mrkdwn", "text": "*Failed:*\n$FAILED_TESTS" }
+                  ]
+                },
+                {
+                  "type": "actions",
+                  "elements": [
+                    {
+                      "type": "button",
+                      "text": { "type": "plain_text", "text": "View Workflow Run" },
+                      "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+EOF
+        )
+        curl -X POST -H 'Content-type: application/json' --data "$PAYLOAD" $SLACK_WEBHOOK_URL
+
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
         name: playwright-report-batch-${{ matrix.batch }}
-        path: playwright-report/
+        path: |
+          playwright-report/
+          results-batch-${{ matrix.batch }}.json
         retention-days: 30
