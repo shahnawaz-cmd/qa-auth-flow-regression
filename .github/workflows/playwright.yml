@@ -76,47 +76,34 @@ jobs:
           COLOR="#ff0000"
         fi
         
-        # Construct Slack Payload
-        cat <<EOF > payload.json
-        {
-          "attachments": [
-            {
-              "color": "$COLOR",
-              "blocks": [
-                {
-                  "type": "header",
-                  "text": { "type": "plain_text", "text": "$ICON Regression Test Result: $STATUS (Batch $BATCH_VAL)" }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Scope:* \`auth-multiproperty-automation\`\n*Batch:* $BATCH_VAL\n*Triggered by:* <$GITHUB_SERVER/$GITHUB_ACTOR|$GITHUB_ACTOR>\n*Branch:* \`$GITHUB_REF\`\n*Commit:* \`$GITHUB_SHA_VAL\`\n*Duration:* $(($DURATION / 60))m $(($DURATION % 60))s\n*Trigger:* $GITHUB_EVENT$FAILED_SECTION"
-                  }
-                },
-                {
-                  "type": "section",
-                  "fields": [
-                    { "type": "mrkdwn", "text": "*Total Tests:*\n$TOTAL_TESTS" },
-                    { "type": "mrkdwn", "text": "*Passed:*\n$PASSED_TESTS" },
-                    { "type": "mrkdwn", "text": "*Failed:*\n$FAILED_TESTS" }
-                  ]
-                },
-                {
-                  "type": "actions",
-                  "elements": [
-                    {
-                      "type": "button",
-                      "text": { "type": "plain_text", "text": "View Workflow Run" },
-                      "url": "$GITHUB_SERVER/$GITHUB_REPO/actions/runs/$GITHUB_RUN"
-                    }
-                  ]
-                }
+        # Construct Slack Payload using jq to avoid heredoc YAML parsing issues
+        jq -n \
+          --arg color "$COLOR" \
+          --arg icon "$ICON" \
+          --arg status "$STATUS" \
+          --arg batch "$BATCH_VAL" \
+          --arg total "$TOTAL_TESTS" \
+          --arg passed "$PASSED_TESTS" \
+          --arg failed "$FAILED_TESTS" \
+          --arg actor "$GITHUB_ACTOR" \
+          --arg branch "$GITHUB_REF" \
+          --arg commit "$GITHUB_SHA_VAL" \
+          --arg duration "$(($DURATION / 60))m $(($DURATION % 60))s" \
+          --arg trigger "$GITHUB_EVENT" \
+          --arg failed_section "$FAILED_SECTION" \
+          --arg url "$GITHUB_SERVER/$GITHUB_REPO/actions/runs/$GITHUB_RUN" \
+          '{
+            attachments: [{
+              color: $color,
+              blocks: [
+                { type: "header", text: { type: "plain_text", text: "\($icon) Regression Test Result: \($status) (Batch \($batch))" } },
+                { type: "section", text: { type: "mrkdwn", text: "*Scope:* `auth-multiproperty-automation`\n*Batch:* \($batch)\n*Triggered by:* <'"$GITHUB_SERVER"'/\($actor)|\($actor)>\n*Branch:* `\($branch)`\n*Commit:* `\($commit)`\n*Duration:* \($duration)\n*Trigger:* \($trigger)\($failed_section)" } },
+                { type: "section", fields: [ { type: "mrkdwn", text: "*Total Tests:*\n\($total)" }, { type: "mrkdwn", text: "*Passed:*\n\($passed)" }, { type: "mrkdwn", text: "*Failed:*\n\($failed)" } ] },
+                { type: "actions", elements: [ { type: "button", text: { type: "plain_text", text: "View Workflow Run" }, url: $url } ] }
               ]
-            }
-          ]
-        }
-EOF
+            }]
+          }' > payload.json
+        
         curl -X POST -H 'Content-type: application/json' --data @payload.json $SLACK_WEBHOOK_URL
 
     - uses: actions/upload-artifact@v4
