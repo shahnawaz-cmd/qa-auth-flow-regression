@@ -79,10 +79,10 @@ jobs:
           <body style="font-family: sans-serif; padding: 20px;">
             <h2>Playwright Test Reports</h2>
             <ul>
-              <li><a href="playwright-report-batch-1/index.html">Batch 1 Report</a></li>
-              <li><a href="playwright-report-batch-2/index.html">Batch 2 Report</a></li>
-              <li><a href="playwright-report-batch-3/index.html">Batch 3 Report</a></li>
-              <li><a href="playwright-report-batch-4/index.html">Batch 4 Report</a></li>
+              <li><a href="playwright-report-batch-1/playwright-report/index.html">Batch 1 Report</a></li>
+              <li><a href="playwright-report-batch-2/playwright-report/index.html">Batch 2 Report</a></li>
+              <li><a href="playwright-report-batch-3/playwright-report/index.html">Batch 3 Report</a></li>
+              <li><a href="playwright-report-batch-4/playwright-report/index.html">Batch 4 Report</a></li>
             </ul>
           </body>
           </html>
