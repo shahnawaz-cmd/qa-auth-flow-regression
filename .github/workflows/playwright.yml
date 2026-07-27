@@ -44,15 +44,13 @@ jobs:
       env:
         CI: true
         BATCH_ID: ${{ matrix.batch }}
-        PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
+        PLAYWRIGHT_JSON_OUTPUT_NAME: playwright-report/results.json
 
     - uses: actions/upload-artifact@v4
       if: always()
       with:
         name: playwright-report-batch-${{ matrix.batch }}
-        path: |
-          playwright-report/
-          results.json
+        path: playwright-report/
         retention-days: 30
 
   report:
@@ -79,10 +77,10 @@ jobs:
           <body style="font-family: sans-serif; padding: 20px;">
             <h2>Playwright Test Reports</h2>
             <ul>
-              <li><a href="playwright-report-batch-1/playwright-report/index.html">Batch 1 Report</a></li>
-              <li><a href="playwright-report-batch-2/playwright-report/index.html">Batch 2 Report</a></li>
-              <li><a href="playwright-report-batch-3/playwright-report/index.html">Batch 3 Report</a></li>
-              <li><a href="playwright-report-batch-4/playwright-report/index.html">Batch 4 Report</a></li>
+              <li><a href="playwright-report-batch-1/index.html">Batch 1 Report</a></li>
+              <li><a href="playwright-report-batch-2/index.html">Batch 2 Report</a></li>
+              <li><a href="playwright-report-batch-3/index.html">Batch 3 Report</a></li>
+              <li><a href="playwright-report-batch-4/index.html">Batch 4 Report</a></li>
             </ul>
           </body>
           </html>
