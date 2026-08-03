@@ -92,21 +92,21 @@ test.describe('Global Signup & Login Tests', () => {
           
           // Define static emails based on site
           const staticEmails: { [key: string]: string } = {
-              'SCC': 'testuser_1784906831078@example.com',
-              'DVH': 'testuser_1784906797109@example.com',
-              'CD': 'testuser_1784906878764@example.com',
-              'HONDA': 'testuser_1784906903391@example.com',
-              'GMC': 'testuser_1784906855212@example.com',
-              'HYUNDAI': 'testuser_1784901879764@example.com',
-              'INFINITI': 'testuser_1784901984409@example.com',
-              'VSR': 'testuser_1784901422499@example.com',
-              'PORSCHE': 'testuser_1784909356852@example.com',
-              'RAM': 'testuser_1784909364698@example.com',
-              'MERCEDES': 'testuser_1784909331162@example.com',
-              'MOTORCYCLEVIN': 'testuser_1784909241462@example.com',
-              'VINNUMBER_CA': 'testuser_1784909248783@example.com',
-              'VEHICLEHISTORY_EU': 'testuser_1784909235749@example.com',
-              'INSTANTVINREPORTS': 'testuser_1784910336086@example.com'
+              'SCC': 'shahnawaz+rok0@empirepixel.com',
+              'DVH': 'shahnawaz+sxqx@empirepixel.com',
+              'CD': 'shahnawaz+00q6@empirepixel.com',
+              'HONDA': 'shahnawaz+g9qx@empirepixel.com',
+              'GMC': 'shahnawaz+gmc@empirepixel.com',
+              'HYUNDAI': 'shahnawaz+hyu@empirepixel.com',
+              'INFINITI': 'shahnawaz+inf@empirepixel.com',
+              'VSR': 'shahnawaz+vsr@empirepixel.com',
+              'PORSCHE': 'shahnawaz+por@empirepixel.com',
+              'RAM': 'shahnawaz+ram@empirepixel.com',
+              'MERCEDES': 'shahnawaz+jlas@empirepixel.com',
+              'MOTORCYCLEVIN': 'shahnawaz+mc@empirepixel.com',
+              'VINNUMBER_CA': 'shahnawaz+ucd7@empirepixel.com',
+              'VEHICLEHISTORY_EU': 'shahnawaz+69ns@empirepixel.com',
+              'INSTANTVINREPORTS': 'shahnawaz+w0si@empirepixel.com'
           };
 
           const email = staticEmails[site.name];
