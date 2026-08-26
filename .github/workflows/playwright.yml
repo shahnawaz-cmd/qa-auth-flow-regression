@@ -80,7 +80,8 @@ jobs:
         SITE_NAME: ${{ matrix.site }}
         PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
         PLAYWRIGHT_BLOB_OUTPUT_NAME: blob-report/report-${{ matrix.site }}.zip
-      run: npx playwright test -g "Test: ${{ matrix.site }}" --reporter=blob,json
+      run: |
+        npx playwright test -g "${{ matrix.site }}" --reporter=blob,json
 
     - name: Run AI Agentic Self-Healer (On Test Failure)
       if: steps.playwright-run.outcome == 'failure'
