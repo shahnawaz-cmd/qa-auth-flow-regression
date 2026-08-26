@@ -11,8 +11,13 @@ import { ForgotPasswordTask } from '../tasks/ForgotPasswordTask';
 
 test.describe('Global Signup & Login Tests', () => {
 
+  const siteName = process.env.SITE_NAME;
   const batchId = process.env.BATCH_ID ? parseInt(process.env.BATCH_ID) : null;
-  const sites = Object.values(SITE_CONFIGS).filter(s => !batchId || s.batch === batchId);
+  const sites = Object.values(SITE_CONFIGS).filter(s => {
+    if (siteName) return s.name === siteName;
+    if (batchId) return s.batch === batchId;
+    return true;
+  });
 
   for (const site of sites) {
     test(`Auth Signup Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {

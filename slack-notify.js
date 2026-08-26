@@ -13,7 +13,7 @@ const {
   GITHUB_EVENT,
   GITHUB_SHA_VAL,
   REPORT_URL,
-  BATCH_ID
+  SITE_NAME
 } = process.env;
 
 let aiHealedInfo = null;
@@ -23,28 +23,19 @@ if (fs.existsSync('.ai-healed.json')) {
   } catch (e) {}
 }
 
-const reportsDir = 'playwright-reports-merged';
-let jsonFiles = [];
+const possibleJsonFiles = [
+  'results.json',
+  'playwright-report/results.json'
+];
 
-if (fs.existsSync('results.json')) {
-  jsonFiles.push('results.json');
-}
-if (fs.existsSync('playwright-report/results.json')) {
-  jsonFiles.push('playwright-report/results.json');
-}
-
-try {
-  if (fs.existsSync(reportsDir)) {
-    const folders = fs.readdirSync(reportsDir);
+if (fs.existsSync('playwright-reports-merged')) {
+  try {
+    const folders = fs.readdirSync('playwright-reports-merged');
     for (const folder of folders) {
-      const jsonPath = path.join(reportsDir, folder, 'results.json');
-      if (fs.existsSync(jsonPath) && !jsonFiles.includes(jsonPath)) {
-        jsonFiles.push(jsonPath);
-      }
+      const jsonPath = path.join('playwright-reports-merged', folder, 'results.json');
+      if (fs.existsSync(jsonPath)) possibleJsonFiles.push(jsonPath);
     }
-  }
-} catch (e) {
-  console.error('Error reading reports directory:', e);
+  } catch (e) {}
 }
 
 let passedCount = 0;
@@ -54,93 +45,120 @@ let skippedCount = 0;
 let totalRetries = 0;
 const failedSpecs = [];
 const flakySpecs = [];
+let hasResults = false;
 
-if (jsonFiles.length === 0) {
-  console.warn('⚠️ No result files found!');
-} else {
-  for (const file of jsonFiles) {
-    try {
-      const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+for (const file of possibleJsonFiles) {
+  if (!fs.existsSync(file)) continue;
+  try {
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    hasResults = true;
 
-      const getAllSpecs = (suite) => {
-        let specs = [];
-        if (suite.specs) specs.push(...suite.specs);
-        if (suite.suites) {
-          for (const sub of suite.suites) {
-            specs.push(...getAllSpecs(sub));
-          }
-        }
-        return specs;
-      };
+    // Use stats if available as baseline
+    if (data.stats) {
+      passedCount = data.stats.expected || 0;
+      failedCount = data.stats.unexpected || 0;
+      flakyCount = data.stats.flaky || 0;
+      skippedCount = data.stats.skipped || 0;
+    }
 
-      const allSpecs = [];
-      if (data.suites) {
-        for (const suite of data.suites) {
-          allSpecs.push(...getAllSpecs(suite));
+    const getAllSpecs = (suite) => {
+      let specs = [];
+      if (suite.specs) specs.push(...suite.specs);
+      if (suite.suites) {
+        for (const sub of suite.suites) {
+          specs.push(...getAllSpecs(sub));
         }
       }
+      return specs;
+    };
 
-      allSpecs.forEach((spec) => {
-        if (!spec.tests || spec.tests.length === 0) return;
-        for (const testInst of spec.tests) {
-          const attempts = testInst.results || [];
-          if (attempts.length === 0) continue;
-
-          totalRetries += Math.max(0, attempts.length - 1);
-
-          const hasFailures = attempts.some(r => r.status === 'failed' || r.status === 'timedOut');
-          const hasPass = attempts.some(r => r.status === 'passed');
-          const isSkipped = attempts.every(r => r.status === 'skipped');
-
-          let finalStatus = 'unknown';
-          if (hasFailures && hasPass) {
-            finalStatus = 'flaky';
-          } else if (hasPass) {
-            finalStatus = 'passed';
-          } else if (isSkipped) {
-            finalStatus = 'skipped';
-          } else if (hasFailures) {
-            finalStatus = 'failed';
-          }
-
-          const browser = testInst.projectName || 'default';
-
-          if (finalStatus === 'flaky') {
-            flakyCount++;
-            flakySpecs.push({ title: spec.title, browser });
-          } else if (finalStatus === 'passed') {
-            passedCount++;
-          } else if (finalStatus === 'skipped') {
-            skippedCount++;
-          } else if (finalStatus === 'failed') {
-            failedCount++;
-            const lastFailure = attempts.reverse().find(r => r.status === 'failed' || r.status === 'timedOut');
-            let errorMsg = lastFailure?.error?.message ? lastFailure.error.message.split('\n')[0].substring(0, 150) : 'Unknown error';
-            failedSpecs.push({ title: spec.title, browser, error: errorMsg });
-          }
-        }
-      });
-    } catch (e) {
-      console.error(`Error parsing ${file}:`, e);
+    const allSpecs = [];
+    if (data.suites) {
+      for (const suite of data.suites) {
+        allSpecs.push(...getAllSpecs(suite));
+      }
     }
+
+    let parsedPassed = 0;
+    let parsedFailed = 0;
+    let parsedFlaky = 0;
+    let parsedSkipped = 0;
+
+    allSpecs.forEach((spec) => {
+      if (!spec.tests || spec.tests.length === 0) return;
+      for (const testInst of spec.tests) {
+        const attempts = testInst.results || [];
+        if (attempts.length === 0) continue;
+
+        totalRetries += Math.max(0, attempts.length - 1);
+
+        const hasFailures = attempts.some(r => r.status === 'failed' || r.status === 'timedOut');
+        const hasPass = attempts.some(r => r.status === 'passed');
+        const isSkipped = attempts.every(r => r.status === 'skipped');
+
+        let finalStatus = 'unknown';
+        if (hasFailures && hasPass) {
+          finalStatus = 'flaky';
+        } else if (hasPass) {
+          finalStatus = 'passed';
+        } else if (isSkipped) {
+          finalStatus = 'skipped';
+        } else if (hasFailures) {
+          finalStatus = 'failed';
+        }
+
+        const browser = testInst.projectName || 'default';
+
+        if (finalStatus === 'flaky') {
+          parsedFlaky++;
+          flakySpecs.push({ title: spec.title, browser });
+        } else if (finalStatus === 'passed') {
+          parsedPassed++;
+        } else if (finalStatus === 'skipped') {
+          parsedSkipped++;
+        } else if (finalStatus === 'failed') {
+          parsedFailed++;
+          const lastFailure = attempts.reverse().find(r => r.status === 'failed' || r.status === 'timedOut');
+          let errorMsg = lastFailure?.error?.message ? lastFailure.error.message.split('\n')[0].substring(0, 150) : 'Unknown error';
+          failedSpecs.push({ title: spec.title, browser, error: errorMsg });
+        }
+      }
+    });
+
+    if (allSpecs.length > 0) {
+      passedCount = parsedPassed;
+      failedCount = parsedFailed;
+      flakyCount = parsedFlaky;
+      skippedCount = parsedSkipped;
+    }
+
+    break; // Successfully parsed main file
+  } catch (e) {
+    console.error(`Error parsing ${file}:`, e);
   }
 }
 
 const totalTests = passedCount + failedCount + flakyCount + skippedCount;
-const isSuccess = failedCount === 0 && (passedCount > 0 || flakyCount > 0);
+const isSuccess = hasResults && failedCount === 0 && (passedCount > 0 || flakyCount > 0);
 const statusEmoji = isSuccess ? '✅' : '❌';
-const statusText = isSuccess ? (aiHealedInfo?.healed ? 'Passed (AI Auto-Healed 🤖)' : 'Passed') : 'Failed';
+const statusText = isSuccess 
+  ? (aiHealedInfo?.healed ? 'Passed (AI Auto-Healed 🤖)' : 'Passed') 
+  : (!hasResults ? 'Failed (Report Generation Error)' : 'Failed');
 const barColor = isSuccess ? '#2EB67D' : '#E01E5A';
 
 // Build grouped test summary
 let summaryParts = [];
-if (failedSpecs.length > 0) {
-  summaryParts.push(`*🔴 Failed Tests (${failedSpecs.length}):*\n` + failedSpecs.map(s => `• *${s.title}* (_${s.browser}_)\n    > ❌ \`${s.error}\``).join('\n'));
+if (!hasResults) {
+  summaryParts.push(`⚠️ *Warning:* Test result artifact was missing or failed during report merge.`);
+} else {
+  if (failedSpecs.length > 0) {
+    summaryParts.push(`*🔴 Failed Tests (${failedSpecs.length}):*\n` + failedSpecs.map(s => `• *${s.title}* (_${s.browser}_)\n    > ❌ \`${s.error}\``).join('\n'));
+  }
+  if (flakySpecs.length > 0) {
+    summaryParts.push(`*🟡 Flaky Tests (Passed on Retry) (${flakySpecs.length}):*\n` + flakySpecs.map(s => `• *${s.title}* (_${s.browser}_)`).join('\n'));
+  }
+  summaryParts.push(`*🟢 Passed Tests:* \`${passedCount}\` specs completed successfully.`);
 }
-if (flakySpecs.length > 0) {
-  summaryParts.push(`*🟡 Flaky Tests (Passed on Retry) (${flakySpecs.length}):*\n` + flakySpecs.map(s => `• *${s.title}* (_${s.browser}_)`).join('\n'));
-}
-summaryParts.push(`*🟢 Passed Tests:* \`${passedCount}\` specs completed successfully.`);
 
 if (aiHealedInfo && aiHealedInfo.healed) {
   summaryParts.push(`*🤖 AI Agentic Self-Healer Status:* ✨ *Auto-Repaired via Gemini AI (${aiHealedInfo.model})*\n• *Files Auto-Healed:* \`${aiHealedInfo.repairedFiles.join('`, `')}\``);

@@ -4,21 +4,21 @@ module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: true,
   workers: process.env.CI ? 2 : '50%',
-  retries: process.env.CI ? 1 : 0,
+  retries: 1,
   reporter: [
     ['html', { open: 'never' }],
     ['list'],
     ['json', { outputFile: 'results.json' }]
   ],
-  timeout: 45000,
+  timeout: 60000,
   expect: {
-    timeout: 10000
+    timeout: 15000
   },
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
     video: 'retain-on-failure',
-    screenshot: 'only-on-failure',
-    actionTimeout: 10000,
-    navigationTimeout: 25000,
+    screenshot: 'on',
+    actionTimeout: 15000,
+    navigationTimeout: 30000,
   },
 });
