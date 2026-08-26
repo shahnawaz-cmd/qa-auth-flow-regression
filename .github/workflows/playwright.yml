@@ -79,7 +79,7 @@ jobs:
         CI: true
         SITE_NAME: ${{ matrix.site }}
         PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
-        PLAYWRIGHT_BLOB_OUTPUT_NAME: blob-report/report-${{ matrix.site }}.zip
+        PLAYWRIGHT_BLOB_OUTPUT_NAME: report-${{ matrix.site }}.zip
       run: |
         npx playwright test -g "${{ matrix.site }}" --reporter=blob,json
 
@@ -113,7 +113,7 @@ jobs:
       if: always()
       with:
         name: blob-report-${{ matrix.site }}
-        path: blob-report
+        path: blob-report/report-${{ matrix.site }}.zip
         retention-days: 1
 
   report:
@@ -136,6 +136,9 @@ jobs:
           path: all-blobs
           pattern: blob-report-*
           merge-multiple: true
+
+      - name: List downloaded blob files
+        run: ls -la all-blobs/
 
       - name: Merge Playwright Reports into HTML & JSON
         run: npx playwright merge-reports --reporter=html,json ./all-blobs
