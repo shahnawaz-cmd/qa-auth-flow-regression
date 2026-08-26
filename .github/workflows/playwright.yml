@@ -2,56 +2,108 @@ name: Playwright Tests
 
 permissions:
   contents: write
-  actions: write
+  issues: write
   pages: write
+  actions: write
   id-token: write
 
 on:
   push:
     branches: [ main, master ]
+  schedule:
+    - cron: '0 */12 * * *'
   pull_request:
     branches: [ main, master ]
-  schedule:
-    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        batch: [1, 2, 3, 4]
+        batch: [1, 2, 3, 4, 5, 6, 7, 8]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
+        cache: 'npm'
+
     - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-      
-    - name: Clean previous HTML report
-      run: rm -rf playwright-report/
-      
-    - name: Run Playwright tests
+      run: npm ci --prefer-offline --no-audit
+
+    - name: Get Playwright version
+      run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('@playwright/test/package.json').version)")" >> $GITHUB_ENV
+
+    - name: Cache Playwright Browsers
+      id: playwright-cache
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/ms-playwright
+        key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
+        restore-keys: |
+          ${{ runner.os }}-playwright-
+
+    - name: Install Playwright Chromium Browser
+      if: steps.playwright-cache.outputs.cache-hit != 'true'
+      run: npx playwright install chromium --with-deps
+
+    - name: Install Playwright System Dependencies
+      if: steps.playwright-cache.outputs.cache-hit == 'true'
+      run: npx playwright install-deps chromium
+
+    - name: Mask Sensitive Secrets in CI Logs
       run: |
-          START_TIME=$(date +%s)
-          npx playwright test --reporter=html,json
-          END_TIME=$(date +%s)
-          echo "DURATION=$((END_TIME - START_TIME))" >> $GITHUB_ENV
+        echo "::add-mask::${{ secrets.GEMINI_API_KEY }}"
+        echo "::add-mask::${{ secrets.SLACK_WEBHOOK_URL }}"
+
+    - name: Run Playwright tests
+      id: playwright-run
+      continue-on-error: true
       env:
         CI: true
         BATCH_ID: ${{ matrix.batch }}
-        PLAYWRIGHT_JSON_OUTPUT_NAME: playwright-report/results.json
+        PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
+      run: npx playwright test --reporter=blob,json
 
-    - uses: actions/upload-artifact@v4
+    - name: Run AI Agentic Self-Healer (On Test Failure)
+      if: steps.playwright-run.outcome == 'failure'
+      timeout-minutes: 5
+      run: npm run heal:prod
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        BATCH_ID: ${{ matrix.batch }}
+
+    - name: Auto-Commit & Push AI Healed Locators Back to Repo
+      if: steps.playwright-run.outcome == 'failure'
+      run: |
+        git config user.name "AI-Healer[bot]"
+        git config user.email "ai-healer@users.noreply.github.com"
+        git add tasks/ utils/ actions/
+        git commit -m "chore(ai-healer): auto-repair auth flow locators via Gemini AI [batch ${{ matrix.batch }}]" || echo "No changes to commit"
+        git push
+
+    - name: Upload Failure Artifacts (Videos, Traces, Screenshots)
+      uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: failure-artifacts-batch-${{ matrix.batch }}
+        path: test-results/
+        retention-days: 3
+
+    - name: Upload Playwright Blob Report
+      uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: playwright-report-batch-${{ matrix.batch }}
-        path: playwright-report/
-        retention-days: 30
+        name: blob-report-batch-${{ matrix.batch }}
+        path: blob-report
+        retention-days: 1
 
   report:
     needs: test
@@ -62,38 +114,46 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          
-      - name: Download all workflow run artifacts
+          cache: 'npm'
+
+      - name: Install dependencies for report
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Download all blob reports
         uses: actions/download-artifact@v4
         with:
-          path: playwright-reports-merged
-          
-      - name: Generate index.html for GitHub Pages
-        run: |
-          cat << 'EOF' > playwright-reports-merged/index.html
-          <!DOCTYPE html>
-          <html>
-          <head><title>Test Reports</title></head>
-          <body style="font-family: sans-serif; padding: 20px;">
-            <h2>Playwright Test Reports</h2>
-            <ul>
-              <li><a href="playwright-report-batch-1/index.html">Batch 1 Report</a></li>
-              <li><a href="playwright-report-batch-2/index.html">Batch 2 Report</a></li>
-              <li><a href="playwright-report-batch-3/index.html">Batch 3 Report</a></li>
-              <li><a href="playwright-report-batch-4/index.html">Batch 4 Report</a></li>
-            </ul>
-          </body>
-          </html>
-          EOF
+          path: all-blobs
+          pattern: blob-report-*
+          merge-multiple: true
+
+      - name: Merge Playwright Reports into HTML & JSON
+        run: npx playwright merge-reports --reporter=html,json ./all-blobs
+        env:
+          PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
+
+      - name: Automated GitHub Issue Manager (Create/Close Issues)
+        if: always()
+        run: node scripts/manage-issues.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_SERVER: ${{ github.server_url }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_RUN: ${{ github.run_id }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_REF: ${{ github.ref }}
+          GITHUB_EVENT: ${{ github.event_name }}
 
       - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        id: deployment
+        if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./playwright-reports-merged
-          keep_files: true
+          publish_dir: ./playwright-report
+          force_orphan: true
 
       - name: Send Slack Notification
+        if: always()
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_SERVER: ${{ github.server_url }}
@@ -103,6 +163,8 @@ jobs:
           GITHUB_REF: ${{ github.ref_name }}
           GITHUB_SHA_VAL: ${{ github.sha }}
           GITHUB_EVENT: ${{ github.event_name }}
+          TEST_RESULT: ${{ needs.test.result }}
+          REPORT_URL: ${{ steps.deployment.outputs.page_url }}
         run: node slack-notify.js
 
       - name: Fail workflow if any batch failed

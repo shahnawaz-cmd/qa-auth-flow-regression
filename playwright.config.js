@@ -1,15 +1,24 @@
 const { defineConfig } = require('@playwright/test');
-const path = require('path');
-module.exports = defineConfig({ 
+
+module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: true,
-  workers: '50%',
-  retries: 1,
-  reporter: [['html', { open: 'never' }], ['list']],
-  timeout: 60000,
+  workers: process.env.CI ? 2 : '50%',
+  retries: process.env.CI ? 1 : 0,
+  reporter: [
+    ['html', { open: 'never' }],
+    ['list'],
+    ['json', { outputFile: 'results.json' }]
+  ],
+  timeout: 45000,
+  expect: {
+    timeout: 10000
+  },
   use: {
-    trace: 'off',
-    video: 'off',
-    screenshot: 'on',
+    trace: 'on-first-retry',
+    video: 'retain-on-failure',
+    screenshot: 'only-on-failure',
+    actionTimeout: 10000,
+    navigationTimeout: 25000,
   },
 });

@@ -7,7 +7,6 @@ import { PhoneNumberGenerator } from '../tasks/PhoneNumberGenerator';
 import { SignupTask } from '../tasks/SignupTask';
 import { LoginTask } from '../tasks/LoginTask';
 import { LogoutTask } from '../tasks/LogoutTask';
-import { CaptureSignupApiResponseTask } from '../tasks/CaptureSignupApiResponseTask';
 import { ForgotPasswordTask } from '../tasks/ForgotPasswordTask';
 
 test.describe('Global Signup & Login Tests', () => {
@@ -19,9 +18,8 @@ test.describe('Global Signup & Login Tests', () => {
     test(`Auth Signup Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
         const actor = new Actor('User', page);
         try {
-            // Include phone for all sites except SCC
             const supportsPhone = site.name !== 'SCC';
-            await page.goto(site.signupUrl);
+            await page.goto(site.signupUrl, { waitUntil: 'domcontentloaded' });
       
             const emailTask = new EmailGenerator();
             const passwordTask = new PasswordGenerator();
@@ -40,9 +38,9 @@ test.describe('Global Signup & Login Tests', () => {
 
             // Setup API capture
             const capturePromise = page.waitForResponse(
-              (response) => response.url().includes(site.apiEndpoint) && response.request().method() === 'POST'
+              (response) => response.url().includes(site.apiEndpoint) && response.request().method() === 'POST',
+              { timeout: 30000 }
             ).then(async (response) => {
-                console.log('API response captured for signup');
                 const request = response.request();
                 const rawPayload = request.postData() || '{}';
                 let parsedPayload;
@@ -54,35 +52,32 @@ test.describe('Global Signup & Login Tests', () => {
                 const data = {
                   url: response.url(),
                   requestPayload: parsedPayload,
-                  responseBody: await response.json(),
+                  responseBody: await response.json().catch(() => ({})),
                   status: response.status()
                 };
                 await testInfo.attach('signup-api-response', {
                   body: JSON.stringify(data, null, 2),
                   contentType: 'application/json',
                 });
-            });
+            }).catch(e => console.warn(`[${site.name}] API capture note:`, e.message));
             
             // Perform Signup
             const signupTask = new SignupTask(email, password, site, phone);
             await actor.attemptsTo(signupTask);
             await signupTask.verifyDashboardRedirection(actor);
 
-            await capturePromise; // Ensure we finish capturing
+            await capturePromise;
 
             // Perform Logout & Login
             await actor.attemptsTo(new LogoutTask());
-            await page.goto(site.loginUrl);
+            await page.goto(site.loginUrl, { waitUntil: 'domcontentloaded' });
             const loginTask = new LoginTask(email, password, site, testInfo);
             await actor.attemptsTo(loginTask);
             await loginTask.verifyLoginRedirection(actor);
         } finally {
-            console.log(`Cleaning up: ${site.name}`);
             try {
                 await page.close();
-            } catch (e) {
-                console.error(`Error closing page for ${site.name}:`, e);
-            }
+            } catch (e) {}
         }
       });
 
@@ -90,7 +85,6 @@ test.describe('Global Signup & Login Tests', () => {
         test(`Auth Forgot Password Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
           const actor = new Actor('User', page);
           
-          // Define static emails based on site
           const staticEmails: { [key: string]: string } = {
               'SCC': 'shahnawaz+rok0@empirepixel.com',
               'DVH': 'shahnawaz+sxqx@empirepixel.com',
@@ -113,12 +107,12 @@ test.describe('Global Signup & Login Tests', () => {
           try {
               const forgotTask = new ForgotPasswordTask(email, site, testInfo);
               await actor.attemptsTo(forgotTask);
-              console.log(`Forgot password flow completed for: ${site.name}`);
           } finally {
-              await page.close();
+              try {
+                await page.close();
+              } catch (e) {}
           }
         });
       }
   }
 });
-

@@ -1,8 +1,9 @@
+import { Actor } from '../actors/Actor';
+
 export class PhoneNumberGenerator {
   private phoneNumber: string;
 
   constructor() {
-    // Generate a random 10-digit string
     this.phoneNumber = Array.from({ length: 10 }, () => Math.floor(Math.random() * 10)).join('');
   }
 
@@ -10,7 +11,7 @@ export class PhoneNumberGenerator {
     return this.phoneNumber;
   }
 
-  async performAs(actor: any): Promise<void> {
-    return Promise.resolve();
+  async performAs(actor: Actor): Promise<void> {
+    actor.phoneNumber = this.phoneNumber;
   }
 }

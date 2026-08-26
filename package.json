@@ -1,15 +1,24 @@
 {
   "name": "global-authflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "Global Authentication Flow Monitoring with Self-Healing & AI Agentic Healing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "heal:prod": "node scripts/agentic-healer-ci.js",
+    "heal:ci": "node scripts/agentic-healer-ci.js",
+    "manage-issues": "node scripts/manage-issues.js"
   },
   "keywords": [],
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+    "dotenv": "^16.4.1",
     "playwright": "^1.61.1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@octokit/rest": "^20.1.0",
+    "axios": "^1.18.1"
   }
 }
