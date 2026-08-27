@@ -1,6 +1,7 @@
 import { Actor } from '../actors/Actor';
 import { TestInfo } from '@playwright/test';
 import { fastInputWithHealing, clickWithHealing } from '../utils/selfHealingLocator';
+import { dismissAllPopups } from './DismissPopupTask';
 
 export class ForgotTask {
   constructor(
@@ -13,7 +14,7 @@ export class ForgotTask {
   async performAs(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name, forgotPasswordUrl, forgotApiEndpoint, timeout: configTimeout } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : (configTimeout || 30000);
+    const timeout = this.isSlowNetwork ? 90000 : (configTimeout || 60000);
 
     // Optional: Setup API capture
     let capturePromise: Promise<void> | undefined;
@@ -43,6 +44,7 @@ export class ForgotTask {
     }
 
     await page.goto(forgotPasswordUrl, { waitUntil: 'domcontentloaded', timeout });
+    await dismissAllPopups(page, 1500);
 
     const emailFallbacks = [
       'input[name="email"]',

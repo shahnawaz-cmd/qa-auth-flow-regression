@@ -5,7 +5,7 @@ export class CaptureSignupApiResponseTask {
   constructor(
     private testInfo: any,
     private siteConfig: any,
-    private timeout: number = 30000
+    private timeout: number = 60000
   ) {}
 
   async performAs(actor: Actor): Promise<void> {

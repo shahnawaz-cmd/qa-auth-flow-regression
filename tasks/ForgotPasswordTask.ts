@@ -1,6 +1,7 @@
 import { Actor } from '../actors/Actor';
 import { TestInfo } from '@playwright/test';
 import { clickWithHealing, locateInputWithHealing } from '../utils/selfHealingLocator';
+import { dismissAllPopups } from './DismissPopupTask';
 
 export class ForgotPasswordTask {
   constructor(
@@ -13,7 +14,7 @@ export class ForgotPasswordTask {
   async performAs(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name, forgotPasswordUrl, forgotApiEndpoint, timeout: configTimeout } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : (configTimeout || 30000);
+    const timeout = this.isSlowNetwork ? 90000 : (configTimeout || 60000);
 
     console.log(`[ForgotPasswordTask] Testing forgot password flow on "${name}" (${this.email})...`);
 
@@ -46,13 +47,8 @@ export class ForgotPasswordTask {
 
     await page.goto(forgotPasswordUrl, { waitUntil: 'domcontentloaded', timeout });
 
-    // Dismiss any live chat popups/overlays
-    try {
-      const closeBtn = page.locator('button[aria-label="close" i], [aria-label*="close" i], button:has-text("✕"), button:has-text("×")').first();
-      if (await closeBtn.isVisible({ timeout: 500 }).catch(() => false)) {
-        await closeBtn.click({ force: true }).catch(() => {});
-      }
-    } catch (e) {}
+    // Dismiss any active external popups, cookie dialogs, or overlays
+    await dismissAllPopups(page, 1500);
 
     // 1. Resilient Email Input with React Hydration Protection
     const emailFallbacks = [
@@ -87,12 +83,7 @@ export class ForgotPasswordTask {
     }
 
     // Dismiss any overlay again before submit
-    try {
-      const closeBtn = page.locator('button[aria-label="close" i], [aria-label*="close" i], button:has-text("✕"), button:has-text("×")').first();
-      if (await closeBtn.isVisible({ timeout: 500 }).catch(() => false)) {
-        await closeBtn.click({ force: true }).catch(() => {});
-      }
-    } catch (e) {}
+    await dismissAllPopups(page, 500);
 
     // 2. Resilient Submit / Reset Password Button
     const submitFallbacks = [

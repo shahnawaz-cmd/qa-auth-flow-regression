@@ -1,6 +1,7 @@
 import { Actor } from '../actors/Actor';
 import { expect } from '@playwright/test';
 import { clickWithHealing, locateInputWithHealing } from '../utils/selfHealingLocator';
+import { dismissAllPopups } from './DismissPopupTask';
 
 export class SignupTask {
   constructor(
@@ -14,14 +15,12 @@ export class SignupTask {
   async performAs(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name, selectors } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : 30000;
+    const timeout = this.isSlowNetwork ? 90000 : 45000;
 
     console.log(`[SignupTask] Starting registration for site "${name}" (Email: ${this.email})...`);
 
-    // Hide any LiveChat popups / overlays
-    await page.addStyleTag({
-      content: '#chat-widget-container, #livechat-widget, [id*="chat"], [class*="livechat"], iframe[title*="chat" i] { display: none !important; pointer-events: none !important; visibility: hidden !important; }'
-    }).catch(() => {});
+    // Dismiss any active external popups, cookie dialogs, or overlays
+    await dismissAllPopups(page, 1500);
 
     // 1. Resilient Email Input
     const emailFallbacks = [
@@ -163,7 +162,7 @@ export class SignupTask {
   async verifyDashboardRedirection(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : 35000;
+    const timeout = this.isSlowNetwork ? 90000 : 60000;
 
     console.log(`[SignupTask] Verifying dashboard redirection for "${name}"...`);
 

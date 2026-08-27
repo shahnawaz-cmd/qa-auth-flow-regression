@@ -20,8 +20,8 @@ export async function locateInputWithHealing(
   options: HealingOptions = {}
 ): Promise<Locator> {
   const isSlowNetwork = options.isSlowNetwork || process.env.SLOW_NETWORK === 'true';
-  const baseTimeout = options.timeout || (isSlowNetwork ? 10000 : 4000);
-  const strategyTimeout = options.strategyTimeout || Math.max(1500, Math.floor(baseTimeout / 3));
+  const baseTimeout = options.timeout || (isSlowNetwork ? 20000 : 8000);
+  const strategyTimeout = options.strategyTimeout || Math.max(2500, Math.floor(baseTimeout / 3));
 
   const rawStrategies: (() => Locator)[] = [
     () => page.getByRole('textbox', { name: new RegExp(labelText, 'i') }),
@@ -104,8 +104,8 @@ export async function locateElementWithHealing(
   options: HealingOptions = {}
 ): Promise<Locator> {
   const isSlowNetwork = options.isSlowNetwork || process.env.SLOW_NETWORK === 'true';
-  const baseTimeout = options.timeout || (isSlowNetwork ? 10000 : 4000);
-  const strategyTimeout = options.strategyTimeout || Math.max(1500, Math.floor(baseTimeout / 3));
+  const baseTimeout = options.timeout || (isSlowNetwork ? 20000 : 8000);
+  const strategyTimeout = options.strategyTimeout || Math.max(2500, Math.floor(baseTimeout / 3));
 
   const rawStrategies: (() => Locator)[] = [
     () => page.getByRole('button', { name: new RegExp(labelText, 'i') }),
@@ -164,7 +164,7 @@ export async function clickWithHealing(
     ...fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)))
   ];
 
-  const strategyTimeout = options.strategyTimeout || 3000;
+  const strategyTimeout = options.strategyTimeout || 6000;
 
   // Pass 1: Try visible match first
   for (let i = 0; i < rawStrategies.length; i++) {

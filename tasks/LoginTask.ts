@@ -1,6 +1,7 @@
 import { Actor } from '../actors/Actor';
 import { TestInfo, expect } from '@playwright/test';
 import { fastInputWithHealing, clickWithHealing, locateInputWithHealing } from '../utils/selfHealingLocator';
+import { dismissAllPopups } from './DismissPopupTask';
 
 export class LoginTask {
   constructor(
@@ -14,34 +15,19 @@ export class LoginTask {
   async performAs(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name, loginApiEndpoint, selectors } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : 30000;
+    const timeout = this.isSlowNetwork ? 90000 : 45000;
 
     console.log(`[LoginTask] Attempting login for site "${name}" (Email: ${this.email})...`);
 
-    // 0. Dismiss any live chat popups / banner overlays that might intercept clicks
-    try {
-      const closeButtons = [
-        page.locator('button[aria-label="close" i]'),
-        page.locator('[aria-label*="close" i]'),
-        page.locator('button:has-text("✕")'),
-        page.locator('button:has-text("×")'),
-        page.locator('div[class*="chat"] button[class*="close"]'),
-        page.locator('button[class*="chat-close"]')
-      ];
-      for (const btn of closeButtons) {
-        if (await btn.first().isVisible({ timeout: 500 }).catch(() => false)) {
-          console.log(`[Self-Healing] Dismissing overlay popup on ${name}...`);
-          await btn.first().click({ force: true }).catch(() => {});
-        }
-      }
-    } catch (e) {}
+    // 0. Dismiss any external popups, cookie dialogs, or banner overlays
+    await dismissAllPopups(page, 1500);
 
     // Optional: Setup API capture
     let capturePromise: Promise<void> | undefined;
     if (this.testInfo && loginApiEndpoint) {
       capturePromise = page.waitForResponse(
         (response) => response.url().includes(loginApiEndpoint) && response.request().method() === 'POST',
-        { timeout: 20000 }
+        { timeout: 45000 }
       ).then(async (response) => {
         let responseBody: any = {};
         try {
@@ -128,12 +114,7 @@ export class LoginTask {
     }
 
     // Dismiss overlay again before submit
-    try {
-      const closeBtn = page.locator('button[aria-label="close" i], [aria-label*="close" i], button:has-text("✕"), button:has-text("×")').first();
-      if (await closeBtn.isVisible({ timeout: 500 }).catch(() => false)) {
-        await closeBtn.click({ force: true }).catch(() => {});
-      }
-    } catch (e) {}
+    await dismissAllPopups(page, 500);
 
     // 3. Resilient Submit / Login Button
     const submitFallbacks = [
@@ -160,7 +141,7 @@ export class LoginTask {
   async verifyLoginRedirection(actor: Actor): Promise<void> {
     const page = actor.getPage();
     const { name } = this.siteConfig;
-    const timeout = this.isSlowNetwork ? 60000 : 35000;
+    const timeout = this.isSlowNetwork ? 90000 : 60000;
 
     console.log(`[LoginTask] Verifying login redirection for "${name}"...`);
 

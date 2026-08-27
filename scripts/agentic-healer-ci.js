@@ -38,6 +38,7 @@ function extractFailuresFromResults() {
         'tasks/LogoutTask.ts',
         'tasks/ForgotPasswordTask.ts',
         'tasks/ForgotTask.ts',
+        'tasks/DismissPopupTask.ts',
         'tasks/CaptureSignupApiResponseTask.ts',
         'actions/siteConfigs.ts',
         'actions/authUrls.ts',
@@ -118,6 +119,7 @@ async function runCiHealer() {
         'tasks/SignupTask.ts',
         'tasks/LoginTask.ts',
         'tasks/ForgotPasswordTask.ts',
+        'tasks/DismissPopupTask.ts',
         'actions/siteConfigs.ts'
       ];
 

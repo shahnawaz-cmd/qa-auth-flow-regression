@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { registerAutoPopupHandlers, dismissAllPopups } from '../tasks/DismissPopupTask';
 
 export class Actor {
   public page: Page;
@@ -11,6 +12,12 @@ export class Actor {
   constructor(name: string, page: Page) {
     this.name = name;
     this.page = page;
+    registerAutoPopupHandlers(page);
+  }
+
+  // Helper method to dismiss any active popups/cookies on current page
+  async dismissPopups(timeout: number = 2000): Promise<boolean> {
+    return await dismissAllPopups(this.page, timeout);
   }
 
   // Execute an Action or Task (e.g., actor.attemptsTo(new SignupTask(...)))

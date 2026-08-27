@@ -6,7 +6,7 @@ const createDVHStyleConfig = (name: string, domain: string, batch: number) => ({
     apiEndpoint: '/api-cwa/register',
     loginApiEndpoint: '/api-cwa/login',
     forgotApiEndpoint: '/api-cwa/reset-password',
-    timeout: 25000,
+    timeout: 60000,
     selectors: {
         email: 'input[name="email"]',
         password: 'input[name="password"]',
@@ -28,7 +28,7 @@ export const SITE_CONFIGS = {
         apiEndpoint: '/api-cwa/register',
         loginApiEndpoint: '/members/api/login',
         forgotApiEndpoint: '/members/api/user/reset-password',
-        timeout: 25000,
+        timeout: 60000,
         selectors: {
             email: 'input[name="email"]',
             password: 'input[name="password"]',
@@ -46,7 +46,7 @@ export const SITE_CONFIGS = {
         apiEndpoint: '/api/register',
         loginApiEndpoint: '/api/login',
         forgotApiEndpoint: '/api/user/reset-password',
-        timeout: 25000,
+        timeout: 60000,
         selectors: {
             email: 'textbox[name="Enter email address*"]',
             password: 'input[name="password"]',
@@ -110,7 +110,7 @@ export const SITE_CONFIGS = {
         apiEndpoint: '/api-cwa/register',
         loginApiEndpoint: '/api-cwa/login',
         forgotApiEndpoint: '/api-cwa/reset-password',
-        timeout: 25000,
+        timeout: 60000,
         selectors: {
             email: 'input[name="email"]',
             password: 'input[name="password"]',

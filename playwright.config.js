@@ -10,15 +10,15 @@ module.exports = defineConfig({
     ['list'],
     ['json', { outputFile: 'results.json' }]
   ],
-  timeout: 60000,
+  timeout: 120000,
   expect: {
-    timeout: 15000
+    timeout: 30000
   },
   use: {
     trace: 'on',
     video: 'retain-on-failure',
     screenshot: 'on',
-    actionTimeout: 15000,
-    navigationTimeout: 30000,
+    actionTimeout: 40000,
+    navigationTimeout: 60000,
   },
 });

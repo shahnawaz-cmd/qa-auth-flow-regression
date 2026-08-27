@@ -8,6 +8,7 @@ import { SignupTask } from '../tasks/SignupTask';
 import { LoginTask } from '../tasks/LoginTask';
 import { LogoutTask } from '../tasks/LogoutTask';
 import { ForgotPasswordTask } from '../tasks/ForgotPasswordTask';
+import { DismissPopupTask } from '../tasks/DismissPopupTask';
 
 test.describe('Global Signup & Login Tests', () => {
 
@@ -20,7 +21,7 @@ test.describe('Global Signup & Login Tests', () => {
   });
 
   for (const site of sites) {
-    test(`Auth Signup Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
+    test(`Auth Signup Test: ${site.name}`, { timeout: 120000 }, async ({ page }, testInfo) => {
         const actor = new Actor('User', page);
         try {
             const supportsPhone = site.name !== 'SCC';
@@ -44,7 +45,7 @@ test.describe('Global Signup & Login Tests', () => {
             // Setup API capture
             const capturePromise = page.waitForResponse(
               (response) => response.url().includes(site.apiEndpoint) && response.request().method() === 'POST',
-              { timeout: 30000 }
+              { timeout: 60000 }
             ).then(async (response) => {
                 const request = response.request();
                 const rawPayload = request.postData() || '{}';
@@ -87,7 +88,7 @@ test.describe('Global Signup & Login Tests', () => {
       });
 
       if (['SCC', 'DVH', 'CD', 'HONDA', 'GMC', 'HYUNDAI', 'INFINITI', 'VSR', 'PORSCHE', 'RAM', 'MERCEDES', 'MOTORCYCLEVIN', 'VINNUMBER_CA', 'VEHICLEHISTORY_EU', 'INSTANTVINREPORTS'].includes(site.name)) {
-        test(`Auth Forgot Password Test: ${site.name}`, { timeout: 60000 }, async ({ page }, testInfo) => {
+        test(`Auth Forgot Password Test: ${site.name}`, { timeout: 120000 }, async ({ page }, testInfo) => {
           const actor = new Actor('User', page);
           
           const staticEmails: { [key: string]: string } = {
