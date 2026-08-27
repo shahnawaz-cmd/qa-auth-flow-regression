@@ -2,6 +2,7 @@ import { Actor } from '../actors/Actor';
 import { expect } from '@playwright/test';
 import { clickWithHealing, locateInputWithHealing } from '../utils/selfHealingLocator';
 import { dismissAllPopups } from './DismissPopupTask';
+import { acceptTermsCheckbox } from './AcceptTermsTask';
 
 export class SignupTask {
   constructor(
@@ -69,7 +70,8 @@ export class SignupTask {
       ...(selectors?.confirmPassword ? [selectors.confirmPassword] : []),
       'input[name="confirmPassword"]',
       'input[name*="confirm" i]',
-      'input[placeholder*="confirm" i]'
+      'input[placeholder*="confirm" i]',
+      (p: any) => p.locator('input[type="password"]').nth(1)
     ];
 
     try {
@@ -111,16 +113,7 @@ export class SignupTask {
     }
 
     // 5. Adaptive Terms & Conditions Checkbox (if present)
-    try {
-      const termsCheckbox = page.locator('input[type="checkbox"]').first();
-      if (await termsCheckbox.isVisible({ timeout: 1500 })) {
-        const isChecked = await termsCheckbox.isChecked().catch(() => false);
-        if (!isChecked) {
-          console.log(`[Self-Healing] Checking Terms and Conditions checkbox for ${name}...`);
-          await termsCheckbox.check({ force: true }).catch(() => termsCheckbox.click({ force: true }));
-        }
-      }
-    } catch (e) {}
+    await acceptTermsCheckbox(page, 3000);
 
     // 🛡️ Pre-Submit Hydration Protection: Verify inputs didn't get cleared by React
     await page.waitForTimeout(500);

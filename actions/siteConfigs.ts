@@ -48,11 +48,11 @@ export const SITE_CONFIGS = {
         forgotApiEndpoint: '/api/user/reset-password',
         timeout: 60000,
         selectors: {
-            email: 'textbox[name="Enter email address*"]',
+            email: 'input[name="email"], input[type="email"], input[placeholder*="email" i]',
             password: 'input[name="password"]',
-            confirmPassword: 'input[name="confirmPassword"]',
-            checkbox: 'checkbox',
-            submit: 'button[name="Sign up"]'
+            confirmPassword: 'input[name="confirmPassword"], input[placeholder*="confirm" i]',
+            checkbox: 'input[type="checkbox"]',
+            submit: 'button:has-text("Sign up"), button:has-text("Sign Up"), button[type="submit"]'
         },
         batch: 1
     },

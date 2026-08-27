@@ -39,15 +39,20 @@ export function registerAutoPopupHandlers(page: Page): void {
 export async function dismissAllPopups(page: Page, customTimeout: number = 2000): Promise<boolean> {
   let dismissedAny = false;
 
-  // 1. Hide LiveChat and blocking overlays via CSS injection
+  // 1. Hide LiveChat, Shepherd product tours, and blocking overlays via CSS injection
   try {
     await page.addStyleTag({
-      content: '#chat-widget-container, #livechat-widget, [id*="chat"], [class*="livechat"], iframe[title*="chat" i] { display: none !important; pointer-events: none !important; visibility: hidden !important; }'
+      content: '#chat-widget-container, #livechat-widget, [id*="chat"], [class*="livechat"], iframe[title*="chat" i], .shepherd-element, .shepherd-modal-overlay-container, .shepherd-content { display: none !important; pointer-events: none !important; visibility: hidden !important; }'
     }).catch(() => {});
   } catch (e) {}
 
   // 2. Comprehensive dismissal selectors for all monitored domains
   const dismissSelectors = [
+    '.shepherd-cancel-icon',
+    'button.shepherd-button',
+    'button[aria-label*="Close Tour" i]',
+    'button:has-text("Skip Tour")',
+    'button:has-text("Done")',
     '#exitIntentCloseBtn',
     '.exit-intent-close-btn',
     'button.exit-intent-secondary-btn',
