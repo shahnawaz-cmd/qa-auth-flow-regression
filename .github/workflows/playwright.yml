@@ -8,10 +8,10 @@ permissions:
   id-token: write
 
 on:
-  push:
-    branches: [ main, master ]
+  # push:
+  #   branches: [ main, master ]
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 1 * * *'
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
