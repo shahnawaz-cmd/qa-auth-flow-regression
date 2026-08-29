@@ -72,7 +72,6 @@ export class LoginTask {
     await emailInput.dispatchEvent('change').catch(() => {});
 
     // React hydration reset protection on login
-    await page.waitForTimeout(400);
     const currentEmailVal = await emailInput.inputValue().catch(() => '');
     if (currentEmailVal !== this.email) {
       console.log(`[Self-Healing] React hydration reset detected on ${name} login. Re-filling Email...`);
@@ -103,7 +102,6 @@ export class LoginTask {
     await passwordInput.dispatchEvent('input').catch(() => {});
     await passwordInput.dispatchEvent('change').catch(() => {});
 
-    await page.waitForTimeout(300);
     const currentPassVal = await passwordInput.inputValue().catch(() => '');
     if (currentPassVal !== this.password) {
       console.log(`[Self-Healing] React hydration reset detected on ${name} password. Re-filling Password...`);

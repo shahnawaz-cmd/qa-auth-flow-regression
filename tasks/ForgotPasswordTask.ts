@@ -72,7 +72,6 @@ export class ForgotPasswordTask {
     await emailInput.dispatchEvent('change').catch(() => {});
 
     // React hydration reset protection on Forgot Password page
-    await page.waitForTimeout(500);
     const currentEmailVal = await emailInput.inputValue().catch(() => '');
     if (currentEmailVal !== this.email) {
       console.log(`[Self-Healing] React hydration reset detected on ${name} forgot password. Re-filling Email...`);

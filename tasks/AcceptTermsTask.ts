@@ -43,7 +43,6 @@ export async function acceptTermsCheckbox(page: Page, timeout: number = 5000): P
           // Trigger native event dispatching for form synchronizers
           await loc.dispatchEvent('change').catch(() => {});
           await loc.dispatchEvent('input').catch(() => {});
-          await page.waitForTimeout(300);
           console.log('✅ [AcceptTermsTask] Terms & Conditions checkbox checked successfully.');
           return true;
         } else {

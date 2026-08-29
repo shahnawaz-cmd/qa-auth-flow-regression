@@ -116,7 +116,6 @@ export class SignupTask {
     await acceptTermsCheckbox(page, 3000);
 
     // 🛡️ Pre-Submit Hydration Protection: Verify inputs didn't get cleared by React
-    await page.waitForTimeout(500);
     const finalEmailVal = await emailInput.inputValue().catch(() => '');
     if (!finalEmailVal || finalEmailVal !== this.email) {
       console.log(`[Self-Healing] React hydration reset detected on ${name} before submit. Re-filling Email...`);

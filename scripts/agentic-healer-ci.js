@@ -40,6 +40,7 @@ function extractFailuresFromResults() {
         'tasks/ForgotTask.ts',
         'tasks/DismissPopupTask.ts',
         'tasks/CaptureSignupApiResponseTask.ts',
+        'tasks/CaptureDashboardApiResponseTask.ts',
         'actions/siteConfigs.ts',
         'actions/authUrls.ts',
         'utils/selfHealingLocator.ts',

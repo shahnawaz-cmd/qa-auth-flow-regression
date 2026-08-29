@@ -9,6 +9,7 @@ import { LoginTask } from '../tasks/LoginTask';
 import { LogoutTask } from '../tasks/LogoutTask';
 import { ForgotPasswordTask } from '../tasks/ForgotPasswordTask';
 import { DismissPopupTask } from '../tasks/DismissPopupTask';
+import { CaptureDashboardApiResponseTask } from '../tasks/CaptureDashboardApiResponseTask';
 
 test.describe('Global Signup & Login Tests', () => {
 
@@ -42,6 +43,10 @@ test.describe('Global Signup & Login Tests', () => {
                 phone = phoneTask.getPhoneNumber();
             }
 
+            // Setup Dashboard API listener for Signup
+            const signupDashboardCapture = new CaptureDashboardApiResponseTask(site, testInfo, 'signup');
+            signupDashboardCapture.startListening(page);
+
             // Setup API capture
             const capturePromise = page.waitForResponse(
               (response) => response.url().includes(site.apiEndpoint) && response.request().method() === 'POST',
@@ -72,14 +77,25 @@ test.describe('Global Signup & Login Tests', () => {
             await actor.attemptsTo(signupTask);
             await signupTask.verifyDashboardRedirection(actor);
 
+            // Verify Dashboard RSC/API Response & Capture Dashboard Screenshot for Signup
+            await actor.attemptsTo(signupDashboardCapture);
+
             await capturePromise;
 
             // Perform Logout & Login
             await actor.attemptsTo(new LogoutTask());
             await page.goto(site.loginUrl, { waitUntil: 'domcontentloaded' });
+
+            // Setup Dashboard API listener for Login
+            const loginDashboardCapture = new CaptureDashboardApiResponseTask(site, testInfo, 'login');
+            loginDashboardCapture.startListening(page);
+
             const loginTask = new LoginTask(email, password, site, testInfo);
             await actor.attemptsTo(loginTask);
             await loginTask.verifyLoginRedirection(actor);
+
+            // Verify Dashboard RSC/API Response & Capture Dashboard Screenshot for Login
+            await actor.attemptsTo(loginDashboardCapture);
         } finally {
             try {
                 await page.close();
