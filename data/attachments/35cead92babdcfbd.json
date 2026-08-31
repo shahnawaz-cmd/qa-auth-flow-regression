@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/members/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAWym6qOrj5eZBqPB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ys51@empirepixel.com\r\n------WebKitFormBoundaryAWym6qOrj5eZBqPB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nnKv1&dtaIv2T\r\n------WebKitFormBoundaryAWym6qOrj5eZBqPB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n17376493879\r\n------WebKitFormBoundaryAWym6qOrj5eZBqPB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "519806",
+      "tracking_id": "USER6a958afbc245a",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "F033F033-B6B6-296A-2347-7CA01EE5294B",
+      "email": "shahnawaz+ys51@empirepixel.com",
+      "authhashed": "nKv1&dtaIv2T",
+      "plain": "nKv1&dtaIv2T",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "17376493879",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-08-31 10:09:00",
+      "udt": "2026-08-31 10:09:00",
+      "utype": null
+    }
+  },
+  "status": 200
+}

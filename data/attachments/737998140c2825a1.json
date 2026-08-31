@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryb02bVdIsYUJ8RC2I\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+j1if@empirepixel.com\r\n------WebKitFormBoundaryb02bVdIsYUJ8RC2I\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nYz9IOK#5!2c8\r\n------WebKitFormBoundaryb02bVdIsYUJ8RC2I\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8660583449\r\n------WebKitFormBoundaryb02bVdIsYUJ8RC2I--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "519803",
+      "tracking_id": "USER6a958af2ab5cb",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "894E894E-9F9F-59D8-A295-924AA46461A8",
+      "email": "shahnawaz+j1if@empirepixel.com",
+      "authhashed": "Yz9IOK#5!2c8",
+      "plain": "Yz9IOK#5!2c8",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8660583449",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-08-31 10:08:51",
+      "udt": "2026-08-31 10:08:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}

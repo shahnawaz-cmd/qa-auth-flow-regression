@@ -1,0 +1,35 @@
+{
+  "site": "CD",
+  "stage": "login",
+  "url": "https://classicdecoder.com/members/search?_rsc=edqbf",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "gzip",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NRC0k9crbDxPV1GPLAOhSWsKO%2Frq6wb0KgXhJmQL%2BEfGHXbqm%2FQagfHIHWq5KROY7rrOJR7xvAE%2BysbtbA0TEB5UCkPR1N%2BtscX0jxtdo8LH6mSC1umjSBZKQYxdparxjlKNo7A%3D\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Mon, 31 Aug 2026 14:07:27 GMT",
+    "content-type": "text/x-component",
+    "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a33c9a05bc400eef-ATL",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "preview": "1:\"$Sreact.fragment\"\n3:I[94970,[],\"ClientSegmentRoot\"]\n4:I[54759,[\"40093\",\"static/chunks/36546cfe-db10f5db60fc8994.js\",\"81229\",\"static/chunks/81229-807873229d1ac665.js\",\"6990\",\"static/chunks/6990-365740b0c4358597.js\",\"49641\",\"static/chunks/49641-0149047cefc3e22c.js\",\"18292\",\"static/chunks/18292-4551787cfbf3a579.js\",\"23464\",\"static/chunks/23464-fb14f3b9c3a2e1d7.js\",\"44314\",\"static/chunks/44314-5bd3f7c34fcb6818.js\",\"39853\",\"static/chunks/39853-4dcc9e9dbc75e7a1.js\",\"52615\",\"static/chunks/52615-c40bbcec9c65eefd.js\",\"54321\",\"static/chunks/54321-668cee809312a52e.js\",\"76589\",\"static/chunks/76589-4afa04ddd6eff2e8.js\",\"66766\",\"static/chunks/66766-da9a69562f436bda.js\",\"22475\",\"static/chunks/22475-88e8f82578e829a1.js\",\"25085\",\"static/chunks/25085-3a40de864d5c199e.js\",\"95838\",\"static/chunks/95838-dbdfbd0dd444d6e1.js\",\"48915\",\"static/chunks/48915-36f0bb3ba427de6b.js\",\"34729\",\"static/chunks/34729-97198b015002ace5.js\",\"83255\",\"static/chunks/83255-2bf14e714bbdd15b.js\",\"86476\",\"static/chunks/86476-79479488c7592c83.js\",\"82977\",\"static/chunks/82977-c229c2c83f08bd10.js\",\"20656\",\"static/chunks/20656-0f92f021c84ae0e1.js\",\"54609\",\"static/chunks/54609-56ed906e2c3a25d8.js\",\"30299\",\"static/chunks/30299-a9a24ad37679a334.js\",\"95100\",\"static/chunks/app/(auth)/members/(internal)/layout-18c4a9624621b27f.js\"],\"default\"]\n5:I[87555,[],\"\"]\n6:I[31295,[],\"\"]\n7:I[13321,[\"81229\",\"static/chunks/81229-807873229d1ac665.js\",\"49641\",\"static/chunks/49641-0149047cefc3e22c.js\",\"23464\",\"static/chunks/23464-fb14f3b9c3a2e1d7.js\",\"20656\",\"static/chunks/20656-0f92f021c84ae0e1.js\",\"54609\",\"static/chunks/54609-56ed906e2c3a25d8.js\",\"53370\",\"static/chunks/app/(auth)/members/(internal)/(protected)/layout-57d12a88e6a64e5e.js\"],\"default\"]\n8:I[90894,[],\"ClientPageRoot\"]\n9:I[63598,[\"6990\",\"static/chunks/6990-365740b0c4358597.js\",\"18292\",\"static/chunks/18292-4551787cfbf3a579.js\",\"44314\",\"static/chunks/44314-5bd3f7c34fcb6818.js\",\"76589\",\"static/chunks/76589-4afa04ddd6eff2e8.js\",\"66766\",\"static/chunks/66766-da9a69562f436bda.js\",... [TRUNCATED]",
+    "length": 125402
+  },
+  "timestamp": "2026-08-31T14:07:38.513Z"
+}
