@@ -4,6 +4,13 @@ playwright-reports-merged/
 test-results/
 blob-report/
 all-blobs/
+all-blob-reports/
+all-allure-results/
+allure-results/
+allure-report/
+allure-report-out/
+gh-pages-dir/
+gh-deploy/
 results.json
 .ai-healed.json
 .env

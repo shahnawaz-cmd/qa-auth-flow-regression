@@ -167,7 +167,11 @@ if (aiHealedInfo && aiHealedInfo.healed) {
 const testSummary = summaryParts.join('\n\n');
 
 const runUrl = (GITHUB_REPO && GITHUB_RUN) ? `${GITHUB_SERVER}/${GITHUB_REPO}/actions/runs/${GITHUB_RUN}` : '';
-const reportUrl = REPORT_URL || (GITHUB_REPO ? `https://${GITHUB_REPO.split('/')[0]}.github.io/${GITHUB_REPO.split('/')[1]}/` : '');
+const owner = GITHUB_REPO ? GITHUB_REPO.split('/')[0] : '';
+const repoName = GITHUB_REPO ? GITHUB_REPO.split('/')[1] : '';
+
+const allureUrl = (owner && repoName) ? `https://${owner}.github.io/${repoName}/` : '';
+const playwrightUrl = (owner && repoName) ? `https://${owner}.github.io/${repoName}/playwright/` : '';
 
 const payload = {
   text: `${statusEmoji} Global Auth Flow Monitoring – ${statusText}`,
@@ -199,7 +203,8 @@ const payload = {
             type: "mrkdwn",
             text: `*Suite:* \`Global Authentication Flows (Signup, Login, Forgot Password across 30+ Sites)\`\n` +
                   (runUrl ? `*Workflow Run:* <${runUrl}|View Workflow Run 🛠️>\n` : '') +
-                  (reportUrl ? `*HTML Report:* <${reportUrl}|View Public HTML Report 📊>\n` : '') +
+                  (allureUrl ? `*Allure Analytics:* <${allureUrl}|View Allure Visual Dashboard 📊>\n` : '') +
+                  (playwrightUrl ? `*Playwright Report:* <${playwrightUrl}|View Playwright HTML Report 🎭>\n` : '') +
                   `*Trigger Details:* \`${GITHUB_ACTOR || 'N/A'}\` via \`${GITHUB_EVENT || 'N/A'}\` (\`${GITHUB_REF || 'N/A'}\`)` +
                   (GITHUB_SHA_VAL ? `\n*Commit:* \`${GITHUB_SHA_VAL.substring(0, 7)}\`` : '')
           }
