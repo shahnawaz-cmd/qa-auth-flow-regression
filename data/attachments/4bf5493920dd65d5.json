@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryiLpdlagM5vAGPhXC\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+3wts@empirepixel.com\r\n------WebKitFormBoundaryiLpdlagM5vAGPhXC\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n#Ewb376nprOs\r\n------WebKitFormBoundaryiLpdlagM5vAGPhXC\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7534303532\r\n------WebKitFormBoundaryiLpdlagM5vAGPhXC--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520006",
+      "tracking_id": "USER6a966b265623e",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "7FD77FD7-3434-7EFD-B18B-200F47B86E7F",
+      "email": "shahnawaz+3wts@empirepixel.com",
+      "authhashed": "#Ewb376nprOs",
+      "plain": "#Ewb376nprOs",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7534303532",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-01 02:05:26",
+      "udt": "2026-09-01 02:05:26",
+      "utype": null
+    }
+  },
+  "status": 200
+}

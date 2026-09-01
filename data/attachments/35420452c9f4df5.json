@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarykBeqetaW7aOixovw\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+oo6c@empirepixel.com\r\n------WebKitFormBoundarykBeqetaW7aOixovw\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nRpJ50*DGopX^\r\n------WebKitFormBoundarykBeqetaW7aOixovw\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0221731683\r\n------WebKitFormBoundarykBeqetaW7aOixovw--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520003",
+      "tracking_id": "USER6a966b1d2ec85",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "D32DD32D-4C4C-D130-1AD9-79A9CFA300E1",
+      "email": "shahnawaz+oo6c@empirepixel.com",
+      "authhashed": "RpJ50*DGopX^",
+      "plain": "RpJ50*DGopX^",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0221731683",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-01 02:05:17",
+      "udt": "2026-09-01 02:05:17",
+      "utype": null
+    }
+  },
+  "status": 200
+}

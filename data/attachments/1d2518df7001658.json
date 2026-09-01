@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryL0NdAjFIm6WNXDgP\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+g8dw@empirepixel.com\r\n------WebKitFormBoundaryL0NdAjFIm6WNXDgP\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\np8AorlD$t^nI\r\n------WebKitFormBoundaryL0NdAjFIm6WNXDgP\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9219091545\r\n------WebKitFormBoundaryL0NdAjFIm6WNXDgP--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "519993",
+      "tracking_id": "USER6a966add92f6b",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "1FgsFJqyJAUeSYu8r7FU5DdKP5v2",
+      "site": "1",
+      "token": "005A005A-4E4E-5124-7CB5-A73CDFB4915C",
+      "email": "shahnawaz+g8dw@empirepixel.com",
+      "authhashed": "p8AorlD$t^nI",
+      "plain": "p8AorlD$t^nI",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9219091545",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-01 02:04:14",
+      "udt": "2026-09-01 02:04:14",
+      "utype": null
+    }
+  },
+  "status": 200
+}
