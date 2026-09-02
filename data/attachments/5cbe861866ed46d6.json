@@ -1,0 +1,31 @@
+{
+  "site": "DVH",
+  "stage": "login",
+  "url": "https://detailedvehiclehistory.com/dashboard?greet=true&_rsc=mafao",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LIVfVKLnk%2Bb5Cq98x9htQZ5hJTBeYwvVPWAiHMPHZ4dJUsDCRoK4XaUD5zpcyTyh2GMsc48sIEzNTaoyXxKVhfgu0p1aFgtQHqgi7Oe7G8BaOlCIisJ%2B%2Bofvho0qiDWhiq3dMihsVsWT%2BqdSaQ%3D%3D\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Wed, 02 Sep 2026 05:32:17 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "cache-control": "private, no-store, no-cache, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a34a2223bf4275e6-SEA",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-02T05:32:20.594Z"
+}

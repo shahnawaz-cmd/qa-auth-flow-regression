@@ -1,0 +1,49 @@
+{
+  "url": "https://lincolnwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryq9bfF6eVCHHYmz9Z\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+t1m6@empirepixel.com\r\n------WebKitFormBoundaryq9bfF6eVCHHYmz9Z\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nM0ujydhHhwmb\r\n------WebKitFormBoundaryq9bfF6eVCHHYmz9Z\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2909212094\r\n------WebKitFormBoundaryq9bfF6eVCHHYmz9Z--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520141",
+      "tracking_id": "USER6a97b4526b5da",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "126",
+      "token": "39DE39DE-F3F3-F9D8-D1FF-3483F26354D0",
+      "email": "shahnawaz+t1m6@empirepixel.com",
+      "authhashed": "M0ujydhHhwmb",
+      "plain": "M0ujydhHhwmb",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2909212094",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-02 01:29:54",
+      "udt": "2026-09-02 01:29:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

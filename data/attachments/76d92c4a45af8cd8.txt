@@ -1,5 +1,0 @@
-[HONDA] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
-[HONDA URL warning] Current URL: https://hondawindowsticker.com/signup?email=shahnawaz%2Bx1kr%40empirepixel.com&password=v9yP3YY%26imXS&confirmPassword=v9yP3YY%26imXS&phone=3475920766 - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-============================================================

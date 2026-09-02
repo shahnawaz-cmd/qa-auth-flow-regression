@@ -1,0 +1,49 @@
+{
+  "url": "https://alfaromeowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryz0hXkQoHZBJXISNM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+b8y2@empirepixel.com\r\n------WebKitFormBoundaryz0hXkQoHZBJXISNM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nno@CPQ#v*PbC\r\n------WebKitFormBoundaryz0hXkQoHZBJXISNM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2908679818\r\n------WebKitFormBoundaryz0hXkQoHZBJXISNM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520160",
+      "tracking_id": "USER6a97b49561911",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "122",
+      "token": "0D970D97-9292-6F6F-138F-88694495D5CF",
+      "email": "shahnawaz+b8y2@empirepixel.com",
+      "authhashed": "no@CPQ#v*PbC",
+      "plain": "no@CPQ#v*PbC",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2908679818",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-02 01:31:01",
+      "udt": "2026-09-02 01:31:01",
+      "utype": null
+    }
+  },
+  "status": 200
+}

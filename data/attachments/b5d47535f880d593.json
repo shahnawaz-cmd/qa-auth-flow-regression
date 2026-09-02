@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerbyvin.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryV7i4So6fmJgNXrKP\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+i6mi@empirepixel.com\r\n------WebKitFormBoundaryV7i4So6fmJgNXrKP\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\niGvu0KyKIOu@\r\n------WebKitFormBoundaryV7i4So6fmJgNXrKP\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2276632102\r\n------WebKitFormBoundaryV7i4So6fmJgNXrKP--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520150",
+      "tracking_id": "USER6a97b461d77a2",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "110",
+      "token": "13581358-4848-4800-57AC-79B29F85D8BF",
+      "email": "shahnawaz+i6mi@empirepixel.com",
+      "authhashed": "iGvu0KyKIOu@",
+      "plain": "iGvu0KyKIOu@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2276632102",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-02 01:30:10",
+      "udt": "2026-09-02 01:30:10",
+      "utype": null
+    }
+  },
+  "status": 200
+}
