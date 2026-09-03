@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary6UyL5Wk7iJuzqfvL\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+puxd@empirepixel.com\r\n------WebKitFormBoundary6UyL5Wk7iJuzqfvL\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n1XIR^6TRklOT\r\n------WebKitFormBoundary6UyL5Wk7iJuzqfvL\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1252243997\r\n------WebKitFormBoundary6UyL5Wk7iJuzqfvL--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520331",
+      "tracking_id": "USER6a99065b9be02",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "17661766-BABA-1040-8684-9F48D5563793",
+      "email": "shahnawaz+puxd@empirepixel.com",
+      "authhashed": "1XIR^6TRklOT",
+      "plain": "1XIR^6TRklOT",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1252243997",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-03 01:32:12",
+      "udt": "2026-09-03 01:32:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://classicdecoder.com/api/register",
+  "requestPayload": {
+    "email": "shahnawaz+qomg@empirepixel.com",
+    "password": "osw5pWBx!Y%3",
+    "phone": "2565054991"
+  },
+  "responseBody": {
+    "error": "connect ECONNREFUSED 209.126.87.159:443"
+  },
+  "status": 500
+}

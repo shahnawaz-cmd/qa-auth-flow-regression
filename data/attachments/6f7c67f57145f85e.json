@@ -1,0 +1,8 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarydo2fFmjs4cTvQ6XI\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+m7l0@empirepixel.com\r\n------WebKitFormBoundarydo2fFmjs4cTvQ6XI\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nd49$L4ona%qz\r\n------WebKitFormBoundarydo2fFmjs4cTvQ6XI\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2209802091\r\n------WebKitFormBoundarydo2fFmjs4cTvQ6XI--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

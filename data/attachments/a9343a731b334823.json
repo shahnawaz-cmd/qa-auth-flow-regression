@@ -1,0 +1,7 @@
+{
+  "url": "https://classicdecoder.com/api/user/reset-password",
+  "responseBody": {
+    "error": "Failed to reset password"
+  },
+  "status": 500
+}

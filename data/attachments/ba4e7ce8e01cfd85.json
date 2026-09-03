@@ -1,8 +1,0 @@
-{
-  "url": "https://detailedvehiclehistory.com/api-cwa/reset-password",
-  "responseBody": {
-    "status": "success",
-    "msg": "Password changed successfully. New password sent to your email. Please check your email."
-  },
-  "status": 200
-}

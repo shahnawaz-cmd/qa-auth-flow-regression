@@ -1,0 +1,7 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/reset-password",
+  "responseBody": {
+    "text": "Internal Server Error"
+  },
+  "status": 500
+}

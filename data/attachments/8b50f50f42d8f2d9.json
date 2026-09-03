@@ -1,0 +1,29 @@
+{
+  "site": "INSTANTVINREPORTS",
+  "stage": "signup",
+  "url": "https://instantvinreports.com/members/dashboard?greet=true&_rsc=mOJQ2c_DXbzUR4SP",
+  "method": "GET",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "transfer-encoding": "chunked",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "connection": "Keep-Alive",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=maSudM6e8Sz%2FeOrhV5FVpRGjNjSIqQGx9AyyJvPy4cZvpXrHi4pwfCE5Ax9uiP4DA08OxPNdBsOm1GzVzSlheZvHNtA37c%2BbvBddJQCwwQQwgMxAkq61DqM0Y%2Bk0J3638hoRIEWDv79Zsilnk6ssrJNLtS2Qztlss%2Foqng%3D%3D\"}]}",
+    "cf-ray": "a3525f800f86f336-IAD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "keep-alive": "timeout=5, max=88",
+    "date": "Thu, 03 Sep 2026 05:32:17 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding,rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "preview": "<!DOCTYPE html><html lang=\"en\" style=\"color-scheme:light\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" data-next-head=\"\"/><meta name=\"robots\" content=\"noindex\"/><meta name=\"color-scheme\" content=\"light only\"/><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"anonymous\"/><link rel=\"preload\" href=\"/members/_next/static/media/c76157874a2922f6-s.p.2974edstvwsnt.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/media/173b4e1ecbfe6c3b-s.p.2ofae7-v0u79z.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/media/89c2c771ed51f5b8-s.p.1d4i5iktl1egg.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/media/cc75fa3e14c3cd04-s.p.2a3w-b9irc_27.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/media/6d205b44cc8ff5cb-s.p.231-3bqi2sys0.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/media/ffa7ca14c228762d-s.p.2p2dmhwb9nju6.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"anonymous\" data-next-font=\"size-adjust\"/><link rel=\"preload\" href=\"/members/_next/static/chunks/1i546m5-088fq.css\" as=\"style\"/><link rel=\"preload\" href=\"/members/_next/static/chunks/39cic2zca4kq8.css\" as=\"style\"/><link rel=\"preload\" href=\"/members/_next/static/chunks/3yh6xjl_1ywi6.css\" as=\"style\"/><meta name=\"sentry-trace\" content=\"b76fa72a51df8e5a2f39cb5b12264f34-d99a664e6a502e19-1\"/><meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=28823ae4adfa65b8553d4043fa1c961630969333,sentry-public_key=e08719cefcf51f852ad7df3ed101b36... [TRUNCATED]",
+    "length": 9529
+  },
+  "timestamp": "2026-09-03T05:32:25.383Z"
+}

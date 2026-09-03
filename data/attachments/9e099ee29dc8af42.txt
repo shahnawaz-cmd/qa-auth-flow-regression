@@ -1,0 +1,4 @@
+[SCC URL warning] Current URL: https://smartcarcheck.uk/members/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

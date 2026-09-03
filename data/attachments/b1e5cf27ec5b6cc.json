@@ -1,0 +1,8 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryq6Q5kT0z8sNq1krH\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+2qws@empirepixel.com\r\n------WebKitFormBoundaryq6Q5kT0z8sNq1krH\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nouch#mdUYjHw\r\n------WebKitFormBoundaryq6Q5kT0z8sNq1krH\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8467586167\r\n------WebKitFormBoundaryq6Q5kT0z8sNq1krH--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

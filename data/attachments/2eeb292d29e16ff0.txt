@@ -1,0 +1,4 @@
+[CD URL warning] Current URL: https://classicdecoder.com/auth/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

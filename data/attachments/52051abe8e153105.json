@@ -1,0 +1,8 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryocm4XwXfvLB4wnrS\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+zmll@empirepixel.com\r\n------WebKitFormBoundaryocm4XwXfvLB4wnrS\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nnn##du5JPupt\r\n------WebKitFormBoundaryocm4XwXfvLB4wnrS\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3640584306\r\n------WebKitFormBoundaryocm4XwXfvLB4wnrS--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

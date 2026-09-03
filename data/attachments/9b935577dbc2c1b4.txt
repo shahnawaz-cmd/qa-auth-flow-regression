@@ -1,0 +1,4 @@
+[LINCOLN URL warning] Current URL: https://lincolnwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

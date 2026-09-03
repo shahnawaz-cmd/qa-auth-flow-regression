@@ -1,0 +1,8 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarymsb0ZDC3lYuoeYJz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5q2j@empirepixel.com\r\n------WebKitFormBoundarymsb0ZDC3lYuoeYJz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nXjNO9iZi*eVv\r\n------WebKitFormBoundarymsb0ZDC3lYuoeYJz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9353023814\r\n------WebKitFormBoundarymsb0ZDC3lYuoeYJz--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

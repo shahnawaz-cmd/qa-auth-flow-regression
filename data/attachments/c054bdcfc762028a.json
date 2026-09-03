@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarynKHEGCaH1rGssDUi\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+xkk6@empirepixel.com\r\n------WebKitFormBoundarynKHEGCaH1rGssDUi\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nfoLftw6MH80@\r\n------WebKitFormBoundarynKHEGCaH1rGssDUi\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5551155461\r\n------WebKitFormBoundarynKHEGCaH1rGssDUi--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520317",
+      "tracking_id": "USER6a990603c7efe",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "4A734A73-3E3E-7FD7-0BB3-DB0388EC783F",
+      "email": "shahnawaz+xkk6@empirepixel.com",
+      "authhashed": "foLftw6MH80@",
+      "plain": "foLftw6MH80@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5551155461",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-03 01:30:44",
+      "udt": "2026-09-03 01:30:44",
+      "utype": null
+    }
+  },
+  "status": 200
+}

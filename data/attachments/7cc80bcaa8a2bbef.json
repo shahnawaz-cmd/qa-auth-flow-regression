@@ -1,8 +1,0 @@
-{
-  "url": "https://vehiclehistory.eu/api-cwa/reset-password",
-  "responseBody": {
-    "status": "error",
-    "msg": "Email not found in our database."
-  },
-  "status": 200
-}

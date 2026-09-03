@@ -1,0 +1,8 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryhYTRf0QAQLurFv7E\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+arky@empirepixel.com\r\n------WebKitFormBoundaryhYTRf0QAQLurFv7E\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nsn6JduD8r*CG\r\n------WebKitFormBoundaryhYTRf0QAQLurFv7E\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0892275973\r\n------WebKitFormBoundaryhYTRf0QAQLurFv7E--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}
