@@ -1,0 +1,34 @@
+{
+  "site": "CD",
+  "stage": "login",
+  "url": "https://classicdecoder.com/members/search?_rsc=edqbf",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "gzip",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=93pKO4rYSty%2F7KQplsFwcyfDZHQWyrrACtSOu51C9OqKh0Kp9Xy%2B95Ii8zRwsT4m1XmfgZGAowBfGINjL6AZr1so8qEh2vZQ9epwpWm3JB3xdY0muJqbabb5dODeFvgq8ynwjG8%3D\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Fri, 04 Sep 2026 05:35:41 GMT",
+    "content-type": "text/x-component",
+    "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "speculation-rules": "\"/cdn-cgi/speculation\"",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a35aa1db18ff618f-ORD",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-04T05:35:52.269Z"
+}

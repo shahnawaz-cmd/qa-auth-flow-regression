@@ -1,0 +1,49 @@
+{
+  "url": "https://volkswagenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryRHCdmRAiBMSYnmXi\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+cwze@empirepixel.com\r\n------WebKitFormBoundaryRHCdmRAiBMSYnmXi\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nnhvWnJIkB&lP\r\n------WebKitFormBoundaryRHCdmRAiBMSYnmXi\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5611030894\r\n------WebKitFormBoundaryRHCdmRAiBMSYnmXi--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520513",
+      "tracking_id": "USER6a9a588a85d25",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "113",
+      "token": "BA7FBA7F-9797-0AC9-EEC8-57982C387021",
+      "email": "shahnawaz+cwze@empirepixel.com",
+      "authhashed": "nhvWnJIkB&lP",
+      "plain": "nhvWnJIkB&lP",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5611030894",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-04 01:35:07",
+      "udt": "2026-09-04 01:35:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}

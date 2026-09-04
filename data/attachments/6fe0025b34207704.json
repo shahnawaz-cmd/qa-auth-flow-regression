@@ -1,8 +1,0 @@
-{
-  "url": "https://smartcarcheck.uk/members/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundaryG9AUVhjkYCETMR2t\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+tyvb@empirepixel.com\r\n------WebKitFormBoundaryG9AUVhjkYCETMR2t\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nNes253125qJ1\r\n------WebKitFormBoundaryG9AUVhjkYCETMR2t\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n\r\n------WebKitFormBoundaryG9AUVhjkYCETMR2t\r\nContent-Disposition: form-data; name=\"first\"\r\n\r\n\r\n------WebKitFormBoundaryG9AUVhjkYCETMR2t\r\nContent-Disposition: form-data; name=\"last\"\r\n\r\n\r\n------WebKitFormBoundaryG9AUVhjkYCETMR2t--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

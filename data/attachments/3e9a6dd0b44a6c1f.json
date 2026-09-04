@@ -1,8 +1,0 @@
-{
-  "url": "https://chevroletwindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundaryiAaCb7URv3uw0kSj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+byq6@empirepixel.com\r\n------WebKitFormBoundaryiAaCb7URv3uw0kSj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4dU7eb2VL3XL\r\n------WebKitFormBoundaryiAaCb7URv3uw0kSj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6786824401\r\n------WebKitFormBoundaryiAaCb7URv3uw0kSj--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

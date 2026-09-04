@@ -1,8 +1,0 @@
-{
-  "url": "https://lincolnwindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundaryoaaAcjRGfsPOM03g\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+slo9@empirepixel.com\r\n------WebKitFormBoundaryoaaAcjRGfsPOM03g\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n6NI%DCLfj9h5\r\n------WebKitFormBoundaryoaaAcjRGfsPOM03g\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9915132729\r\n------WebKitFormBoundaryoaaAcjRGfsPOM03g--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

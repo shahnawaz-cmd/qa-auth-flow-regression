@@ -1,0 +1,49 @@
+{
+  "url": "https://lincolnwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarykBrpeDcEush6H5To\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+atl7@empirepixel.com\r\n------WebKitFormBoundarykBrpeDcEush6H5To\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ndi$rgV$OylIq\r\n------WebKitFormBoundarykBrpeDcEush6H5To\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7657957488\r\n------WebKitFormBoundarykBrpeDcEush6H5To--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520510",
+      "tracking_id": "USER6a9a588658286",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "126",
+      "token": "E6CCE6CC-5B5B-4AB9-FAB0-A8718A3DB16D",
+      "email": "shahnawaz+atl7@empirepixel.com",
+      "authhashed": "di$rgV$OylIq",
+      "plain": "di$rgV$OylIq",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7657957488",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-04 01:35:02",
+      "udt": "2026-09-04 01:35:02",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,193 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: global_auth_flow.spec.ts >> Global Signup & Login Tests >> Auth Signup Test: LEXUS
+- Location: tests/global_auth_flow.spec.ts:25:9
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator('input[name="email"]').first() to be visible
+
+```
+
+# Test source
+
+```ts
+  1   | import { Actor } from '../actors/Actor';
+  2   | import { TestInfo, expect } from '@playwright/test';
+  3   | import { fastInputWithHealing, clickWithHealing, locateInputWithHealing } from '../utils/selfHealingLocator';
+  4   | import { dismissAllPopups } from './DismissPopupTask';
+  5   | 
+  6   | export class LoginTask {
+  7   |   constructor(
+  8   |     private email: string,
+  9   |     private password: string,
+  10  |     private siteConfig: any,
+  11  |     private testInfo?: TestInfo,
+  12  |     private isSlowNetwork: boolean = false
+  13  |   ) {}
+  14  | 
+  15  |   async performAs(actor: Actor): Promise<void> {
+  16  |     const page = actor.getPage();
+  17  |     const { name, loginApiEndpoint, selectors } = this.siteConfig;
+  18  |     const timeout = this.isSlowNetwork ? 90000 : 45000;
+  19  | 
+  20  |     console.log(`[LoginTask] Attempting login for site "${name}" (Email: ${this.email})...`);
+  21  | 
+  22  |     // 0. Dismiss any external popups, cookie dialogs, or banner overlays
+  23  |     await dismissAllPopups(page, 1500);
+  24  | 
+  25  |     // Optional: Setup API capture
+  26  |     let capturePromise: Promise<void> | undefined;
+  27  |     if (this.testInfo && loginApiEndpoint) {
+  28  |       capturePromise = page.waitForResponse(
+  29  |         (response) => response.url().includes(loginApiEndpoint) && response.request().method() === 'POST',
+  30  |         { timeout: 45000 }
+  31  |       ).then(async (response) => {
+  32  |         let responseBody: any = {};
+  33  |         try {
+  34  |           responseBody = await response.json();
+  35  |         } catch (e) {
+  36  |           responseBody = { text: await response.text().catch(() => '') };
+  37  |         }
+  38  |         const data = {
+  39  |           url: response.url(),
+  40  |           responseBody,
+  41  |           status: response.status()
+  42  |         };
+  43  |         if (this.testInfo) {
+  44  |           await this.testInfo.attach('login-api-response', {
+  45  |             body: JSON.stringify(data, null, 2),
+  46  |             contentType: 'application/json',
+  47  |           });
+  48  |         }
+  49  |       }).catch(e => console.warn(`[LoginTask] Login API capture note on ${name}:`, e.message));
+  50  |     }
+  51  | 
+  52  |     // 1. Resilient Email Input (with React Hydration Protection)
+  53  |     const emailFallbacks = [
+  54  |       ...(selectors?.email ? [selectors.email] : []),
+  55  |       'input[name="email"]',
+  56  |       'input[type="email"]',
+  57  |       'input[placeholder*="email" i]',
+  58  |       'textbox[name="Enter email address*"]'
+  59  |     ];
+  60  | 
+  61  |     const emailInput = await locateInputWithHealing(
+  62  |       page,
+  63  |       'email',
+  64  |       emailFallbacks,
+  65  |       { isSlowNetwork: this.isSlowNetwork, timeout }
+  66  |     );
+  67  | 
+> 68  |     await emailInput.waitFor({ state: 'visible', timeout });
+      |                      ^ TimeoutError: locator.waitFor: Timeout 45000ms exceeded.
+  69  |     await emailInput.click();
+  70  |     await emailInput.fill(this.email);
+  71  |     await emailInput.dispatchEvent('input').catch(() => {});
+  72  |     await emailInput.dispatchEvent('change').catch(() => {});
+  73  | 
+  74  |     // React hydration reset protection on login
+  75  |     const currentEmailVal = await emailInput.inputValue().catch(() => '');
+  76  |     if (currentEmailVal !== this.email) {
+  77  |       console.log(`[Self-Healing] React hydration reset detected on ${name} login. Re-filling Email...`);
+  78  |       await emailInput.click();
+  79  |       await emailInput.fill(this.email);
+  80  |       await emailInput.dispatchEvent('input').catch(() => {});
+  81  |       await emailInput.dispatchEvent('change').catch(() => {});
+  82  |     }
+  83  | 
+  84  |     // 2. Resilient Password Input (with React Hydration Protection)
+  85  |     const passwordFallbacks = [
+  86  |       ...(selectors?.password ? [selectors.password] : []),
+  87  |       'input[name="password"]',
+  88  |       'input[type="password"]',
+  89  |       'input[placeholder*="password" i]'
+  90  |     ];
+  91  | 
+  92  |     const passwordInput = await locateInputWithHealing(
+  93  |       page,
+  94  |       'password',
+  95  |       passwordFallbacks,
+  96  |       { isSlowNetwork: this.isSlowNetwork, timeout }
+  97  |     );
+  98  | 
+  99  |     await passwordInput.waitFor({ state: 'visible', timeout });
+  100 |     await passwordInput.click();
+  101 |     await passwordInput.fill(this.password);
+  102 |     await passwordInput.dispatchEvent('input').catch(() => {});
+  103 |     await passwordInput.dispatchEvent('change').catch(() => {});
+  104 | 
+  105 |     const currentPassVal = await passwordInput.inputValue().catch(() => '');
+  106 |     if (currentPassVal !== this.password) {
+  107 |       console.log(`[Self-Healing] React hydration reset detected on ${name} password. Re-filling Password...`);
+  108 |       await passwordInput.click();
+  109 |       await passwordInput.fill(this.password);
+  110 |       await passwordInput.dispatchEvent('input').catch(() => {});
+  111 |       await passwordInput.dispatchEvent('change').catch(() => {});
+  112 |     }
+  113 | 
+  114 |     // Dismiss overlay again before submit
+  115 |     await dismissAllPopups(page, 500);
+  116 | 
+  117 |     // 3. Resilient Submit / Login Button
+  118 |     const submitFallbacks = [
+  119 |       ...(selectors?.submit ? [selectors.submit] : []),
+  120 |       'button[type="submit"]',
+  121 |       'button:has-text("Access Dashboard")',
+  122 |       'button:has-text("Sign in")',
+  123 |       'button:has-text("Login")',
+  124 |       'button:has-text("Log In")'
+  125 |     ];
+  126 | 
+  127 |     await clickWithHealing(
+  128 |       page,
+  129 |       'Access Dashboard',
+  130 |       submitFallbacks,
+  131 |       { isSlowNetwork: this.isSlowNetwork, strategyTimeout: timeout }
+  132 |     );
+  133 | 
+  134 |     if (capturePromise) {
+  135 |       await capturePromise.catch(() => {});
+  136 |     }
+  137 |   }
+  138 | 
+  139 |   async verifyLoginRedirection(actor: Actor): Promise<void> {
+  140 |     const page = actor.getPage();
+  141 |     const { name } = this.siteConfig;
+  142 |     const timeout = this.isSlowNetwork ? 90000 : 60000;
+  143 | 
+  144 |     console.log(`[LoginTask] Verifying login redirection for "${name}"...`);
+  145 | 
+  146 |     if (name === 'CD') {
+  147 |       try {
+  148 |         await page.waitForURL(/.*(\/search|\/auth\/search|\/dashboard).*/i, { timeout });
+  149 |         await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
+  150 |       } catch (err: any) {
+  151 |         console.warn(`[CD URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
+  152 |         await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
+  153 |       }
+  154 |     } else if (name === 'SCC') {
+  155 |       try {
+  156 |         await page.waitForURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i, { timeout });
+  157 |         await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
+  158 |       } catch (err: any) {
+  159 |         console.warn(`[SCC URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
+  160 |         await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
+  161 |       }
+  162 |     } else {
+  163 |       try {
+  164 |         await page.waitForURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i, { timeout });
+  165 |         await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
+  166 |       } catch (err: any) {
+  167 |         console.warn(`[${name} URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
+  168 |         await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
+```
