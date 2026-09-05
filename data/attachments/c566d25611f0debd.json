@@ -1,0 +1,28 @@
+{
+  "site": "VEHICLEHISTORY_EU",
+  "stage": "login",
+  "url": "https://vehiclehistory.eu/dashboard?greet=true&_rsc=mafao",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "server": "cloudflare",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=I%2FTL196aDBZUGUOAXND4zz895Z%2F3505gcKBhPiWn%2FP91P77dSz7Cu8fpK0L2OuVTRXQVfyu5I1Gz4%2BqRQH51UK25K7nqvKEDfccAXHYLj0Dts6ai6sfjPd1fClI0B37lzRELiw%3D%3D\"}]}",
+    "cf-ray": "a362c971bf9debeb-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Sat, 05 Sep 2026 05:20:49 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-powered-by": "Next.js",
+    "priority": "u=1,i"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-05T05:20:50.666Z"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryNfqueRZ4bICK4iQk\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+s6hf@empirepixel.com\r\n------WebKitFormBoundaryNfqueRZ4bICK4iQk\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nT92hEufxg6f%\r\n------WebKitFormBoundaryNfqueRZ4bICK4iQk\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6028381851\r\n------WebKitFormBoundaryNfqueRZ4bICK4iQk--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520837",
+      "tracking_id": "USER6a9ba67748262",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "93349334-1111-DCCF-3DCE-BCB674B525DC",
+      "email": "shahnawaz+s6hf@empirepixel.com",
+      "authhashed": "T92hEufxg6f%",
+      "plain": "T92hEufxg6f%",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Queretaro City",
+      "country": "MX",
+      "pincode": "0",
+      "phone": "6028381851",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-05 01:19:51",
+      "udt": "2026-09-05 01:19:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://smartcarcheck.uk/members/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJWyiK23mec0ORg1a\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hkhh@empirepixel.com\r\n------WebKitFormBoundaryJWyiK23mec0ORg1a\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nKvLViaW3Se@m\r\n------WebKitFormBoundaryJWyiK23mec0ORg1a\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n\r\n------WebKitFormBoundaryJWyiK23mec0ORg1a\r\nContent-Disposition: form-data; name=\"first\"\r\n\r\n\r\n------WebKitFormBoundaryJWyiK23mec0ORg1a\r\nContent-Disposition: form-data; name=\"last\"\r\n\r\n\r\n------WebKitFormBoundaryJWyiK23mec0ORg1a--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520822",
+      "tracking_id": "USER6a9ba62cc7f52",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "x8d1de3SesgFSVcdgO1BQVJX3M53",
+      "site": "90",
+      "token": "7F907F90-9191-9F21-7E36-0526FBCD72D4",
+      "email": "shahnawaz+hkhh@empirepixel.com",
+      "authhashed": "KvLViaW3Se@m",
+      "plain": "KvLViaW3Se@m",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-05 01:18:39",
+      "udt": "2026-09-05 01:18:39",
+      "utype": null
+    }
+  },
+  "status": 200
+}

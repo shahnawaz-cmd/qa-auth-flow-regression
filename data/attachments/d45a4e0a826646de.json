@@ -1,0 +1,49 @@
+{
+  "url": "https://minicooperwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryRhgKgFdZJI0k0pAT\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+f1if@empirepixel.com\r\n------WebKitFormBoundaryRhgKgFdZJI0k0pAT\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nByKWe%0iZlWy\r\n------WebKitFormBoundaryRhgKgFdZJI0k0pAT\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6518138691\r\n------WebKitFormBoundaryRhgKgFdZJI0k0pAT--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520847",
+      "tracking_id": "USER6a9ba6953164d",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "128",
+      "token": "87528752-1D1D-9AF4-82A3-FC628A711765",
+      "email": "shahnawaz+f1if@empirepixel.com",
+      "authhashed": "ByKWe%0iZlWy",
+      "plain": "ByKWe%0iZlWy",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6518138691",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-05 01:20:21",
+      "udt": "2026-09-05 01:20:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

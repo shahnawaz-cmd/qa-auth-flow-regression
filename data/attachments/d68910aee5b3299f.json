@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryyroBFc2kd9O7VpXR\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+8ros@empirepixel.com\r\n------WebKitFormBoundaryyroBFc2kd9O7VpXR\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nh7pmSoHg7C7h\r\n------WebKitFormBoundaryyroBFc2kd9O7VpXR\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7639852650\r\n------WebKitFormBoundaryyroBFc2kd9O7VpXR--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "520843",
+      "tracking_id": "USER6a9ba686ae832",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "A820A820-A8A8-943B-37A5-F684A71E7337",
+      "email": "shahnawaz+8ros@empirepixel.com",
+      "authhashed": "h7pmSoHg7C7h",
+      "plain": "h7pmSoHg7C7h",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7639852650",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-05 01:20:07",
+      "udt": "2026-09-05 01:20:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}

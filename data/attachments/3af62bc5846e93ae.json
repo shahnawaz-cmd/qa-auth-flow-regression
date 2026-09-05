@@ -1,0 +1,32 @@
+{
+  "site": "MINI",
+  "stage": "signup",
+  "url": "https://minicooperwindowsticker.com/dashboard?greet=true&_rsc=1apqz",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CjLs2jD1BT%2FBg%2BSDhIqiYaCgU47oqC9mzFI%2BOF3ltLYBg1zV4kVdl3DCekZVR9huRgLVB4lQozxDpG1UsPXLMe3IljHA17Bxargy4vZmNhbzRHRl1LHZjPD9HBhxxxw6BmOfjVZirNZN6sZD3jg%3D\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Sat, 05 Sep 2026 05:20:26 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "public, s-maxage=3600, stale-while-revalidate=86400",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a362c8e75b1967f8-SJC",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-05T05:20:37.095Z"
+}

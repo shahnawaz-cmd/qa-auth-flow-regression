@@ -1,0 +1,32 @@
+{
+  "site": "HONDA",
+  "stage": "signup",
+  "url": "https://hondawindowsticker.com/dashboard?greet=true&_rsc=1apqz",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=g69906U5sNdGIzPE5Nfb2vjoP4qEpoEaFwtymTOfwQ714uuoJjcBWmRvIuc3UdnLFvtO8hVi5LwkdIft%2B%2BeAfTvW9FlILdKMwcNPnb5b6h50Zo1ePApsQgIyz3xvGreXaY%2F2ax%2BlIDqR\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Sat, 05 Sep 2026 05:20:26 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "public, s-maxage=3600, stale-while-revalidate=86400",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a362c8e2ca92f0c0-DFW",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-05T05:20:35.118Z"
+}

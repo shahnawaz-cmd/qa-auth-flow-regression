@@ -1,0 +1,28 @@
+{
+  "site": "INSTANTVINREPORTS",
+  "stage": "signup",
+  "url": "https://instantvinreports.com/members/dashboard?greet=true&_rsc=mOJQ2c_DXbzUR4SP",
+  "method": "GET",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "transfer-encoding": "chunked",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "connection": "Keep-Alive",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cuqmG9ntgILY9Jg20DTOO%2FCYiFXnq7426lg%2FIfBqhUyjKW6I6IeppIEsMiF0QiIEGtNlUQrTsXOSKkR%2FR2xcxhsDZNVPDjmP%2BJK2TLmLvVJcHXwnXkMobGs6yrzxTHBbnF6yqC9DwpbJ6oP%2Fh6VOFgem5U%2FObZsPdKRV8A%3D%3D\"}]}",
+    "cf-ray": "a362c89a0fb520ba-IAD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "keep-alive": "timeout=5, max=91",
+    "date": "Sat, 05 Sep 2026 05:20:14 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding,rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-05T05:20:23.540Z"
+}

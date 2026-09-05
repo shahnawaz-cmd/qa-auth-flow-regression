@@ -1,1 +1,0 @@
-[LoginTask] Login API capture note on LEXUS: page.waitForResponse: Timeout 45000ms exceeded while waiting for event "response"
