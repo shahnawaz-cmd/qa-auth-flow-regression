@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryp2fmwOAWH8Iabbp7\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+6dd7@empirepixel.com\r\n------WebKitFormBoundaryp2fmwOAWH8Iabbp7\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\natI3D%Q1I0SI\r\n------WebKitFormBoundaryp2fmwOAWH8Iabbp7\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3988000476\r\n------WebKitFormBoundaryp2fmwOAWH8Iabbp7--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521049",
+      "tracking_id": "USER6a9cfb978f442",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "274B274B-BBBB-E165-6C43-48AEAA2A5F24",
+      "email": "shahnawaz+6dd7@empirepixel.com",
+      "authhashed": "atI3D%Q1I0SI",
+      "plain": "atI3D%Q1I0SI",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3988000476",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-06 01:35:19",
+      "udt": "2026-09-06 01:35:19",
+      "utype": null
+    }
+  },
+  "status": 200
+}

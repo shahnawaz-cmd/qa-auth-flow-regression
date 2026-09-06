@@ -1,0 +1,49 @@
+{
+  "url": "https://toyotawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybDKsSMlv58MAuehG\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+4141@empirepixel.com\r\n------WebKitFormBoundarybDKsSMlv58MAuehG\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nVtRz@WYc@cG^\r\n------WebKitFormBoundarybDKsSMlv58MAuehG\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6448921095\r\n------WebKitFormBoundarybDKsSMlv58MAuehG--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521044",
+      "tracking_id": "USER6a9cfb892e890",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "106",
+      "token": "C04FC04F-3737-1657-4D5C-C0EDD5A206D6",
+      "email": "shahnawaz+4141@empirepixel.com",
+      "authhashed": "VtRz@WYc@cG^",
+      "plain": "VtRz@WYc@cG^",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6448921095",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-06 01:35:05",
+      "udt": "2026-09-06 01:35:05",
+      "utype": null
+    }
+  },
+  "status": 200
+}
