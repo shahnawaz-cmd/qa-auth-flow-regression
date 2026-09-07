@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryT6EASreIIFHSKo3w\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+qquu@empirepixel.com\r\n------WebKitFormBoundaryT6EASreIIFHSKo3w\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nP@pNAn55weL@\r\n------WebKitFormBoundaryT6EASreIIFHSKo3w\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5809721751\r\n------WebKitFormBoundaryT6EASreIIFHSKo3w--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521251",
+      "tracking_id": "USER6a9e4f8f70975",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "120E120E-5A5A-D2E0-C868-8210D3A54132",
+      "email": "shahnawaz+qquu@empirepixel.com",
+      "authhashed": "P@pNAn55weL@",
+      "plain": "P@pNAn55weL@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5809721751",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-07 01:45:51",
+      "udt": "2026-09-07 01:45:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}
