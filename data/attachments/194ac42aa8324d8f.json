@@ -1,0 +1,49 @@
+{
+  "url": "https://kiawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybcBjfjlxtR0iQqog\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+bqm3@empirepixel.com\r\n------WebKitFormBoundarybcBjfjlxtR0iQqog\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nYORKaT&dD9VV\r\n------WebKitFormBoundarybcBjfjlxtR0iQqog\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7164093822\r\n------WebKitFormBoundarybcBjfjlxtR0iQqog--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521507",
+      "tracking_id": "USER6a9f9fa55a8ea",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "120",
+      "token": "C355C355-1B1B-DE66-D322-AD08EA9B78D2",
+      "email": "shahnawaz+bqm3@empirepixel.com",
+      "authhashed": "YORKaT&dD9VV",
+      "plain": "YORKaT&dD9VV",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7164093822",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-08 01:39:49",
+      "udt": "2026-09-08 01:39:49",
+      "utype": null
+    }
+  },
+  "status": 200
+}
