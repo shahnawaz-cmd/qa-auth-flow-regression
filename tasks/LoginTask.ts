@@ -143,32 +143,13 @@ export class LoginTask {
 
     console.log(`[LoginTask] Verifying login redirection for "${name}"...`);
 
-    if (name === 'CD') {
-      try {
-        await page.waitForURL(/.*(\/search|\/auth\/search|\/dashboard).*/i, { timeout });
-        await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
-      } catch (err: any) {
-        console.warn(`[CD URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
-      }
-    } else if (name === 'SCC') {
-      try {
-        await page.waitForURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i, { timeout });
-        await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
-      } catch (err: any) {
-        console.warn(`[SCC URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
-      }
-    } else {
-      try {
-        await page.waitForURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i, { timeout });
-        await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
-      } catch (err: any) {
-        console.warn(`[${name} URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
-      }
-    }
+    const urlPattern = name === 'CD'
+      ? /.*(\/search|\/auth\/search|\/dashboard).*/i
+      : name === 'SCC'
+      ? /.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i
+      : /.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i;
 
+    await expect(page).toHaveURL(urlPattern, { timeout });
     console.log(`✅ [LoginTask] Redirection verified for ${name} at URL: ${page.url()}`);
   }
 }

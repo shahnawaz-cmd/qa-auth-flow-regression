@@ -7,6 +7,7 @@ export class CaptureDashboardApiResponseTask {
   private capturePromise?: Promise<Response | null>;
   private isSlowNetwork: boolean = false;
   private capturedResponse: Response | null = null;
+  private listenerTimeout: number = 15000;
 
   constructor(
     private siteConfig: any,
