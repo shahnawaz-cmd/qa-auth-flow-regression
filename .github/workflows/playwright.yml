@@ -8,12 +8,11 @@ permissions:
   id-token: write
 
 on:
-  # push:
-  #   branches: [ main, master, dev-qa ]
+  pull_request:
+    types: [closed]
+    branches: [ main, master, dev-qa ]
   schedule:
     - cron: '0 1 * * *'
-  pull_request:
-    branches: [ main, master, dev-qa ]
   workflow_dispatch:
 
 concurrency:
@@ -22,6 +21,7 @@ concurrency:
 
 jobs:
   test:
+    if: github.event_name != 'pull_request' || github.event.pull_request.merged == true
     timeout-minutes: 15
     runs-on: ubuntu-latest
     strategy:
