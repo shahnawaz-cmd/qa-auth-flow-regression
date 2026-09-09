@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryaRAs0qgSQsAw3CA4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+pyuv@empirepixel.com\r\n------WebKitFormBoundaryaRAs0qgSQsAw3CA4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nfq3#pEG66JxE\r\n------WebKitFormBoundaryaRAs0qgSQsAw3CA4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7433678286\r\n------WebKitFormBoundaryaRAs0qgSQsAw3CA4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521802",
+      "tracking_id": "USER6aa0f2dc0c5b0",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "AC60AC60-C1C1-714B-3A68-63A54FAB41DF",
+      "email": "shahnawaz+pyuv@empirepixel.com",
+      "authhashed": "fq3#pEG66JxE",
+      "plain": "fq3#pEG66JxE",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7433678286",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 01:47:09",
+      "udt": "2026-09-09 01:47:09",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarymWj22AO7BgFzAHGA\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+a6n2@empirepixel.com\r\n------WebKitFormBoundarymWj22AO7BgFzAHGA\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nqq@QXzu7IhKP\r\n------WebKitFormBoundarymWj22AO7BgFzAHGA\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8432807742\r\n------WebKitFormBoundarymWj22AO7BgFzAHGA--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521781",
+      "tracking_id": "USER6aa0f27c5a7a9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "2C2B2C2B-1414-4638-B6C2-563A876AF49D",
+      "email": "shahnawaz+a6n2@empirepixel.com",
+      "authhashed": "qq@QXzu7IhKP",
+      "plain": "qq@QXzu7IhKP",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8432807742",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 01:45:32",
+      "udt": "2026-09-09 01:45:32",
+      "utype": null
+    }
+  },
+  "status": 200
+}

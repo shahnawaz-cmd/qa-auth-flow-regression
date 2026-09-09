@@ -1,0 +1,1 @@
+[INSTANTVINREPORTS] API capture note: page.waitForResponse: Target page, context or browser has been closed

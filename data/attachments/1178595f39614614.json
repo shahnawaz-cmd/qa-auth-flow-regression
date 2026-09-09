@@ -1,0 +1,51 @@
+{
+  "url": "https://classicdecoder.com/api/register",
+  "requestPayload": {
+    "email": "shahnawaz+l1vw@empirepixel.com",
+    "password": "oq3CSV!Oc1yX",
+    "phone": "6679919346"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521790",
+      "tracking_id": "USER6aa0f2b3b35d0",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "Fs8VvoWgbjdIqPhN9MbLvVEoL2E3",
+      "site": "91",
+      "token": "6B566B56-3A3A-1E2B-0340-7DF4C2E86444",
+      "email": "shahnawaz+l1vw@empirepixel.com",
+      "authhashed": "oq3CSV!Oc1yX",
+      "plain": "oq3CSV!Oc1yX",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6679919346",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 01:46:28",
+      "udt": "2026-09-09 01:46:28",
+      "utype": null
+    }
+  },
+  "status": 200
+}
