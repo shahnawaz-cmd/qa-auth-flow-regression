@@ -1,0 +1,49 @@
+{
+  "url": "https://bmwwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybfA9N9YR9kaYKzs7\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+j39o@empirepixel.com\r\n------WebKitFormBoundarybfA9N9YR9kaYKzs7\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nxk#t5&v0duH#\r\n------WebKitFormBoundarybfA9N9YR9kaYKzs7\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5587876409\r\n------WebKitFormBoundarybfA9N9YR9kaYKzs7--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521925",
+      "tracking_id": "USER6aa1608190515",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "108",
+      "token": "8E1D8E1D-9A9A-6B75-C91C-4F3CE4BDEF83",
+      "email": "shahnawaz+j39o@empirepixel.com",
+      "authhashed": "xk#t5&v0duH#",
+      "plain": "xk#t5&v0duH#",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5587876409",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 09:34:57",
+      "udt": "2026-09-09 09:34:57",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://hondawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryTC2ysIDGZqHebNpx\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+bofz@empirepixel.com\r\n------WebKitFormBoundaryTC2ysIDGZqHebNpx\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nh0l94P#L9NhN\r\n------WebKitFormBoundaryTC2ysIDGZqHebNpx\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6734318831\r\n------WebKitFormBoundaryTC2ysIDGZqHebNpx--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521921",
+      "tracking_id": "USER6aa16046db9ed",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "116",
+      "token": "F411F411-1919-FCBC-7ED6-D94200C1C273",
+      "email": "shahnawaz+bofz@empirepixel.com",
+      "authhashed": "h0l94P#L9NhN",
+      "plain": "h0l94P#L9NhN",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6734318831",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 09:33:59",
+      "udt": "2026-09-09 09:33:59",
+      "utype": null
+    }
+  },
+  "status": 200
+}

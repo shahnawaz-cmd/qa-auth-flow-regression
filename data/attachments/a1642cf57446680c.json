@@ -1,0 +1,49 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary5E76bYX2UWlu8mMM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+q0r7@empirepixel.com\r\n------WebKitFormBoundary5E76bYX2UWlu8mMM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nA*GGurxqdI&S\r\n------WebKitFormBoundary5E76bYX2UWlu8mMM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7240719861\r\n------WebKitFormBoundary5E76bYX2UWlu8mMM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521933",
+      "tracking_id": "USER6aa1609ca349e",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "124",
+      "token": "0E5E0E5E-7C7C-7B12-E70A-A5C33E9064B7",
+      "email": "shahnawaz+q0r7@empirepixel.com",
+      "authhashed": "A*GGurxqdI&S",
+      "plain": "A*GGurxqdI&S",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7240719861",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 09:35:25",
+      "udt": "2026-09-09 09:35:25",
+      "utype": null
+    }
+  },
+  "status": 200
+}

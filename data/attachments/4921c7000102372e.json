@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary2yAXo6A997B7DmSC\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hfu9@empirepixel.com\r\n------WebKitFormBoundary2yAXo6A997B7DmSC\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nAe^**veB7TPe\r\n------WebKitFormBoundary2yAXo6A997B7DmSC\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0256461984\r\n------WebKitFormBoundary2yAXo6A997B7DmSC--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "521907",
+      "tracking_id": "USER6aa16032d606b",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "A98CA98C-4A4A-17B3-D686-55B88BB38AE9",
+      "email": "shahnawaz+hfu9@empirepixel.com",
+      "authhashed": "Ae^**veB7TPe",
+      "plain": "Ae^**veB7TPe",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0256461984",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-09 09:33:39",
+      "udt": "2026-09-09 09:33:39",
+      "utype": null
+    }
+  },
+  "status": 200
+}
