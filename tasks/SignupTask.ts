@@ -164,7 +164,7 @@ export class SignupTask {
         await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
       } catch (err: any) {
         console.warn(`[CD URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/search|\/auth\/search|\/dashboard).*/i);
+        throw err;
       }
     } else if (name === 'SCC') {
       try {
@@ -172,7 +172,7 @@ export class SignupTask {
         await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
       } catch (err: any) {
         console.warn(`[SCC URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/dashboard\?type=basic|\/members\/dashboard|\/dashboard).*/i);
+        throw err;
       }
     } else {
       try {
@@ -180,7 +180,7 @@ export class SignupTask {
         await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
       } catch (err: any) {
         console.warn(`[${name} URL warning] Current URL: ${page.url()} - Error: ${err.message}`);
-        await expect(page).toHaveURL(/.*(\/dashboard|\/members\/dashboard|\/search|\/home).*/i);
+        throw err;
       }
     }
 

@@ -9,16 +9,16 @@ permissions:
 
 on:
   # push:
-  #   branches: [ main, master ]
+  #   branches: [ main, master, dev-qa ]
   schedule:
     - cron: '0 1 * * *'
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, dev-qa ]
   workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   test:
@@ -55,8 +55,9 @@ jobs:
       uses: actions/cache@v4
       with:
         path: ~/.cache/ms-playwright
-        key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
+        key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}-${{ hashFiles('package-lock.json') }}
         restore-keys: |
+          ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}-
           ${{ runner.os }}-playwright-
 
     - name: Install Playwright Chromium Browser
@@ -82,7 +83,7 @@ jobs:
         npx playwright test -g "${{ matrix.site }}"
 
     - name: Run AI Agentic Self-Healer (On Test Failure)
-      if: steps.playwright-run.outcome == 'failure'
+      if: steps.playwright-run.outcome == 'failure' && secrets.GEMINI_API_KEY != ''
       timeout-minutes: 5
       run: npm run heal:prod
       env:
@@ -90,7 +91,7 @@ jobs:
         SITE_NAME: ${{ matrix.site }}
 
     - name: Auto-Commit & Push AI Healed Locators Back to Repo
-      if: steps.playwright-run.outcome == 'failure'
+      if: steps.playwright-run.outcome == 'failure' && secrets.GEMINI_API_KEY != ''
       run: |
         git config user.name "AI-Healer[bot]"
         git config user.email "ai-healer@users.noreply.github.com"
@@ -105,6 +106,8 @@ jobs:
         name: failure-artifacts-${{ matrix.site }}
         path: test-results/
         retention-days: 3
+        compression-level: 9
+        if-no-files-found: ignore
 
     - name: Upload Allure Results
       uses: actions/upload-artifact@v4
@@ -113,6 +116,7 @@ jobs:
         name: allure-results-${{ matrix.site }}
         path: allure-results/
         retention-days: 1
+        compression-level: 9
 
     - name: Upload Blob Report
       uses: actions/upload-artifact@v4
@@ -121,6 +125,7 @@ jobs:
         name: blob-report-${{ matrix.site }}
         path: blob-report/
         retention-days: 1
+        compression-level: 9
 
   deploy-report:
     needs: test
