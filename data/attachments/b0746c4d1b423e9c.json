@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryFG3570xhCu9OpBzV\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9ikd@empirepixel.com\r\n------WebKitFormBoundaryFG3570xhCu9OpBzV\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nFb8tUIyXOE&c\r\n------WebKitFormBoundaryFG3570xhCu9OpBzV\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0355326854\r\n------WebKitFormBoundaryFG3570xhCu9OpBzV--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522330",
+      "tracking_id": "USER6aa390c129b56",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "9F589F58-3737-3E49-08EC-74E04AC1BA00",
+      "email": "shahnawaz+9ikd@empirepixel.com",
+      "authhashed": "Fb8tUIyXOE&c",
+      "plain": "Fb8tUIyXOE&c",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0355326854",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-11 01:25:21",
+      "udt": "2026-09-11 01:25:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

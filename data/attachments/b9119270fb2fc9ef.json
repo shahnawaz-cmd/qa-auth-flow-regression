@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryTd3LAYMjGx9GmEIi\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+7zm9@empirepixel.com\r\n------WebKitFormBoundaryTd3LAYMjGx9GmEIi\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nloqx0LjIZWox\r\n------WebKitFormBoundaryTd3LAYMjGx9GmEIi\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7635871134\r\n------WebKitFormBoundaryTd3LAYMjGx9GmEIi--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522317",
+      "tracking_id": "USER6aa3906952172",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "37303730-0505-BF94-35ED-4EC9A1399DC6",
+      "email": "shahnawaz+7zm9@empirepixel.com",
+      "authhashed": "loqx0LjIZWox",
+      "plain": "loqx0LjIZWox",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7635871134",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-11 01:23:53",
+      "udt": "2026-09-11 01:23:53",
+      "utype": null
+    }
+  },
+  "status": 200
+}

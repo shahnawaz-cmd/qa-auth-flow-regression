@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryo3JrruEdqCQotFDE\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+xam1@empirepixel.com\r\n------WebKitFormBoundaryo3JrruEdqCQotFDE\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nqmjlTk9EElg7\r\n------WebKitFormBoundaryo3JrruEdqCQotFDE\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4473544934\r\n------WebKitFormBoundaryo3JrruEdqCQotFDE--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522326",
+      "tracking_id": "USER6aa3907d5f7e9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "B589B589-0202-5D7A-CDB3-0723A6260F75",
+      "email": "shahnawaz+xam1@empirepixel.com",
+      "authhashed": "qmjlTk9EElg7",
+      "plain": "qmjlTk9EElg7",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4473544934",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-11 01:24:13",
+      "udt": "2026-09-11 01:24:13",
+      "utype": null
+    }
+  },
+  "status": 200
+}

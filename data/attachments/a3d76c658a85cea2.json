@@ -1,0 +1,49 @@
+{
+  "url": "https://audiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryf8X5GlQt49siO7JH\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+zxmi@empirepixel.com\r\n------WebKitFormBoundaryf8X5GlQt49siO7JH\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nIu6gWSNKjLSf\r\n------WebKitFormBoundaryf8X5GlQt49siO7JH\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6191732932\r\n------WebKitFormBoundaryf8X5GlQt49siO7JH--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522323",
+      "tracking_id": "USER6aa3907527495",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "117",
+      "token": "E5D1E5D1-4A4A-C5E9-86EC-8A4B93A455F7",
+      "email": "shahnawaz+zxmi@empirepixel.com",
+      "authhashed": "Iu6gWSNKjLSf",
+      "plain": "Iu6gWSNKjLSf",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6191732932",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-11 01:24:05",
+      "udt": "2026-09-11 01:24:05",
+      "utype": null
+    }
+  },
+  "status": 200
+}
