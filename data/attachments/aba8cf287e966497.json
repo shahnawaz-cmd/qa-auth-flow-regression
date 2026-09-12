@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryStbnXXfNLKpy9h5a\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+rzg0@empirepixel.com\r\n------WebKitFormBoundaryStbnXXfNLKpy9h5a\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nDf5e*xL!83E2\r\n------WebKitFormBoundaryStbnXXfNLKpy9h5a\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2965860978\r\n------WebKitFormBoundaryStbnXXfNLKpy9h5a--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522549",
+      "tracking_id": "USER6aa4e0159de57",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "2D1D2D1D-B6B6-7DD8-325B-5CF518876ABA",
+      "email": "shahnawaz+rzg0@empirepixel.com",
+      "authhashed": "Df5e*xL!83E2",
+      "plain": "Df5e*xL!83E2",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2965860978",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-12 01:16:06",
+      "udt": "2026-09-12 01:16:06",
+      "utype": null
+    }
+  },
+  "status": 200
+}

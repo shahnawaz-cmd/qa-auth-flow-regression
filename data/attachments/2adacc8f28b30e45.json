@@ -1,0 +1,49 @@
+{
+  "url": "https://kiawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryysF9PHvA2IjrwaIe\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+8bux@empirepixel.com\r\n------WebKitFormBoundaryysF9PHvA2IjrwaIe\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n8Q@#TnY8K2s*\r\n------WebKitFormBoundaryysF9PHvA2IjrwaIe\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7014986306\r\n------WebKitFormBoundaryysF9PHvA2IjrwaIe--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522530",
+      "tracking_id": "USER6aa4dfb394585",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "120",
+      "token": "300D300D-1313-5458-5B9A-22545ABA6579",
+      "email": "shahnawaz+8bux@empirepixel.com",
+      "authhashed": "8Q@#TnY8K2s*",
+      "plain": "8Q@#TnY8K2s*",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Queretaro City",
+      "country": "MX",
+      "pincode": "0",
+      "phone": "7014986306",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-12 01:14:28",
+      "udt": "2026-09-12 01:14:28",
+      "utype": null
+    }
+  },
+  "status": 200
+}

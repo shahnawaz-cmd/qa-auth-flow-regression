@@ -1,0 +1,33 @@
+{
+  "site": "DODGE",
+  "stage": "signup",
+  "url": "https://dodgewindowsticker.com/dashboard?_rsc=1apqz",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=leeoKo3R4Z5zICDvW%2F1qS7Is%2B2OHzFPxLx1qHb%2B5f36yckm9%2Fja%2BZesYkIlEBa6QMX8FzpdwQy%2FxBs%2BD0AXsbI7ixYOHi0mca%2Fs0dZFac89aul5QxryLdwFIdZIRZyuelYfHHbklQGG1\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Sat, 12 Sep 2026 05:15:30 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-store, no-cache, max-age=0, must-revalidate",
+    "cdn-cache-control": "no-store",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a39c6f4bbfd98009-IAD",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-09-12T05:15:34.669Z"
+}

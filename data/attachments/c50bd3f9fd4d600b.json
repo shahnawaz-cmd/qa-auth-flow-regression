@@ -1,0 +1,49 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJyYDraSmHAjB1FhI\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+mjkd@empirepixel.com\r\n------WebKitFormBoundaryJyYDraSmHAjB1FhI\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nnTRuRSHSfx@$\r\n------WebKitFormBoundaryJyYDraSmHAjB1FhI\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9902245553\r\n------WebKitFormBoundaryJyYDraSmHAjB1FhI--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522514",
+      "tracking_id": "USER6aa4df9b0bd76",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "124",
+      "token": "90AA90AA-0808-4044-A2F7-D556997B2BD2",
+      "email": "shahnawaz+mjkd@empirepixel.com",
+      "authhashed": "nTRuRSHSfx@$",
+      "plain": "nTRuRSHSfx@$",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9902245553",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-12 01:14:03",
+      "udt": "2026-09-12 01:14:03",
+      "utype": null
+    }
+  },
+  "status": 200
+}
