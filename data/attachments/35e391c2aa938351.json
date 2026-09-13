@@ -1,0 +1,49 @@
+{
+  "url": "https://bmwwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJs7CEffXorl7uhob\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+yev9@empirepixel.com\r\n------WebKitFormBoundaryJs7CEffXorl7uhob\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\njXMGT%^a9A04\r\n------WebKitFormBoundaryJs7CEffXorl7uhob\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4866495725\r\n------WebKitFormBoundaryJs7CEffXorl7uhob--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522705",
+      "tracking_id": "USER6aa634a74c493",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "108",
+      "token": "3FD63FD6-6969-7648-1C60-9EEBDF26C4D5",
+      "email": "shahnawaz+yev9@empirepixel.com",
+      "authhashed": "jXMGT%^a9A04",
+      "plain": "jXMGT%^a9A04",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4866495725",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-13 01:29:11",
+      "udt": "2026-09-13 01:29:11",
+      "utype": null
+    }
+  },
+  "status": 200
+}
