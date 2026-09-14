@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryUa9Bg0G1dtmdTuRY\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+f95x@empirepixel.com\r\n------WebKitFormBoundaryUa9Bg0G1dtmdTuRY\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n2Ow5mXOGxNt7\r\n------WebKitFormBoundaryUa9Bg0G1dtmdTuRY\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9359926872\r\n------WebKitFormBoundaryUa9Bg0G1dtmdTuRY--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522918",
+      "tracking_id": "USER6aa78726eb00f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "69D069D0-0F0F-8BA0-8887-739E4AEFF946",
+      "email": "shahnawaz+f95x@empirepixel.com",
+      "authhashed": "2Ow5mXOGxNt7",
+      "plain": "2Ow5mXOGxNt7",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9359926872",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-14 01:33:27",
+      "udt": "2026-09-14 01:33:27",
+      "utype": null
+    }
+  },
+  "status": 200
+}

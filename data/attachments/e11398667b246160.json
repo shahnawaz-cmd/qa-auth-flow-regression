@@ -1,0 +1,49 @@
+{
+  "url": "https://hondawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryj0Ffmau6tzpLJ4Hz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+fqrn@empirepixel.com\r\n------WebKitFormBoundaryj0Ffmau6tzpLJ4Hz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nMUKGQe4suvIe\r\n------WebKitFormBoundaryj0Ffmau6tzpLJ4Hz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1023500925\r\n------WebKitFormBoundaryj0Ffmau6tzpLJ4Hz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522928",
+      "tracking_id": "USER6aa787388a8d0",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "116",
+      "token": "04510451-8181-0A30-CA55-684498C0FFC7",
+      "email": "shahnawaz+fqrn@empirepixel.com",
+      "authhashed": "MUKGQe4suvIe",
+      "plain": "MUKGQe4suvIe",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1023500925",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-14 01:33:44",
+      "udt": "2026-09-14 01:33:44",
+      "utype": null
+    }
+  },
+  "status": 200
+}

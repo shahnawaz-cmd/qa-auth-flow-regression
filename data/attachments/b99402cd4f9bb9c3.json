@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarypBc3T44WWvSoEBTK\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+oe1r@empirepixel.com\r\n------WebKitFormBoundarypBc3T44WWvSoEBTK\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nImZL7eO1*LL5\r\n------WebKitFormBoundarypBc3T44WWvSoEBTK\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9459153961\r\n------WebKitFormBoundarypBc3T44WWvSoEBTK--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522925",
+      "tracking_id": "USER6aa7873147320",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "bK9rtRfGDgUJpGNzuPidhZvVKsu2",
+      "site": "1",
+      "token": "E128E128-8282-CAB7-361C-C6476CB68E6B",
+      "email": "shahnawaz+oe1r@empirepixel.com",
+      "authhashed": "ImZL7eO1*LL5",
+      "plain": "ImZL7eO1*LL5",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9459153961",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-14 01:33:38",
+      "udt": "2026-09-14 01:33:38",
+      "utype": null
+    }
+  },
+  "status": 200
+}

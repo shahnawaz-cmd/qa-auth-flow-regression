@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryNpcGu4tmk8GkgxSJ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+i5le@empirepixel.com\r\n------WebKitFormBoundaryNpcGu4tmk8GkgxSJ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n^YBW7UQRLrHS\r\n------WebKitFormBoundaryNpcGu4tmk8GkgxSJ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7299096437\r\n------WebKitFormBoundaryNpcGu4tmk8GkgxSJ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522922",
+      "tracking_id": "USER6aa7872c1991b",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "90B390B3-B2B2-E517-3979-737278327102",
+      "email": "shahnawaz+i5le@empirepixel.com",
+      "authhashed": "^YBW7UQRLrHS",
+      "plain": "^YBW7UQRLrHS",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7299096437",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-14 01:33:32",
+      "udt": "2026-09-14 01:33:32",
+      "utype": null
+    }
+  },
+  "status": 200
+}

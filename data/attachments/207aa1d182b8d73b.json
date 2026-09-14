@@ -1,0 +1,49 @@
+{
+  "url": "https://subaruwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryB9uyEUT36HAVWpoo\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+2uqm@empirepixel.com\r\n------WebKitFormBoundaryB9uyEUT36HAVWpoo\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n$DEm$Z@92WEf\r\n------WebKitFormBoundaryB9uyEUT36HAVWpoo\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8131636305\r\n------WebKitFormBoundaryB9uyEUT36HAVWpoo--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "522946",
+      "tracking_id": "USER6aa7879507bfd",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "111",
+      "token": "E2FCE2FC-0808-2224-902B-7E2309703063",
+      "email": "shahnawaz+2uqm@empirepixel.com",
+      "authhashed": "$DEm$Z@92WEf",
+      "plain": "$DEm$Z@92WEf",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8131636305",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-14 01:35:17",
+      "udt": "2026-09-14 01:35:17",
+      "utype": null
+    }
+  },
+  "status": 200
+}
