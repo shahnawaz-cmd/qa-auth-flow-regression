@@ -1,0 +1,49 @@
+{
+  "url": "https://porschewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarykNDSEm6AS5cj0ebC\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+cmh5@empirepixel.com\r\n------WebKitFormBoundarykNDSEm6AS5cj0ebC\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nWqmUjwUW%PhC\r\n------WebKitFormBoundarykNDSEm6AS5cj0ebC\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4751713600\r\n------WebKitFormBoundarykNDSEm6AS5cj0ebC--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523154",
+      "tracking_id": "USER6aa8d930d3ddd",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "112",
+      "token": "6ECE6ECE-7A7A-CF00-EBC2-89E2D6BC2522",
+      "email": "shahnawaz+cmh5@empirepixel.com",
+      "authhashed": "WqmUjwUW%PhC",
+      "plain": "WqmUjwUW%PhC",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4751713600",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-15 01:35:45",
+      "udt": "2026-09-15 01:35:45",
+      "utype": null
+    }
+  },
+  "status": 200
+}

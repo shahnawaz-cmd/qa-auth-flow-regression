@@ -1,0 +1,49 @@
+{
+  "url": "https://mitsubishiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryyTPE6Wf06LEJidDy\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ey0b@empirepixel.com\r\n------WebKitFormBoundaryyTPE6Wf06LEJidDy\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nW7OzJH0lGF7R\r\n------WebKitFormBoundaryyTPE6Wf06LEJidDy\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3165453927\r\n------WebKitFormBoundaryyTPE6Wf06LEJidDy--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523125",
+      "tracking_id": "USER6aa8d8c59fa61",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "129",
+      "token": "369B369B-DCDC-D0FE-2714-580CCBA36932",
+      "email": "shahnawaz+ey0b@empirepixel.com",
+      "authhashed": "W7OzJH0lGF7R",
+      "plain": "W7OzJH0lGF7R",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3165453927",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-15 01:33:58",
+      "udt": "2026-09-15 01:33:58",
+      "utype": null
+    }
+  },
+  "status": 200
+}

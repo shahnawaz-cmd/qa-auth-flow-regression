@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAMyzVBQzoNAI0MiA\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+f5d0@empirepixel.com\r\n------WebKitFormBoundaryAMyzVBQzoNAI0MiA\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nB6Wf%dbpKb01\r\n------WebKitFormBoundaryAMyzVBQzoNAI0MiA\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6588524360\r\n------WebKitFormBoundaryAMyzVBQzoNAI0MiA--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523124",
+      "tracking_id": "USER6aa8d8c2c2f60",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "FFFDFFFD-7B7B-39EE-6827-FB893E16E5F0",
+      "email": "shahnawaz+f5d0@empirepixel.com",
+      "authhashed": "B6Wf%dbpKb01",
+      "plain": "B6Wf%dbpKb01",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6588524360",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-15 01:33:56",
+      "udt": "2026-09-15 01:33:56",
+      "utype": null
+    }
+  },
+  "status": 200
+}
