@@ -1,0 +1,49 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryaImVM71homn1kc5t\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hqkc@empirepixel.com\r\n------WebKitFormBoundaryaImVM71homn1kc5t\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n#raiJ$VWSfB0\r\n------WebKitFormBoundaryaImVM71homn1kc5t\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9656692053\r\n------WebKitFormBoundaryaImVM71homn1kc5t--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523356",
+      "tracking_id": "USER6aaa291f652b4",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "124",
+      "token": "F47EF47E-0606-6CE0-4145-2579456E2625",
+      "email": "shahnawaz+hqkc@empirepixel.com",
+      "authhashed": "#raiJ$VWSfB0",
+      "plain": "#raiJ$VWSfB0",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9656692053",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-16 01:29:03",
+      "udt": "2026-09-16 01:29:03",
+      "utype": null
+    }
+  },
+  "status": 200
+}
