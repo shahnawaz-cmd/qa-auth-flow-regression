@@ -1,0 +1,49 @@
+{
+  "url": "https://minicooperwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybbpUrxiAuMd9Kf0R\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+62ft@empirepixel.com\r\n------WebKitFormBoundarybbpUrxiAuMd9Kf0R\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4a@TNUkSqyIy\r\n------WebKitFormBoundarybbpUrxiAuMd9Kf0R\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5114104665\r\n------WebKitFormBoundarybbpUrxiAuMd9Kf0R--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523564",
+      "tracking_id": "USER6aab7c7d00577",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "128",
+      "token": "7C877C87-DFDF-9CDD-DDCC-886C41356145",
+      "email": "shahnawaz+62ft@empirepixel.com",
+      "authhashed": "4a@TNUkSqyIy",
+      "plain": "4a@TNUkSqyIy",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5114104665",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-17 01:37:01",
+      "udt": "2026-09-17 01:37:01",
+      "utype": null
+    }
+  },
+  "status": 200
+}

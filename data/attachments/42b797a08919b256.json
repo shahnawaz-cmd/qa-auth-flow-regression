@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAvVjjhh118TQYauN\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+e0hr@empirepixel.com\r\n------WebKitFormBoundaryAvVjjhh118TQYauN\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4&QaoM*mRbjV\r\n------WebKitFormBoundaryAvVjjhh118TQYauN\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4357821713\r\n------WebKitFormBoundaryAvVjjhh118TQYauN--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523532",
+      "tracking_id": "USER6aab7c101bec9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "794D794D-3434-AE37-3889-799CBF2E0092",
+      "email": "shahnawaz+e0hr@empirepixel.com",
+      "authhashed": "4&QaoM*mRbjV",
+      "plain": "4&QaoM*mRbjV",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4357821713",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-17 01:35:12",
+      "udt": "2026-09-17 01:35:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

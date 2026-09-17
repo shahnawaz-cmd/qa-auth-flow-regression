@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryTntdNtj5TA6YccPF\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+yfo5@empirepixel.com\r\n------WebKitFormBoundaryTntdNtj5TA6YccPF\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n6vz4zZlj5^Gx\r\n------WebKitFormBoundaryTntdNtj5TA6YccPF\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5902508601\r\n------WebKitFormBoundaryTntdNtj5TA6YccPF--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523551",
+      "tracking_id": "USER6aab7c620ad79",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "7C2D7C2D-CDCD-D09E-8392-A8CB4C630C51",
+      "email": "shahnawaz+yfo5@empirepixel.com",
+      "authhashed": "6vz4zZlj5^Gx",
+      "plain": "6vz4zZlj5^Gx",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5902508601",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-17 01:36:34",
+      "udt": "2026-09-17 01:36:34",
+      "utype": null
+    }
+  },
+  "status": 200
+}
