@@ -1,0 +1,49 @@
+{
+  "url": "https://vwwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryEdeFPx6Y8MAbDBZx\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+emf6@empirepixel.com\r\n------WebKitFormBoundaryEdeFPx6Y8MAbDBZx\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n*ny5cSepX$XK\r\n------WebKitFormBoundaryEdeFPx6Y8MAbDBZx\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2020437733\r\n------WebKitFormBoundaryEdeFPx6Y8MAbDBZx--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523823",
+      "tracking_id": "USER6aaccb3207297",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "118",
+      "token": "B11DB11D-C7C7-6DD2-AEB5-F2A9CB3224F0",
+      "email": "shahnawaz+emf6@empirepixel.com",
+      "authhashed": "*ny5cSepX$XK",
+      "plain": "*ny5cSepX$XK",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2020437733",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-18 01:25:06",
+      "udt": "2026-09-18 01:25:06",
+      "utype": null
+    }
+  },
+  "status": 200
+}

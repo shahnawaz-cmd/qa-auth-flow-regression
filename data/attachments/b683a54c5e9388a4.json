@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryjnHahPBcYnElCAaz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+vptd@empirepixel.com\r\n------WebKitFormBoundaryjnHahPBcYnElCAaz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nlkt2PW!a8Nmm\r\n------WebKitFormBoundaryjnHahPBcYnElCAaz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8362229743\r\n------WebKitFormBoundaryjnHahPBcYnElCAaz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "523819",
+      "tracking_id": "USER6aaccb29f19f2",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "C6D3C6D3-8E8E-D031-6A61-959EC6D2F189",
+      "email": "shahnawaz+vptd@empirepixel.com",
+      "authhashed": "lkt2PW!a8Nmm",
+      "plain": "lkt2PW!a8Nmm",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Redmond",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8362229743",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-18 01:24:58",
+      "udt": "2026-09-18 01:24:58",
+      "utype": null
+    }
+  },
+  "status": 200
+}
