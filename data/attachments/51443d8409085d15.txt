@@ -1,0 +1,6 @@
+[BMW] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
+[BMW URL warning] Current URL: https://bmwwindowsticker.com/signup?email=shahnawaz%2B8p2c%40empirepixel.com&password=PyrWu%5ExZV*%23u&confirmPassword=PyrWu%5ExZV*%23u&phone=7310966145 - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://bmwwindowsticker.com/signup?email=shahnawaz%2B8p2c%40empirepixel.com&password=PyrWu%5ExZV*%23u&confirmPassword=PyrWu%5ExZV*%23u&phone=7310966145"
+============================================================
