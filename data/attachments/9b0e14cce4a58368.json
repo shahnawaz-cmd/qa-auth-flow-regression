@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryEJGm6JYFb4Aj73og\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0gm3@empirepixel.com\r\n------WebKitFormBoundaryEJGm6JYFb4Aj73og\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nVRik1xrUOns#\r\n------WebKitFormBoundaryEJGm6JYFb4Aj73og\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4069084508\r\n------WebKitFormBoundaryEJGm6JYFb4Aj73og--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "524205",
+      "tracking_id": "USER6aaf6fd87c81a",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "B1DCB1DC-1212-4779-0968-2E5B81C74E10",
+      "email": "shahnawaz+0gm3@empirepixel.com",
+      "authhashed": "VRik1xrUOns#",
+      "plain": "VRik1xrUOns#",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4069084508",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-20 01:32:08",
+      "udt": "2026-09-20 01:32:08",
+      "utype": null
+    }
+  },
+  "status": 200
+}
