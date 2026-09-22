@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPrt4ijVnPAeElg6o\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ajpv@empirepixel.com\r\n------WebKitFormBoundaryPrt4ijVnPAeElg6o\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n@CMbenThQi0K\r\n------WebKitFormBoundaryPrt4ijVnPAeElg6o\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0623625460\r\n------WebKitFormBoundaryPrt4ijVnPAeElg6o--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "524608",
+      "tracking_id": "USER6ab2137aa8e12",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "AB8BAB8B-AFAF-B041-5A9A-E334889CE0AB",
+      "email": "shahnawaz+ajpv@empirepixel.com",
+      "authhashed": "@CMbenThQi0K",
+      "plain": "@CMbenThQi0K",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0623625460",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-22 01:34:51",
+      "udt": "2026-09-22 01:34:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}

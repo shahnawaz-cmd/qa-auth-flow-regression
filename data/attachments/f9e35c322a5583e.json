@@ -1,0 +1,49 @@
+{
+  "url": "https://porschewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary0h5xYFj8lEkNnonA\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+3bwy@empirepixel.com\r\n------WebKitFormBoundary0h5xYFj8lEkNnonA\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nisN9aG8tTzMg\r\n------WebKitFormBoundary0h5xYFj8lEkNnonA\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0150369372\r\n------WebKitFormBoundary0h5xYFj8lEkNnonA--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "524620",
+      "tracking_id": "USER6ab2138f9de38",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "112",
+      "token": "02450245-D8D8-74F2-0630-5CFEAA89A911",
+      "email": "shahnawaz+3bwy@empirepixel.com",
+      "authhashed": "isN9aG8tTzMg",
+      "plain": "isN9aG8tTzMg",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0150369372",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-22 01:35:16",
+      "udt": "2026-09-22 01:35:16",
+      "utype": null
+    }
+  },
+  "status": 200
+}
