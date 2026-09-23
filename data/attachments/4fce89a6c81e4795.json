@@ -1,0 +1,49 @@
+{
+  "url": "https://mercedesbenzwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryMbMLoCZVc4PaXSEB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+1t5m@empirepixel.com\r\n------WebKitFormBoundaryMbMLoCZVc4PaXSEB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nyVV@d*2lu93D\r\n------WebKitFormBoundaryMbMLoCZVc4PaXSEB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7286994566\r\n------WebKitFormBoundaryMbMLoCZVc4PaXSEB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "524849",
+      "tracking_id": "USER6ab362697bc94",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "103",
+      "token": "28B028B0-F5F5-210F-EA57-3CD90B31ADA1",
+      "email": "shahnawaz+1t5m@empirepixel.com",
+      "authhashed": "yVV@d*2lu93D",
+      "plain": "yVV@d*2lu93D",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7286994566",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-23 01:23:54",
+      "udt": "2026-09-23 01:23:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

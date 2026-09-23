@@ -1,0 +1,49 @@
+{
+  "url": "https://toyotawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryYeGawqiPiX7KewGM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+k3hk@empirepixel.com\r\n------WebKitFormBoundaryYeGawqiPiX7KewGM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nMWGHTUjWmbPK\r\n------WebKitFormBoundaryYeGawqiPiX7KewGM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5421802042\r\n------WebKitFormBoundaryYeGawqiPiX7KewGM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "524815",
+      "tracking_id": "USER6ab361f14e873",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "106",
+      "token": "AA19AA19-6868-0E81-F245-037D2BB030C1",
+      "email": "shahnawaz+k3hk@empirepixel.com",
+      "authhashed": "MWGHTUjWmbPK",
+      "plain": "MWGHTUjWmbPK",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5421802042",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-23 01:21:53",
+      "udt": "2026-09-23 01:21:53",
+      "utype": null
+    }
+  },
+  "status": 200
+}
