@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAFDYbqiWAJWUqwB9\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+uo9a@empirepixel.com\r\n------WebKitFormBoundaryAFDYbqiWAJWUqwB9\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n&gyz*Rj@LntF\r\n------WebKitFormBoundaryAFDYbqiWAJWUqwB9\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8586108564\r\n------WebKitFormBoundaryAFDYbqiWAJWUqwB9--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525060",
+      "tracking_id": "USER6ab4b754edbc1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "DDB4DDB4-6161-60E5-D20E-8556A3E6CEC0",
+      "email": "shahnawaz+uo9a@empirepixel.com",
+      "authhashed": "&gyz*Rj@LntF",
+      "plain": "&gyz*Rj@LntF",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8586108564",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-24 01:38:29",
+      "udt": "2026-09-24 01:38:29",
+      "utype": null
+    }
+  },
+  "status": 200
+}

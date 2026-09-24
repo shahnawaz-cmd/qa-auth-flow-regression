@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryT94VZ49VV4jgdzMy\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+im5w@empirepixel.com\r\n------WebKitFormBoundaryT94VZ49VV4jgdzMy\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n3#HfnnDWsrcb\r\n------WebKitFormBoundaryT94VZ49VV4jgdzMy\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4245848123\r\n------WebKitFormBoundaryT94VZ49VV4jgdzMy--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525054",
+      "tracking_id": "USER6ab4b7447794e",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "8AF58AF5-CACA-DF9F-6DBE-A44800EC6E6F",
+      "email": "shahnawaz+im5w@empirepixel.com",
+      "authhashed": "3#HfnnDWsrcb",
+      "plain": "3#HfnnDWsrcb",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4245848123",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-24 01:38:12",
+      "udt": "2026-09-24 01:38:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

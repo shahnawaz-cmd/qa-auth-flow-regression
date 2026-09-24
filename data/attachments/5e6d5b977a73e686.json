@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryId5YAifAEqWp2NIH\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+xo8n@empirepixel.com\r\n------WebKitFormBoundaryId5YAifAEqWp2NIH\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nwCH283v8ZBaQ\r\n------WebKitFormBoundaryId5YAifAEqWp2NIH\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6120113164\r\n------WebKitFormBoundaryId5YAifAEqWp2NIH--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525072",
+      "tracking_id": "USER6ab4b79ed1065",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "E8BEE8BE-A5A5-322B-3C18-8B4CD2F04710",
+      "email": "shahnawaz+xo8n@empirepixel.com",
+      "authhashed": "wCH283v8ZBaQ",
+      "plain": "wCH283v8ZBaQ",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6120113164",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-24 01:39:43",
+      "udt": "2026-09-24 01:39:43",
+      "utype": null
+    }
+  },
+  "status": 200
+}
