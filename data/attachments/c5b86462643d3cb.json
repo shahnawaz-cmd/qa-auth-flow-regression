@@ -1,0 +1,49 @@
+{
+  "url": "https://porschewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarytjEUgpFpDnpanz0h\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+mxj3@empirepixel.com\r\n------WebKitFormBoundarytjEUgpFpDnpanz0h\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n^le^uTs8&@%t\r\n------WebKitFormBoundarytjEUgpFpDnpanz0h\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2245415644\r\n------WebKitFormBoundarytjEUgpFpDnpanz0h--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525254",
+      "tracking_id": "USER6ab607e02c297",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "112",
+      "token": "83308330-C0C0-A4F0-61B8-017ABDB20924",
+      "email": "shahnawaz+mxj3@empirepixel.com",
+      "authhashed": "^le^uTs8&@%t",
+      "plain": "^le^uTs8&@%t",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2245415644",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-25 01:34:24",
+      "udt": "2026-09-25 01:34:24",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,5 +1,0 @@
-[BUICK] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
-[BUICK URL warning] Current URL: https://buickwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-============================================================

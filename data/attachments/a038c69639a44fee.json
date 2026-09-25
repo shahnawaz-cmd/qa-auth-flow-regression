@@ -1,0 +1,49 @@
+{
+  "url": "https://alfaromeowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybAaczJWKbcVkANQe\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+7vs6@empirepixel.com\r\n------WebKitFormBoundarybAaczJWKbcVkANQe\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nNOJUVjiLdCbZ\r\n------WebKitFormBoundarybAaczJWKbcVkANQe\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8706593743\r\n------WebKitFormBoundarybAaczJWKbcVkANQe--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525253",
+      "tracking_id": "USER6ab607dbdf67c",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "122",
+      "token": "98AD98AD-B9B9-5FC4-F6AC-7EB426D49975",
+      "email": "shahnawaz+7vs6@empirepixel.com",
+      "authhashed": "NOJUVjiLdCbZ",
+      "plain": "NOJUVjiLdCbZ",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8706593743",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-25 01:34:20",
+      "udt": "2026-09-25 01:34:20",
+      "utype": null
+    }
+  },
+  "status": 200
+}

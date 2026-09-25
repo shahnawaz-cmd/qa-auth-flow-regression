@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAsrLeQyoghEDpKRl\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+12i9@empirepixel.com\r\n------WebKitFormBoundaryAsrLeQyoghEDpKRl\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ntSuR4tTYutvt\r\n------WebKitFormBoundaryAsrLeQyoghEDpKRl\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5639657951\r\n------WebKitFormBoundaryAsrLeQyoghEDpKRl--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525278",
+      "tracking_id": "USER6ab60840539f1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "448D448D-4444-8587-9B6F-7FE2258FD8C0",
+      "email": "shahnawaz+12i9@empirepixel.com",
+      "authhashed": "tSuR4tTYutvt",
+      "plain": "tSuR4tTYutvt",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5639657951",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-25 01:36:00",
+      "udt": "2026-09-25 01:36:00",
+      "utype": null
+    }
+  },
+  "status": 200
+}
