@@ -1,0 +1,49 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryFuiYOmqY76x4iP5n\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hwgk@empirepixel.com\r\n------WebKitFormBoundaryFuiYOmqY76x4iP5n\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n9Z@SkbSVluDi\r\n------WebKitFormBoundaryFuiYOmqY76x4iP5n\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7264330131\r\n------WebKitFormBoundaryFuiYOmqY76x4iP5n--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525475",
+      "tracking_id": "USER6ab75b1055f9d",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "101",
+      "token": "F679F679-C6C6-ADFE-0217-7E5106FAEC75",
+      "email": "shahnawaz+hwgk@empirepixel.com",
+      "authhashed": "9Z@SkbSVluDi",
+      "plain": "9Z@SkbSVluDi",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7264330131",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:41:36",
+      "udt": "2026-09-26 01:41:36",
+      "utype": null
+    }
+  },
+  "status": 200
+}

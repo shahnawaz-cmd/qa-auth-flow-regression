@@ -1,0 +1,49 @@
+{
+  "url": "https://minicooperwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryu2CtXsbQ9qb7EJF4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+d5z8@empirepixel.com\r\n------WebKitFormBoundaryu2CtXsbQ9qb7EJF4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n!a5jtqoZXBhE\r\n------WebKitFormBoundaryu2CtXsbQ9qb7EJF4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1676687667\r\n------WebKitFormBoundaryu2CtXsbQ9qb7EJF4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525477",
+      "tracking_id": "USER6ab75b1096b95",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "128",
+      "token": "15FC15FC-5151-893A-A461-645D5F46C56A",
+      "email": "shahnawaz+d5z8@empirepixel.com",
+      "authhashed": "!a5jtqoZXBhE",
+      "plain": "!a5jtqoZXBhE",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1676687667",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:41:37",
+      "udt": "2026-09-26 01:41:37",
+      "utype": null
+    }
+  },
+  "status": 200
+}

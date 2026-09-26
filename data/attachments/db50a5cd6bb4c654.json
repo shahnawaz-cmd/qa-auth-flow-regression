@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryBV23XrqjOcUTAoLE\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+b94l@empirepixel.com\r\n------WebKitFormBoundaryBV23XrqjOcUTAoLE\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nj9BWQAoUv^#I\r\n------WebKitFormBoundaryBV23XrqjOcUTAoLE\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7818862219\r\n------WebKitFormBoundaryBV23XrqjOcUTAoLE--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525474",
+      "tracking_id": "USER6ab75b0eeeb28",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "56935693-1D1D-CD6A-3476-9A7E30A4C567",
+      "email": "shahnawaz+b94l@empirepixel.com",
+      "authhashed": "j9BWQAoUv^#I",
+      "plain": "j9BWQAoUv^#I",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7818862219",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:41:35",
+      "udt": "2026-09-26 01:41:35",
+      "utype": null
+    }
+  },
+  "status": 200
+}

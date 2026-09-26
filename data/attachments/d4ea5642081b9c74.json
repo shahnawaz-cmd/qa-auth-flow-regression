@@ -1,0 +1,49 @@
+{
+  "url": "https://hyundaiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryiKXpWkpAqHkNvAeA\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hemz@empirepixel.com\r\n------WebKitFormBoundaryiKXpWkpAqHkNvAeA\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nxB$Xl5Y&QTNb\r\n------WebKitFormBoundaryiKXpWkpAqHkNvAeA\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4624465118\r\n------WebKitFormBoundaryiKXpWkpAqHkNvAeA--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525467",
+      "tracking_id": "USER6ab75b0591605",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "119",
+      "token": "60C860C8-D6D6-F58C-5078-EAE0809DB217",
+      "email": "shahnawaz+hemz@empirepixel.com",
+      "authhashed": "xB$Xl5Y&QTNb",
+      "plain": "xB$Xl5Y&QTNb",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4624465118",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:41:26",
+      "udt": "2026-09-26 01:41:26",
+      "utype": null
+    }
+  },
+  "status": 200
+}

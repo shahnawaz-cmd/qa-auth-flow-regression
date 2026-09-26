@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryUErPBmzIENn4oX22\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+7651@empirepixel.com\r\n------WebKitFormBoundaryUErPBmzIENn4oX22\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nKb8E85q@NDhx\r\n------WebKitFormBoundaryUErPBmzIENn4oX22\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7605239234\r\n------WebKitFormBoundaryUErPBmzIENn4oX22--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525483",
+      "tracking_id": "USER6ab75b2eb9055",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "BE54BE54-0606-AE23-5FDE-4B454A0614E8",
+      "email": "shahnawaz+7651@empirepixel.com",
+      "authhashed": "Kb8E85q@NDhx",
+      "plain": "Kb8E85q@NDhx",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7605239234",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:42:07",
+      "udt": "2026-09-26 01:42:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}

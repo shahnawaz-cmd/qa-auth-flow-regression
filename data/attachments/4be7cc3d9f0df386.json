@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryO7AL939dBbe4FyFz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+o1z3@empirepixel.com\r\n------WebKitFormBoundaryO7AL939dBbe4FyFz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n%ZsCnE%D4Ew!\r\n------WebKitFormBoundaryO7AL939dBbe4FyFz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1537239775\r\n------WebKitFormBoundaryO7AL939dBbe4FyFz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525492",
+      "tracking_id": "USER6ab75b6034883",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "A358A358-7676-DBEA-1864-ED987B2CA3D7",
+      "email": "shahnawaz+o1z3@empirepixel.com",
+      "authhashed": "%ZsCnE%D4Ew!",
+      "plain": "%ZsCnE%D4Ew!",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1537239775",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:42:56",
+      "udt": "2026-09-26 01:42:56",
+      "utype": null
+    }
+  },
+  "status": 200
+}

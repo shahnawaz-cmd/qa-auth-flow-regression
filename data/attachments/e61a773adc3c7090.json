@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarymWwy6btOGkTzpxBo\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hc73@empirepixel.com\r\n------WebKitFormBoundarymWwy6btOGkTzpxBo\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nJ0MM%Sehytor\r\n------WebKitFormBoundarymWwy6btOGkTzpxBo\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0598884224\r\n------WebKitFormBoundarymWwy6btOGkTzpxBo--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525476",
+      "tracking_id": "USER6ab75b108f1e7",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "8FF18FF1-8C8C-DF87-3D28-616CDC335B69",
+      "email": "shahnawaz+hc73@empirepixel.com",
+      "authhashed": "J0MM%Sehytor",
+      "plain": "J0MM%Sehytor",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0598884224",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-26 01:41:36",
+      "udt": "2026-09-26 01:41:36",
+      "utype": null
+    }
+  },
+  "status": 200
+}
