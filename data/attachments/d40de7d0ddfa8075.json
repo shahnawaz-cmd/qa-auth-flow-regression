@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryd2KJFyCd9VLm4Hv8\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0c94@empirepixel.com\r\n------WebKitFormBoundaryd2KJFyCd9VLm4Hv8\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n5$c6RavhyPuR\r\n------WebKitFormBoundaryd2KJFyCd9VLm4Hv8\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3473382689\r\n------WebKitFormBoundaryd2KJFyCd9VLm4Hv8--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525689",
+      "tracking_id": "USER6ab8b099ad559",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "20A620A6-5D5D-81EF-40A5-6B23C9135D78",
+      "email": "shahnawaz+0c94@empirepixel.com",
+      "authhashed": "5$c6RavhyPuR",
+      "plain": "5$c6RavhyPuR",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3473382689",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-27 01:58:50",
+      "udt": "2026-09-27 01:58:50",
+      "utype": null
+    }
+  },
+  "status": 200
+}
