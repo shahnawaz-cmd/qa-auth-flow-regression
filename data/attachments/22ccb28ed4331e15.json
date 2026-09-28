@@ -1,0 +1,49 @@
+{
+  "url": "https://mitsubishiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarytPWfwTXh3Do3uV15\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+vzeb@empirepixel.com\r\n------WebKitFormBoundarytPWfwTXh3Do3uV15\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nFXdbxl4PxLEA\r\n------WebKitFormBoundarytPWfwTXh3Do3uV15\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7505994231\r\n------WebKitFormBoundarytPWfwTXh3Do3uV15--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "525915",
+      "tracking_id": "USER6aba040e4a1ae",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "129",
+      "token": "0A560A56-5A5A-7AB7-5246-FB165052B476",
+      "email": "shahnawaz+vzeb@empirepixel.com",
+      "authhashed": "FXdbxl4PxLEA",
+      "plain": "FXdbxl4PxLEA",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7505994231",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-28 02:07:10",
+      "udt": "2026-09-28 02:07:10",
+      "utype": null
+    }
+  },
+  "status": 200
+}
