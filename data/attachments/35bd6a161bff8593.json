@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryWJOLMy3Ad1hM8FOz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+czuz@empirepixel.com\r\n------WebKitFormBoundaryWJOLMy3Ad1hM8FOz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\na0@YG8e@&UF7\r\n------WebKitFormBoundaryWJOLMy3Ad1hM8FOz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3326311241\r\n------WebKitFormBoundaryWJOLMy3Ad1hM8FOz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526158",
+      "tracking_id": "USER6abb59ec3a0e9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "84C484C4-D2D2-256E-8A87-E6E156C2B68F",
+      "email": "shahnawaz+czuz@empirepixel.com",
+      "authhashed": "a0@YG8e@&UF7",
+      "plain": "a0@YG8e@&UF7",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3326311241",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-29 02:25:48",
+      "udt": "2026-09-29 02:25:48",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryKpybdfiumoEdrGTk\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+n2tl@empirepixel.com\r\n------WebKitFormBoundaryKpybdfiumoEdrGTk\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\npKS30q%PoUSJ\r\n------WebKitFormBoundaryKpybdfiumoEdrGTk\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0061784753\r\n------WebKitFormBoundaryKpybdfiumoEdrGTk--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526148",
+      "tracking_id": "USER6abb59c26ad95",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "101",
+      "token": "47E147E1-5252-5570-59F8-A282DC5979B2",
+      "email": "shahnawaz+n2tl@empirepixel.com",
+      "authhashed": "pKS30q%PoUSJ",
+      "plain": "pKS30q%PoUSJ",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0061784753",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-29 02:25:06",
+      "udt": "2026-09-29 02:25:06",
+      "utype": null
+    }
+  },
+  "status": 200
+}
