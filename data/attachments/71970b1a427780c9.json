@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryaWhsRAoUTUA3uebr\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+pvfx@empirepixel.com\r\n------WebKitFormBoundaryaWhsRAoUTUA3uebr\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nchHY53rCJfbD\r\n------WebKitFormBoundaryaWhsRAoUTUA3uebr\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3749304669\r\n------WebKitFormBoundaryaWhsRAoUTUA3uebr--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526368",
+      "tracking_id": "USER6abca78b7c706",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "115",
+      "token": "CE35CE35-8B8B-8FE5-BB0F-39AD3239572E",
+      "email": "shahnawaz+pvfx@empirepixel.com",
+      "authhashed": "chHY53rCJfbD",
+      "plain": "chHY53rCJfbD",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3749304669",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-30 02:09:15",
+      "udt": "2026-09-30 02:09:15",
+      "utype": null
+    }
+  },
+  "status": 200
+}

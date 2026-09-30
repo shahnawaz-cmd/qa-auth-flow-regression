@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryBwehtt68ZAj8AiCI\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+duaq@empirepixel.com\r\n------WebKitFormBoundaryBwehtt68ZAj8AiCI\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ndhOI4zydt0n%\r\n------WebKitFormBoundaryBwehtt68ZAj8AiCI\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4559175264\r\n------WebKitFormBoundaryBwehtt68ZAj8AiCI--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526386",
+      "tracking_id": "USER6abca7b745eb6",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "2C002C00-FCFC-E608-016C-D368EBCF96C1",
+      "email": "shahnawaz+duaq@empirepixel.com",
+      "authhashed": "dhOI4zydt0n%",
+      "plain": "dhOI4zydt0n%",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4559175264",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-30 02:09:59",
+      "udt": "2026-09-30 02:09:59",
+      "utype": null
+    }
+  },
+  "status": 200
+}

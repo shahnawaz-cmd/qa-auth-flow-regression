@@ -1,0 +1,4 @@
+[HYUNDAI URL warning] Current URL: https://hyundaiwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

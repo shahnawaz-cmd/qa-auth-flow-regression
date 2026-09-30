@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryHBtT95x8gTetFt8B\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ex8g@empirepixel.com\r\n------WebKitFormBoundaryHBtT95x8gTetFt8B\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n5C1iIwRqgHbq\r\n------WebKitFormBoundaryHBtT95x8gTetFt8B\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1910763730\r\n------WebKitFormBoundaryHBtT95x8gTetFt8B--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526354",
+      "tracking_id": "USER6abca71a2d70a",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "DE82DE82-D3D3-490F-2087-AA4EB66643E7",
+      "email": "shahnawaz+ex8g@empirepixel.com",
+      "authhashed": "5C1iIwRqgHbq",
+      "plain": "5C1iIwRqgHbq",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1910763730",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-30 02:07:22",
+      "udt": "2026-09-30 02:07:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}

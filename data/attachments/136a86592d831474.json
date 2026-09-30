@@ -1,0 +1,49 @@
+{
+  "url": "https://mitsubishiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybMljJAaFGWpa6CzF\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0kvt@empirepixel.com\r\n------WebKitFormBoundarybMljJAaFGWpa6CzF\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4iqVi&g7ikNb\r\n------WebKitFormBoundarybMljJAaFGWpa6CzF\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1373897831\r\n------WebKitFormBoundarybMljJAaFGWpa6CzF--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526353",
+      "tracking_id": "USER6abca7191b8f9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "129",
+      "token": "47E547E5-2929-A628-1784-B75420BF2610",
+      "email": "shahnawaz+0kvt@empirepixel.com",
+      "authhashed": "4iqVi&g7ikNb",
+      "plain": "4iqVi&g7ikNb",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1373897831",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-30 02:07:21",
+      "udt": "2026-09-30 02:07:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

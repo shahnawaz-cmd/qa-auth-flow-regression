@@ -1,0 +1,49 @@
+{
+  "url": "https://jeepwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryWJKWB58W7p1C7CAL\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+uuje@empirepixel.com\r\n------WebKitFormBoundaryWJKWB58W7p1C7CAL\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nLzkOI@3F*V0Y\r\n------WebKitFormBoundaryWJKWB58W7p1C7CAL\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8059256398\r\n------WebKitFormBoundaryWJKWB58W7p1C7CAL--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526361",
+      "tracking_id": "USER6abca726622d5",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "105",
+      "token": "71D171D1-0808-DF83-E18E-2584AF97C4B9",
+      "email": "shahnawaz+uuje@empirepixel.com",
+      "authhashed": "LzkOI@3F*V0Y",
+      "plain": "LzkOI@3F*V0Y",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8059256398",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-09-30 02:07:34",
+      "udt": "2026-09-30 02:07:34",
+      "utype": null
+    }
+  },
+  "status": 200
+}
