@@ -1,0 +1,49 @@
+{
+  "url": "https://hondawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary5AySJ7WLs5DnEIlZ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+kcor@empirepixel.com\r\n------WebKitFormBoundary5AySJ7WLs5DnEIlZ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nv!#m%ADcsRo@\r\n------WebKitFormBoundary5AySJ7WLs5DnEIlZ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5409086889\r\n------WebKitFormBoundary5AySJ7WLs5DnEIlZ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526602",
+      "tracking_id": "USER6abe0084b9c60",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "116",
+      "token": "16841684-E3E3-8B57-4A08-3620A16442F5",
+      "email": "shahnawaz+kcor@empirepixel.com",
+      "authhashed": "v!#m%ADcsRo@",
+      "plain": "v!#m%ADcsRo@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5409086889",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-01 02:41:09",
+      "udt": "2026-10-01 02:41:09",
+      "utype": null
+    }
+  },
+  "status": 200
+}

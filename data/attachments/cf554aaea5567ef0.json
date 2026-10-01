@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryABrAa4Md24icbhTM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+4qvq@empirepixel.com\r\n------WebKitFormBoundaryABrAa4Md24icbhTM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nzs6#OfwbchMg\r\n------WebKitFormBoundaryABrAa4Md24icbhTM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4539364888\r\n------WebKitFormBoundaryABrAa4Md24icbhTM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526612",
+      "tracking_id": "USER6abe00c53e28d",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "4E734E73-7373-143F-67EB-72B7BE7580ED",
+      "email": "shahnawaz+4qvq@empirepixel.com",
+      "authhashed": "zs6#OfwbchMg",
+      "plain": "zs6#OfwbchMg",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4539364888",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-01 02:42:13",
+      "udt": "2026-10-01 02:42:13",
+      "utype": null
+    }
+  },
+  "status": 200
+}
