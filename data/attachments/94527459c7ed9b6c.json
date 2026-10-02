@@ -1,0 +1,49 @@
+{
+  "url": "https://audiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarym0bgciUL1L4qN3A4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0cmz@empirepixel.com\r\n------WebKitFormBoundarym0bgciUL1L4qN3A4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nYwtUT5%cecWF\r\n------WebKitFormBoundarym0bgciUL1L4qN3A4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1104181668\r\n------WebKitFormBoundarym0bgciUL1L4qN3A4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526815",
+      "tracking_id": "USER6abf4e1932996",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "117",
+      "token": "FEFEFEFE-C7C7-2414-508D-B95BE7D34B47",
+      "email": "shahnawaz+0cmz@empirepixel.com",
+      "authhashed": "YwtUT5%cecWF",
+      "plain": "YwtUT5%cecWF",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1104181668",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-02 02:24:25",
+      "udt": "2026-10-02 02:24:25",
+      "utype": null
+    }
+  },
+  "status": 200
+}

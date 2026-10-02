@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary8wgRxrpFlAUMyKaQ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+n0w9@empirepixel.com\r\n------WebKitFormBoundary8wgRxrpFlAUMyKaQ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\njZ@Fg@Kg2$8@\r\n------WebKitFormBoundary8wgRxrpFlAUMyKaQ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4072257342\r\n------WebKitFormBoundary8wgRxrpFlAUMyKaQ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526814",
+      "tracking_id": "USER6abf4e17dc858",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "2DAC2DAC-7373-4BE1-2182-B017ED81C39C",
+      "email": "shahnawaz+n0w9@empirepixel.com",
+      "authhashed": "jZ@Fg@Kg2$8@",
+      "plain": "jZ@Fg@Kg2$8@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4072257342",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-02 02:24:24",
+      "udt": "2026-10-02 02:24:24",
+      "utype": null
+    }
+  },
+  "status": 200
+}

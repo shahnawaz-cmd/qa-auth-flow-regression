@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary1vpMKq0nsgWwaiy0\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+qm4n@empirepixel.com\r\n------WebKitFormBoundary1vpMKq0nsgWwaiy0\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n6i0U#&Or9nI%\r\n------WebKitFormBoundary1vpMKq0nsgWwaiy0\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6620513706\r\n------WebKitFormBoundary1vpMKq0nsgWwaiy0--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526811",
+      "tracking_id": "USER6abf4e12e38fe",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "4C444C44-B4B4-CF22-CC59-8F9FE0271C44",
+      "email": "shahnawaz+qm4n@empirepixel.com",
+      "authhashed": "6i0U#&Or9nI%",
+      "plain": "6i0U#&Or9nI%",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6620513706",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-02 02:24:19",
+      "udt": "2026-10-02 02:24:19",
+      "utype": null
+    }
+  },
+  "status": 200
+}

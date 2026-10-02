@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryTFitmiwSKFNrtzUT\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ar30@empirepixel.com\r\n------WebKitFormBoundaryTFitmiwSKFNrtzUT\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nTE*7Ts%%Q#Jc\r\n------WebKitFormBoundaryTFitmiwSKFNrtzUT\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3436115173\r\n------WebKitFormBoundaryTFitmiwSKFNrtzUT--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "526841",
+      "tracking_id": "USER6abf4e7ec4b44",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "E2E6E2E6-BABA-32ED-302B-98526E3C8F82",
+      "email": "shahnawaz+ar30@empirepixel.com",
+      "authhashed": "TE*7Ts%%Q#Jc",
+      "plain": "TE*7Ts%%Q#Jc",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3436115173",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-02 02:26:07",
+      "udt": "2026-10-02 02:26:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}
