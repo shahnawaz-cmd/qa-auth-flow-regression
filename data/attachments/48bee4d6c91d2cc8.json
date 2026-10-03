@@ -1,0 +1,49 @@
+{
+  "url": "https://audiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarySlcIySTRkJL7twHx\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+va0s@empirepixel.com\r\n------WebKitFormBoundarySlcIySTRkJL7twHx\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nYgCqH!mKfPNb\r\n------WebKitFormBoundarySlcIySTRkJL7twHx\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2104953012\r\n------WebKitFormBoundarySlcIySTRkJL7twHx--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527058",
+      "tracking_id": "USER6ac098ae7fb88",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "117",
+      "token": "73317331-9E9E-8083-D0E1-02DF360334AF",
+      "email": "shahnawaz+va0s@empirepixel.com",
+      "authhashed": "YgCqH!mKfPNb",
+      "plain": "YgCqH!mKfPNb",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2104953012",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-03 01:54:54",
+      "udt": "2026-10-03 01:54:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

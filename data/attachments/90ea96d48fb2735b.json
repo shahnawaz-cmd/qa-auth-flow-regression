@@ -1,0 +1,49 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryhiZ4dy21h1GFzs40\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+d0rp@empirepixel.com\r\n------WebKitFormBoundaryhiZ4dy21h1GFzs40\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nnA7qUvsqRILV\r\n------WebKitFormBoundaryhiZ4dy21h1GFzs40\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8283659959\r\n------WebKitFormBoundaryhiZ4dy21h1GFzs40--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527069",
+      "tracking_id": "USER6ac098cb95adc",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "101",
+      "token": "B3BEB3BE-4242-4CD3-4A98-BE1B8862CBA1",
+      "email": "shahnawaz+d0rp@empirepixel.com",
+      "authhashed": "nA7qUvsqRILV",
+      "plain": "nA7qUvsqRILV",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8283659959",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-03 01:55:23",
+      "udt": "2026-10-03 01:55:23",
+      "utype": null
+    }
+  },
+  "status": 200
+}

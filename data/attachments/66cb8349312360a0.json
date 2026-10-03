@@ -1,0 +1,49 @@
+{
+  "url": "https://infinitiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryEbEhmhkIZrBXAvhG\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+h0g5@empirepixel.com\r\n------WebKitFormBoundaryEbEhmhkIZrBXAvhG\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n6GFAeopMCzyC\r\n------WebKitFormBoundaryEbEhmhkIZrBXAvhG\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0657671752\r\n------WebKitFormBoundaryEbEhmhkIZrBXAvhG--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527051",
+      "tracking_id": "USER6ac0986ea3f90",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "123",
+      "token": "2AE42AE4-8484-2C84-054E-2536226DE48F",
+      "email": "shahnawaz+h0g5@empirepixel.com",
+      "authhashed": "6GFAeopMCzyC",
+      "plain": "6GFAeopMCzyC",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0657671752",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-03 01:53:51",
+      "udt": "2026-10-03 01:53:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}
