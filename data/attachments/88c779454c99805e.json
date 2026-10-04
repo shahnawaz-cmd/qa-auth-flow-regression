@@ -1,0 +1,49 @@
+{
+  "url": "https://mercedesbenzwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarye3KwUlAGKgRXcEZt\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+sh1x@empirepixel.com\r\n------WebKitFormBoundarye3KwUlAGKgRXcEZt\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ndd3$uxSO2mQU\r\n------WebKitFormBoundarye3KwUlAGKgRXcEZt\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9848372352\r\n------WebKitFormBoundarye3KwUlAGKgRXcEZt--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527251",
+      "tracking_id": "USER6ac1f29997140",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "103",
+      "token": "61636163-CDCD-A5DB-FFCD-7DD91119922D",
+      "email": "shahnawaz+sh1x@empirepixel.com",
+      "authhashed": "dd3$uxSO2mQU",
+      "plain": "dd3$uxSO2mQU",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9848372352",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-04 02:30:50",
+      "udt": "2026-10-04 02:30:50",
+      "utype": null
+    }
+  },
+  "status": 200
+}

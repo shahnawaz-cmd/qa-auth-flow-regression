@@ -1,0 +1,49 @@
+{
+  "url": "https://lexuswindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryKcn8MgLyZ37reiEp\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+y70b@empirepixel.com\r\n------WebKitFormBoundaryKcn8MgLyZ37reiEp\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nPrkbejVraxjo\r\n------WebKitFormBoundaryKcn8MgLyZ37reiEp\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3692394408\r\n------WebKitFormBoundaryKcn8MgLyZ37reiEp--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527280",
+      "tracking_id": "USER6ac1f3119fd4f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "114",
+      "token": "FD07FD07-3B3B-8325-D072-0B8727F1F49A",
+      "email": "shahnawaz+y70b@empirepixel.com",
+      "authhashed": "PrkbejVraxjo",
+      "plain": "PrkbejVraxjo",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3692394408",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-04 02:32:50",
+      "udt": "2026-10-04 02:32:50",
+      "utype": null
+    }
+  },
+  "status": 200
+}

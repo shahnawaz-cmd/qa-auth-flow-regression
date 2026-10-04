@@ -1,0 +1,49 @@
+{
+  "url": "https://alfaromeowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary9RSQiQXcUTeuJ4ZR\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9i18@empirepixel.com\r\n------WebKitFormBoundary9RSQiQXcUTeuJ4ZR\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nET4LvpAUPcKY\r\n------WebKitFormBoundary9RSQiQXcUTeuJ4ZR\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5840643479\r\n------WebKitFormBoundary9RSQiQXcUTeuJ4ZR--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527258",
+      "tracking_id": "USER6ac1f2a3d5c05",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "122",
+      "token": "514F514F-9D9D-F822-2BF9-04E54592ADB9",
+      "email": "shahnawaz+9i18@empirepixel.com",
+      "authhashed": "ET4LvpAUPcKY",
+      "plain": "ET4LvpAUPcKY",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5840643479",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-04 02:31:00",
+      "udt": "2026-10-04 02:31:00",
+      "utype": null
+    }
+  },
+  "status": 200
+}
