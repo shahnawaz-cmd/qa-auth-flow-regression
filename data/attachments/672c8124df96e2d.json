@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryUtdmZ3Q36BqpquQs\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+7big@empirepixel.com\r\n------WebKitFormBoundaryUtdmZ3Q36BqpquQs\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nqmcDBt9P^$FC\r\n------WebKitFormBoundaryUtdmZ3Q36BqpquQs\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7136804300\r\n------WebKitFormBoundaryUtdmZ3Q36BqpquQs--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527481",
+      "tracking_id": "USER6ac342947f3ec",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "3D633D63-4646-9847-C657-B3E87F243B3C",
+      "email": "shahnawaz+7big@empirepixel.com",
+      "authhashed": "qmcDBt9P^$FC",
+      "plain": "qmcDBt9P^$FC",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7136804300",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-05 02:24:22",
+      "udt": "2026-10-05 02:24:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}

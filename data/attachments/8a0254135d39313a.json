@@ -1,0 +1,49 @@
+{
+  "url": "https://infinitiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryuqwbl81StTGJA0u4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+2jh9@empirepixel.com\r\n------WebKitFormBoundaryuqwbl81StTGJA0u4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nTfMOPcG&wkNH\r\n------WebKitFormBoundaryuqwbl81StTGJA0u4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4693105725\r\n------WebKitFormBoundaryuqwbl81StTGJA0u4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527476",
+      "tracking_id": "USER6ac3428bec217",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "123",
+      "token": "B9B9B9B9-BBBB-B112-C47D-93D04C46D2FE",
+      "email": "shahnawaz+2jh9@empirepixel.com",
+      "authhashed": "TfMOPcG&wkNH",
+      "plain": "TfMOPcG&wkNH",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4693105725",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-05 02:24:12",
+      "udt": "2026-10-05 02:24:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

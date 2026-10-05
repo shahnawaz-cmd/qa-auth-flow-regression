@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryOat1xTFHac864pbv\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ogee@empirepixel.com\r\n------WebKitFormBoundaryOat1xTFHac864pbv\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nMgBqDBoENa!m\r\n------WebKitFormBoundaryOat1xTFHac864pbv\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1109753058\r\n------WebKitFormBoundaryOat1xTFHac864pbv--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527497",
+      "tracking_id": "USER6ac342f24db2f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "D25CD25C-3939-84D7-DA2F-B4E6E1E9AD81",
+      "email": "shahnawaz+ogee@empirepixel.com",
+      "authhashed": "MgBqDBoENa!m",
+      "plain": "MgBqDBoENa!m",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quebec",
+      "country": "CA",
+      "pincode": "0",
+      "phone": "1109753058",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-05 02:25:54",
+      "udt": "2026-10-05 02:25:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

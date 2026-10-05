@@ -1,0 +1,49 @@
+{
+  "url": "https://gmwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryb2oyfG7AFTLUXD7w\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5zm0@empirepixel.com\r\n------WebKitFormBoundaryb2oyfG7AFTLUXD7w\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nAypMHCG1sLem\r\n------WebKitFormBoundaryb2oyfG7AFTLUXD7w\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9179931326\r\n------WebKitFormBoundaryb2oyfG7AFTLUXD7w--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527471",
+      "tracking_id": "USER6ac342836ec8a",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "109",
+      "token": "62EA62EA-1313-8132-F91D-CE0061461284",
+      "email": "shahnawaz+5zm0@empirepixel.com",
+      "authhashed": "AypMHCG1sLem",
+      "plain": "AypMHCG1sLem",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9179931326",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-05 02:24:04",
+      "udt": "2026-10-05 02:24:04",
+      "utype": null
+    }
+  },
+  "status": 200
+}

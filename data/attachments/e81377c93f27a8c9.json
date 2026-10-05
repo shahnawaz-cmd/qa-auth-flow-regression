@@ -1,0 +1,49 @@
+{
+  "url": "https://smartcarcheck.uk/members/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryX56AYpkqKB0mQyq3\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+jqzi@empirepixel.com\r\n------WebKitFormBoundaryX56AYpkqKB0mQyq3\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nLLyPD#mi^f8n\r\n------WebKitFormBoundaryX56AYpkqKB0mQyq3\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n\r\n------WebKitFormBoundaryX56AYpkqKB0mQyq3\r\nContent-Disposition: form-data; name=\"first\"\r\n\r\n\r\n------WebKitFormBoundaryX56AYpkqKB0mQyq3\r\nContent-Disposition: form-data; name=\"last\"\r\n\r\n\r\n------WebKitFormBoundaryX56AYpkqKB0mQyq3--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527478",
+      "tracking_id": "USER6ac34294bd6b6",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "W5dIUBHVOISSkKUUUwwfSaHuPAJ2",
+      "site": "90",
+      "token": "68B368B3-1E1E-00FD-6216-621835F289F0",
+      "email": "shahnawaz+jqzi@empirepixel.com",
+      "authhashed": "LLyPD#mi^f8n",
+      "plain": "LLyPD#mi^f8n",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-05 02:24:22",
+      "udt": "2026-10-05 02:24:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}
