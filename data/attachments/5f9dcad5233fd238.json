@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryxTO4R2F9TfaUIcdr\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+v269@empirepixel.com\r\n------WebKitFormBoundaryxTO4R2F9TfaUIcdr\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nc2P@78agciV*\r\n------WebKitFormBoundaryxTO4R2F9TfaUIcdr\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3610630911\r\n------WebKitFormBoundaryxTO4R2F9TfaUIcdr--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527689",
+      "tracking_id": "USER6ac49c8474656",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "2D882D88-4F4F-B570-EA86-CCD7B50B6CCD",
+      "email": "shahnawaz+v269@empirepixel.com",
+      "authhashed": "c2P@78agciV*",
+      "plain": "c2P@78agciV*",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3610630911",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-06 03:00:20",
+      "udt": "2026-10-06 03:00:20",
+      "utype": null
+    }
+  },
+  "status": 200
+}
