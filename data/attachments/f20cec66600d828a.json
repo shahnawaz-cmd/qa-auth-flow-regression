@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryImIYKBkVYYJcBfaM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9fgn@empirepixel.com\r\n------WebKitFormBoundaryImIYKBkVYYJcBfaM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nNB$PvLjzdC#k\r\n------WebKitFormBoundaryImIYKBkVYYJcBfaM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0314332020\r\n------WebKitFormBoundaryImIYKBkVYYJcBfaM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527941",
+      "tracking_id": "USER6ac5e987abd70",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "52345234-5E5E-6750-8803-BC9033C52506",
+      "email": "shahnawaz+9fgn@empirepixel.com",
+      "authhashed": "NB$PvLjzdC#k",
+      "plain": "NB$PvLjzdC#k",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0314332020",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-07 02:41:12",
+      "udt": "2026-10-07 02:41:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

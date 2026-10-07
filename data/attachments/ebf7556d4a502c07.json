@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPkYAhLBpuK8sVvs7\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+vyvl@empirepixel.com\r\n------WebKitFormBoundaryPkYAhLBpuK8sVvs7\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nemjo*E0@ibB$\r\n------WebKitFormBoundaryPkYAhLBpuK8sVvs7\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8142593012\r\n------WebKitFormBoundaryPkYAhLBpuK8sVvs7--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "527952",
+      "tracking_id": "USER6ac5e9c711a7f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "10B210B2-F5F5-0081-1746-FFB5AEA175D2",
+      "email": "shahnawaz+vyvl@empirepixel.com",
+      "authhashed": "emjo*E0@ibB$",
+      "plain": "emjo*E0@ibB$",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8142593012",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-07 02:42:15",
+      "udt": "2026-10-07 02:42:15",
+      "utype": null
+    }
+  },
+  "status": 200
+}
