@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerbyvin.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryMnH4XUaCdOcxNREW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5d6e@empirepixel.com\r\n------WebKitFormBoundaryMnH4XUaCdOcxNREW\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nlt4RHJV%An#v\r\n------WebKitFormBoundaryMnH4XUaCdOcxNREW\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4969450870\r\n------WebKitFormBoundaryMnH4XUaCdOcxNREW--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528198",
+      "tracking_id": "USER6ac73d05cc643",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "110",
+      "token": "FCC0FCC0-ECEC-DF96-5B4C-D8FA5B35767C",
+      "email": "shahnawaz+5d6e@empirepixel.com",
+      "authhashed": "lt4RHJV%An#v",
+      "plain": "lt4RHJV%An#v",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4969450870",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-08 02:49:42",
+      "udt": "2026-10-08 02:49:42",
+      "utype": null
+    }
+  },
+  "status": 200
+}

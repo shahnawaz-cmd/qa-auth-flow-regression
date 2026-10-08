@@ -1,0 +1,33 @@
+{
+  "site": "MITSUBISHI",
+  "stage": "login",
+  "url": "https://mitsubishiwindowsticker.com/dashboard?greet=true&_rsc=41y2q",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yrcobh3Buv4YNKdnYjfYgeh9w8lq%2BzW2UwMyvngfFHCy%2BYyejaSD7%2B00HV0r2NBmMWaERM0by7%2B88H40mmnBMuyme0EfLy5ApNO5k%2F0L6X8p9B3typ2RQgt1tl5bGyYoqcmJYVzSuFTvcQvoy5c%3D\"}]}",
+    "x-content-type-options": "nosniff",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Thu, 08 Oct 2026 06:49:10 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-store, no-cache, max-age=0, must-revalidate",
+    "cdn-cache-control": "no-store",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a473343d6f9e47a1-ORD",
+    "permissions-policy": "microphone=(), camera=()",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-08T06:49:15.695Z"
+}
