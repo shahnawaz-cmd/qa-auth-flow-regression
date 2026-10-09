@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerbyvin.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryT1kVVAzoanRLxO1V\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+a5sv@empirepixel.com\r\n------WebKitFormBoundaryT1kVVAzoanRLxO1V\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n5ZRo4zZA$c7&\r\n------WebKitFormBoundaryT1kVVAzoanRLxO1V\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9369050857\r\n------WebKitFormBoundaryT1kVVAzoanRLxO1V--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528386",
+      "tracking_id": "USER6ac88fea5d7d3",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "110",
+      "token": "B0E8B0E8-3F3F-93C8-AD4A-B2D524399822",
+      "email": "shahnawaz+a5sv@empirepixel.com",
+      "authhashed": "5ZRo4zZA$c7&",
+      "plain": "5ZRo4zZA$c7&",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9369050857",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-09 02:55:38",
+      "udt": "2026-10-09 02:55:38",
+      "utype": null
+    }
+  },
+  "status": 200
+}

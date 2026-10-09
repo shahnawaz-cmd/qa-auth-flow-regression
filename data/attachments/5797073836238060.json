@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryOoPnwRzux43ez94U\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+bekr@empirepixel.com\r\n------WebKitFormBoundaryOoPnwRzux43ez94U\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n%*XR@CQ6^si!\r\n------WebKitFormBoundaryOoPnwRzux43ez94U\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8137473904\r\n------WebKitFormBoundaryOoPnwRzux43ez94U--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528387",
+      "tracking_id": "USER6ac88feac8162",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "91559155-8B8B-9373-1B2A-ACE439331DC8",
+      "email": "shahnawaz+bekr@empirepixel.com",
+      "authhashed": "%*XR@CQ6^si!",
+      "plain": "%*XR@CQ6^si!",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8137473904",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-09 02:55:39",
+      "udt": "2026-10-09 02:55:39",
+      "utype": null
+    }
+  },
+  "status": 200
+}
