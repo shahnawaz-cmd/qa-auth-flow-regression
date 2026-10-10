@@ -1,0 +1,49 @@
+{
+  "url": "https://volkswagenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryd8rZdlPFK9dy2BBB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0r3s@empirepixel.com\r\n------WebKitFormBoundaryd8rZdlPFK9dy2BBB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nWXUmI9cQIevA\r\n------WebKitFormBoundaryd8rZdlPFK9dy2BBB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9124425530\r\n------WebKitFormBoundaryd8rZdlPFK9dy2BBB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528642",
+      "tracking_id": "USER6ac9dbf02f024",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "113",
+      "token": "CB4DCB4D-E3E3-A4A8-965E-43ED3F525E49",
+      "email": "shahnawaz+0r3s@empirepixel.com",
+      "authhashed": "WXUmI9cQIevA",
+      "plain": "WXUmI9cQIevA",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9124425530",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-10 02:32:16",
+      "udt": "2026-10-10 02:32:16",
+      "utype": null
+    }
+  },
+  "status": 200
+}

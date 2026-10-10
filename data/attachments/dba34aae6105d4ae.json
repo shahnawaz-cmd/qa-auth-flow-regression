@@ -1,0 +1,49 @@
+{
+  "url": "https://hondawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryZMlWjwey9dPBDTSP\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+719t@empirepixel.com\r\n------WebKitFormBoundaryZMlWjwey9dPBDTSP\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nozeXsUH0kt52\r\n------WebKitFormBoundaryZMlWjwey9dPBDTSP\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1864472694\r\n------WebKitFormBoundaryZMlWjwey9dPBDTSP--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528633",
+      "tracking_id": "USER6ac9dbb795b96",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "116",
+      "token": "59985998-7777-6DEE-4869-09781FAC5BC7",
+      "email": "shahnawaz+719t@empirepixel.com",
+      "authhashed": "ozeXsUH0kt52",
+      "plain": "ozeXsUH0kt52",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1864472694",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-10 02:31:19",
+      "udt": "2026-10-10 02:31:19",
+      "utype": null
+    }
+  },
+  "status": 200
+}
