@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary1DHxpbeb6tZMmZLU\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+jsc0@empirepixel.com\r\n------WebKitFormBoundary1DHxpbeb6tZMmZLU\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nis#SuneY8n^3\r\n------WebKitFormBoundary1DHxpbeb6tZMmZLU\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8962964268\r\n------WebKitFormBoundary1DHxpbeb6tZMmZLU--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528852",
+      "tracking_id": "USER6acb2ea1785e5",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "NMOdlNO2IIOtQhBiDyMH0Z1WpfE2",
+      "site": "1",
+      "token": "E833E833-CDCD-2603-5FA2-DA9DE95B4FB2",
+      "email": "shahnawaz+jsc0@empirepixel.com",
+      "authhashed": "is#SuneY8n^3",
+      "plain": "is#SuneY8n^3",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8962964268",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-11 02:37:22",
+      "udt": "2026-10-11 02:37:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}

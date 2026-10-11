@@ -1,0 +1,49 @@
+{
+  "url": "https://infinitiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryojAUm8rWiRqOOTNv\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+i4wx@empirepixel.com\r\n------WebKitFormBoundaryojAUm8rWiRqOOTNv\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n1SDCEetf5SXW\r\n------WebKitFormBoundaryojAUm8rWiRqOOTNv\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6528467663\r\n------WebKitFormBoundaryojAUm8rWiRqOOTNv--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528839",
+      "tracking_id": "USER6acb2e8babf16",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "123",
+      "token": "0F920F92-3D3D-407C-A28D-C9F59A293A58",
+      "email": "shahnawaz+i4wx@empirepixel.com",
+      "authhashed": "1SDCEetf5SXW",
+      "plain": "1SDCEetf5SXW",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6528467663",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-11 02:37:00",
+      "udt": "2026-10-11 02:37:00",
+      "utype": null
+    }
+  },
+  "status": 200
+}

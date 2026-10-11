@@ -1,0 +1,49 @@
+{
+  "url": "https://chevroletwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPD65cvazCG9Uoyv1\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+w1kx@empirepixel.com\r\n------WebKitFormBoundaryPD65cvazCG9Uoyv1\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nI!GIEquaKX&I\r\n------WebKitFormBoundaryPD65cvazCG9Uoyv1\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2389322110\r\n------WebKitFormBoundaryPD65cvazCG9Uoyv1--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "528840",
+      "tracking_id": "USER6acb2e8d4110c",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "107",
+      "token": "000A000A-BBBB-74A0-A799-D895888ACFA8",
+      "email": "shahnawaz+w1kx@empirepixel.com",
+      "authhashed": "I!GIEquaKX&I",
+      "plain": "I!GIEquaKX&I",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2389322110",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-11 02:37:01",
+      "udt": "2026-10-11 02:37:01",
+      "utype": null
+    }
+  },
+  "status": 200
+}
