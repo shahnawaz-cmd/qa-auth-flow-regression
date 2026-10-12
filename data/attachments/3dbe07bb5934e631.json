@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryhBMn6idhD1YJBGTj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+iks4@empirepixel.com\r\n------WebKitFormBoundaryhBMn6idhD1YJBGTj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n79Zk4P2IMn!W\r\n------WebKitFormBoundaryhBMn6idhD1YJBGTj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7451002012\r\n------WebKitFormBoundaryhBMn6idhD1YJBGTj--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529068",
+      "tracking_id": "USER6acc8205cd836",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "C05FC05F-EFEF-F82A-6675-A659DA57BC6D",
+      "email": "shahnawaz+iks4@empirepixel.com",
+      "authhashed": "79Zk4P2IMn!W",
+      "plain": "79Zk4P2IMn!W",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Redmond",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7451002012",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-12 02:45:26",
+      "udt": "2026-10-12 02:45:26",
+      "utype": null
+    }
+  },
+  "status": 200
+}
