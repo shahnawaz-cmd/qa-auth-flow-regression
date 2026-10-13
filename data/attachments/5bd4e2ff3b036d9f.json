@@ -1,0 +1,8 @@
+{
+  "url": "https://jeepwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarypo5yd87lmFh3DyKY\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+njgy@empirepixel.com\r\n------WebKitFormBoundarypo5yd87lmFh3DyKY\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nEus7RvFeVL4g\r\n------WebKitFormBoundarypo5yd87lmFh3DyKY\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3442522071\r\n------WebKitFormBoundarypo5yd87lmFh3DyKY--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

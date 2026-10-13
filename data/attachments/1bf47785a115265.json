@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryMFF1NVyg3PfDB97g\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ml5y@empirepixel.com\r\n------WebKitFormBoundaryMFF1NVyg3PfDB97g\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nmTv#M7AzOsYW\r\n------WebKitFormBoundaryMFF1NVyg3PfDB97g\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3747066461\r\n------WebKitFormBoundaryMFF1NVyg3PfDB97g--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529257",
+      "tracking_id": "USER6acdda0cd8120",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "B28FB28F-6565-10FA-FD0C-33028EB26A07",
+      "email": "shahnawaz+ml5y@empirepixel.com",
+      "authhashed": "mTv#M7AzOsYW",
+      "plain": "mTv#M7AzOsYW",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3747066461",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-13 03:13:19",
+      "udt": "2026-10-13 03:13:19",
+      "utype": null
+    }
+  },
+  "status": 200
+}

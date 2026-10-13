@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary1vgHLse6RzeSce1G\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9hng@empirepixel.com\r\n------WebKitFormBoundary1vgHLse6RzeSce1G\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nd4iWGRRQe@ya\r\n------WebKitFormBoundary1vgHLse6RzeSce1G\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4840446741\r\n------WebKitFormBoundary1vgHLse6RzeSce1G--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529272",
+      "tracking_id": "USER6acdda2567ba1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "A88CA88C-2121-8F25-BA7F-D00F9A5E0268",
+      "email": "shahnawaz+9hng@empirepixel.com",
+      "authhashed": "d4iWGRRQe@ya",
+      "plain": "d4iWGRRQe@ya",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4840446741",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-13 03:13:41",
+      "udt": "2026-10-13 03:13:41",
+      "utype": null
+    }
+  },
+  "status": 200
+}
