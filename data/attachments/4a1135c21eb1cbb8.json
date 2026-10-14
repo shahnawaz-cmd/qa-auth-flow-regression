@@ -1,0 +1,49 @@
+{
+  "url": "https://chevroletwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryNvhAg3MzFUFbQBB3\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+3ft0@empirepixel.com\r\n------WebKitFormBoundaryNvhAg3MzFUFbQBB3\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n33lhzEQAoV4o\r\n------WebKitFormBoundaryNvhAg3MzFUFbQBB3\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8112460088\r\n------WebKitFormBoundaryNvhAg3MzFUFbQBB3--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529479",
+      "tracking_id": "USER6acf15199c698",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "107",
+      "token": "56CB56CB-0909-D7CF-EF07-8508E8FF199B",
+      "email": "shahnawaz+3ft0@empirepixel.com",
+      "authhashed": "33lhzEQAoV4o",
+      "plain": "33lhzEQAoV4o",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8112460088",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:37:30",
+      "udt": "2026-10-14 01:37:30",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarypzAuvrcSyyH3koCw\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+yj52@empirepixel.com\r\n------WebKitFormBoundarypzAuvrcSyyH3koCw\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nEKEUw8tKD8Hw\r\n------WebKitFormBoundarypzAuvrcSyyH3koCw\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9015719806\r\n------WebKitFormBoundarypzAuvrcSyyH3koCw--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529461",
+      "tracking_id": "USER6acf14dd2cc20",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "EC7DEC7D-6060-2AF8-F71F-D979EE2BA853",
+      "email": "shahnawaz+yj52@empirepixel.com",
+      "authhashed": "EKEUw8tKD8Hw",
+      "plain": "EKEUw8tKD8Hw",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9015719806",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:36:29",
+      "udt": "2026-10-14 01:36:29",
+      "utype": null
+    }
+  },
+  "status": 200
+}

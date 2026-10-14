@@ -1,0 +1,49 @@
+{
+  "url": "https://gmwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarypns2fZjOGpuGtivD\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+nmd9@empirepixel.com\r\n------WebKitFormBoundarypns2fZjOGpuGtivD\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nly!bwn#cC@Tp\r\n------WebKitFormBoundarypns2fZjOGpuGtivD\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4468566782\r\n------WebKitFormBoundarypns2fZjOGpuGtivD--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529454",
+      "tracking_id": "USER6acf14d65642b",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "109",
+      "token": "45A545A5-4A4A-2098-BA78-22A79BB91A64",
+      "email": "shahnawaz+nmd9@empirepixel.com",
+      "authhashed": "ly!bwn#cC@Tp",
+      "plain": "ly!bwn#cC@Tp",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4468566782",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:36:22",
+      "udt": "2026-10-14 01:36:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}

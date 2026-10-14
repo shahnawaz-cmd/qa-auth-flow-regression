@@ -1,0 +1,49 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarytpKNMrFzNYIrOKAg\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+g7tn@empirepixel.com\r\n------WebKitFormBoundarytpKNMrFzNYIrOKAg\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n*m5@m1eRkIa#\r\n------WebKitFormBoundarytpKNMrFzNYIrOKAg\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7151917465\r\n------WebKitFormBoundarytpKNMrFzNYIrOKAg--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529469",
+      "tracking_id": "USER6acf150b0c03d",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "101",
+      "token": "63FA63FA-F3F3-0566-100F-CE1402ED0AD9",
+      "email": "shahnawaz+g7tn@empirepixel.com",
+      "authhashed": "*m5@m1eRkIa#",
+      "plain": "*m5@m1eRkIa#",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7151917465",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:37:15",
+      "udt": "2026-10-14 01:37:15",
+      "utype": null
+    }
+  },
+  "status": 200
+}

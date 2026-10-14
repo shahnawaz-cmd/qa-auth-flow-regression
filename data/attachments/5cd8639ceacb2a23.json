@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary4n2HACtBwWQVLLxn\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+qmql@empirepixel.com\r\n------WebKitFormBoundary4n2HACtBwWQVLLxn\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4*Z!dWf9%3Je\r\n------WebKitFormBoundary4n2HACtBwWQVLLxn\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6006060295\r\n------WebKitFormBoundary4n2HACtBwWQVLLxn--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529464",
+      "tracking_id": "USER6acf14fa4a720",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "EEB4EEB4-8F8F-A4AA-BB36-CCDD9B6FC682",
+      "email": "shahnawaz+qmql@empirepixel.com",
+      "authhashed": "4*Z!dWf9%3Je",
+      "plain": "4*Z!dWf9%3Je",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6006060295",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:36:58",
+      "udt": "2026-10-14 01:36:58",
+      "utype": null
+    }
+  },
+  "status": 200
+}

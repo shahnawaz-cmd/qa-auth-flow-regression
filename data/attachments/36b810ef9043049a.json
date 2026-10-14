@@ -1,0 +1,49 @@
+{
+  "url": "https://subaruwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary9Yet2xt9FDATcArp\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+d8uf@empirepixel.com\r\n------WebKitFormBoundary9Yet2xt9FDATcArp\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nSOLpqyRykjYw\r\n------WebKitFormBoundary9Yet2xt9FDATcArp\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9292624190\r\n------WebKitFormBoundary9Yet2xt9FDATcArp--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529452",
+      "tracking_id": "USER6acf14d549018",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "111",
+      "token": "EB9BEB9B-5858-1992-0DAD-F5FDBEEBE6BF",
+      "email": "shahnawaz+d8uf@empirepixel.com",
+      "authhashed": "SOLpqyRykjYw",
+      "plain": "SOLpqyRykjYw",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9292624190",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:36:21",
+      "udt": "2026-10-14 01:36:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

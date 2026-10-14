@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary2NGxZcOteTQ6ycnf\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+sziq@empirepixel.com\r\n------WebKitFormBoundary2NGxZcOteTQ6ycnf\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\npd@F$5A!2oLr\r\n------WebKitFormBoundary2NGxZcOteTQ6ycnf\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0762209647\r\n------WebKitFormBoundary2NGxZcOteTQ6ycnf--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529472",
+      "tracking_id": "USER6acf15103abb1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "B7B5B7B5-F8F8-75E8-3482-C5D2744E472E",
+      "email": "shahnawaz+sziq@empirepixel.com",
+      "authhashed": "pd@F$5A!2oLr",
+      "plain": "pd@F$5A!2oLr",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0762209647",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:37:21",
+      "udt": "2026-10-14 01:37:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

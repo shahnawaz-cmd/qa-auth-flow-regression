@@ -1,8 +1,0 @@
-{
-  "url": "https://porschewindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundaryBsYS1B2m2cQTxBAc\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+03wz@empirepixel.com\r\n------WebKitFormBoundaryBsYS1B2m2cQTxBAc\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n5SDb5MRrM95%\r\n------WebKitFormBoundaryBsYS1B2m2cQTxBAc\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5438330176\r\n------WebKitFormBoundaryBsYS1B2m2cQTxBAc--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJFe5IrindJD7Bo7E\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+pizr@empirepixel.com\r\n------WebKitFormBoundaryJFe5IrindJD7Bo7E\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n5y4!fLub1cat\r\n------WebKitFormBoundaryJFe5IrindJD7Bo7E\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0680591035\r\n------WebKitFormBoundaryJFe5IrindJD7Bo7E--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529453",
+      "tracking_id": "USER6acf14d620ced",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "51795179-2020-5BC1-AC6B-900C8010C25C",
+      "email": "shahnawaz+pizr@empirepixel.com",
+      "authhashed": "5y4!fLub1cat",
+      "plain": "5y4!fLub1cat",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0680591035",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-14 01:36:22",
+      "udt": "2026-10-14 01:36:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}
