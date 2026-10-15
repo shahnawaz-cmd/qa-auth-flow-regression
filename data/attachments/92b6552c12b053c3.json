@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryykmvcW5BvAB4iyWM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+rapo@empirepixel.com\r\n------WebKitFormBoundaryykmvcW5BvAB4iyWM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ni*BKBatlOArc\r\n------WebKitFormBoundaryykmvcW5BvAB4iyWM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9867281480\r\n------WebKitFormBoundaryykmvcW5BvAB4iyWM--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529752",
+      "tracking_id": "USER6ad06366c13e5",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "115",
+      "token": "D614D614-EEEE-5C71-F30F-5D22A94454C3",
+      "email": "shahnawaz+rapo@empirepixel.com",
+      "authhashed": "i*BKBatlOArc",
+      "plain": "i*BKBatlOArc",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9867281480",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-15 01:23:51",
+      "udt": "2026-10-15 01:23:51",
+      "utype": null
+    }
+  },
+  "status": 200
+}

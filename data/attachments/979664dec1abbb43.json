@@ -1,0 +1,49 @@
+{
+  "url": "https://minicooperwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryLJ7GWPIRAnLGPvTu\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+e6xe@empirepixel.com\r\n------WebKitFormBoundaryLJ7GWPIRAnLGPvTu\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nK4wVwEUmV^E9\r\n------WebKitFormBoundaryLJ7GWPIRAnLGPvTu\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9790242643\r\n------WebKitFormBoundaryLJ7GWPIRAnLGPvTu--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529747",
+      "tracking_id": "USER6ad063618dbc4",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "128",
+      "token": "F2D1F2D1-1F1F-139A-86E3-C6C7283A351E",
+      "email": "shahnawaz+e6xe@empirepixel.com",
+      "authhashed": "K4wVwEUmV^E9",
+      "plain": "K4wVwEUmV^E9",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9790242643",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-15 01:23:46",
+      "udt": "2026-10-15 01:23:46",
+      "utype": null
+    }
+  },
+  "status": 200
+}

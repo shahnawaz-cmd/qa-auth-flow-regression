@@ -1,0 +1,32 @@
+{
+  "site": "MERCEDES",
+  "stage": "login",
+  "url": "https://mercedesbenzwindowsticker.com/dashboard?greet=true&_rsc=1e8xs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=i00UfLppBBnP%2Fy3Q58vp0t45Z9VW0ZZFL18K8Xcn%2B4ru72%2F%2Fuw%2BBo4D7pzxdN4UFe2R5LBGgwsuhWizXHo6SSazeTFm%2B4xoIsixnNPr6pdnc%2F4437VR2OgqwlmR%2Fyo5Mg6ja9CIWY2gSaxkOs02kgw%3D%3D\"}]}",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Thu, 15 Oct 2026 05:24:45 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a4ac663af9032041-ORD",
+    "permissions-policy": "microphone=(), camera=()",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-15T05:24:49.340Z"
+}

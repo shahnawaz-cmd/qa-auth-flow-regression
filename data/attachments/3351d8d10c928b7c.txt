@@ -1,0 +1,6 @@
+[LINCOLN] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
+[LINCOLN URL warning] Current URL: https://lincolnwindowsticker.com/signup?email=shahnawaz%2Bxbfu%40empirepixel.com&password=e7Ktl9jLCy6t&confirmPassword=e7Ktl9jLCy6t&phone=1223980913 - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://lincolnwindowsticker.com/signup?email=shahnawaz%2Bxbfu%40empirepixel.com&password=e7Ktl9jLCy6t&confirmPassword=e7Ktl9jLCy6t&phone=1223980913"
+============================================================

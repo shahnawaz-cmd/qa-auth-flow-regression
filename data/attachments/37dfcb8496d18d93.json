@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarylbfcRJW1Mpni8UKn\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+i8ns@empirepixel.com\r\n------WebKitFormBoundarylbfcRJW1Mpni8UKn\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n6xnceCR5gAgg\r\n------WebKitFormBoundarylbfcRJW1Mpni8UKn\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0981547608\r\n------WebKitFormBoundarylbfcRJW1Mpni8UKn--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529754",
+      "tracking_id": "USER6ad06369e9c04",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "76717671-2525-D384-CF4A-52442CEDD5EB",
+      "email": "shahnawaz+i8ns@empirepixel.com",
+      "authhashed": "6xnceCR5gAgg",
+      "plain": "6xnceCR5gAgg",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0981547608",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-15 01:23:54",
+      "udt": "2026-10-15 01:23:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryfoih85lNesJKhSMN\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+pf5l@empirepixel.com\r\n------WebKitFormBoundaryfoih85lNesJKhSMN\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nZr9wUAa8Nx!M\r\n------WebKitFormBoundaryfoih85lNesJKhSMN\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1638650678\r\n------WebKitFormBoundaryfoih85lNesJKhSMN--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "529766",
+      "tracking_id": "USER6ad0639d3b2ec",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "01500150-AFAF-E63C-C285-CD8633D921BF",
+      "email": "shahnawaz+pf5l@empirepixel.com",
+      "authhashed": "Zr9wUAa8Nx!M",
+      "plain": "Zr9wUAa8Nx!M",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1638650678",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-15 01:24:46",
+      "udt": "2026-10-15 01:24:46",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://alfaromeowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryn0oN6sN6QLJpMw3E\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+u6bp@empirepixel.com\r\n------WebKitFormBoundaryn0oN6sN6QLJpMw3E\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ngea5@KE4tMZo\r\n------WebKitFormBoundaryn0oN6sN6QLJpMw3E\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3156580581\r\n------WebKitFormBoundaryn0oN6sN6QLJpMw3E--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}
