@@ -1,0 +1,49 @@
+{
+  "url": "https://vwwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryxn3bPUeo3SB8KxNR\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+mkes@empirepixel.com\r\n------WebKitFormBoundaryxn3bPUeo3SB8KxNR\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nTDsZt&fNTJaZ\r\n------WebKitFormBoundaryxn3bPUeo3SB8KxNR\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8012573758\r\n------WebKitFormBoundaryxn3bPUeo3SB8KxNR--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530072",
+      "tracking_id": "USER6ad1b3376a830",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "118",
+      "token": "05960596-7878-2657-6743-0E11E236FB37",
+      "email": "shahnawaz+mkes@empirepixel.com",
+      "authhashed": "TDsZt&fNTJaZ",
+      "plain": "TDsZt&fNTJaZ",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8012573758",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-16 01:16:39",
+      "udt": "2026-10-16 01:16:39",
+      "utype": null
+    }
+  },
+  "status": 200
+}

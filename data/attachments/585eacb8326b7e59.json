@@ -1,0 +1,49 @@
+{
+  "url": "https://motorcyclevinlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarywUqTPYw4WWzpKQgn\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ryad@empirepixel.com\r\n------WebKitFormBoundarywUqTPYw4WWzpKQgn\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nw0DWoT38@sp$\r\n------WebKitFormBoundarywUqTPYw4WWzpKQgn\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1781348606\r\n------WebKitFormBoundarywUqTPYw4WWzpKQgn--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530081",
+      "tracking_id": "USER6ad1b340b4250",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "99",
+      "token": "93AD93AD-4747-9102-778A-0F84BAD6F4BF",
+      "email": "shahnawaz+ryad@empirepixel.com",
+      "authhashed": "w0DWoT38@sp$",
+      "plain": "w0DWoT38@sp$",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1781348606",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-16 01:16:49",
+      "udt": "2026-10-16 01:16:49",
+      "utype": null
+    }
+  },
+  "status": 200
+}

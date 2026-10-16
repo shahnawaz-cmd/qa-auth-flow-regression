@@ -1,0 +1,8 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarywoLilHqMVMQIAUii\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+977x@empirepixel.com\r\n------WebKitFormBoundarywoLilHqMVMQIAUii\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nIjeJZ#3iTxTx\r\n------WebKitFormBoundarywoLilHqMVMQIAUii\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8026237512\r\n------WebKitFormBoundarywoLilHqMVMQIAUii--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

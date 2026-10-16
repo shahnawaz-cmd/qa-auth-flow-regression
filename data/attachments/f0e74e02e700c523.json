@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryC0EenupeAla302QB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+59qt@empirepixel.com\r\n------WebKitFormBoundaryC0EenupeAla302QB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nzTc%OKP5tY6q\r\n------WebKitFormBoundaryC0EenupeAla302QB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2913870048\r\n------WebKitFormBoundaryC0EenupeAla302QB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530065",
+      "tracking_id": "USER6ad1b3084367d",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "oPJxx3PDeRgjvtnW3WMv4W1ZPOj2",
+      "site": "1",
+      "token": "54905490-D5D5-2AA5-9E7A-A7BF29FB4E29",
+      "email": "shahnawaz+59qt@empirepixel.com",
+      "authhashed": "zTc%OKP5tY6q",
+      "plain": "zTc%OKP5tY6q",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2913870048",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-16 01:15:53",
+      "udt": "2026-10-16 01:15:53",
+      "utype": null
+    }
+  },
+  "status": 200
+}
