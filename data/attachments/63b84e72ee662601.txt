@@ -1,0 +1,5 @@
+[LEXUS URL warning] Current URL: https://lexuswindowsticker.com/dashboard?greet=true - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://lexuswindowsticker.com/dashboard?greet=true"
+============================================================

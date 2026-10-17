@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryHTKtK4MxhQfHTZlr\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+1p04@empirepixel.com\r\n------WebKitFormBoundaryHTKtK4MxhQfHTZlr\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nDETJQ6uucHHT\r\n------WebKitFormBoundaryHTKtK4MxhQfHTZlr\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4765412524\r\n------WebKitFormBoundaryHTKtK4MxhQfHTZlr--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530400",
+      "tracking_id": "USER6ad30427c8b83",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "C1CCC1CC-ACAC-D957-C8DE-65D711C6D608",
+      "email": "shahnawaz+1p04@empirepixel.com",
+      "authhashed": "DETJQ6uucHHT",
+      "plain": "DETJQ6uucHHT",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4765412524",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-17 01:14:16",
+      "udt": "2026-10-17 01:14:16",
+      "utype": null
+    }
+  },
+  "status": 200
+}

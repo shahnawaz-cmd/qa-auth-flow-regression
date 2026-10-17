@@ -1,0 +1,51 @@
+{
+  "url": "https://classicdecoder.com/api/register",
+  "requestPayload": {
+    "email": "shahnawaz+1ihg@empirepixel.com",
+    "password": "V98tluD&BoHA",
+    "phone": "8009048320"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530417",
+      "tracking_id": "USER6ad3047e400a7",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "fbl5CFAUJKSXhtymtr0DuZlfb5i2",
+      "site": "91",
+      "token": "BC39BC39-2020-1108-E623-2577EE377D7F",
+      "email": "shahnawaz+1ihg@empirepixel.com",
+      "authhashed": "V98tluD&BoHA",
+      "plain": "V98tluD&BoHA",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8009048320",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-17 01:15:43",
+      "udt": "2026-10-17 01:15:43",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryMbrOPcMpE9Mf5ANW\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ooyo@empirepixel.com\r\n------WebKitFormBoundaryMbrOPcMpE9Mf5ANW\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nUkR#kdxkqfKX\r\n------WebKitFormBoundaryMbrOPcMpE9Mf5ANW\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2102683517\r\n------WebKitFormBoundaryMbrOPcMpE9Mf5ANW--\r\n"
+  },
+  "responseBody": {},
+  "status": 500
+}

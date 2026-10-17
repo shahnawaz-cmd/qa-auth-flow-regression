@@ -1,0 +1,5 @@
+[CADILLAC URL warning] Current URL: https://cadillacwindowsticker.com/dashboard?greet=true - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://cadillacwindowsticker.com/dashboard?greet=true"
+============================================================

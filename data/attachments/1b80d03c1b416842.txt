@@ -1,0 +1,4 @@
+[CHRYSLER URL warning] Current URL: https://chryslerwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

@@ -1,0 +1,4 @@
+[SUBARU URL warning] Current URL: https://subaruwindowstickers.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

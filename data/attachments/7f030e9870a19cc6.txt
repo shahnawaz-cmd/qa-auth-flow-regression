@@ -1,0 +1,4 @@
+[INFINITI URL warning] Current URL: https://infinitiwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

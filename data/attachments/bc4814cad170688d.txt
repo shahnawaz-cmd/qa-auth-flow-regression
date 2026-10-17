@@ -1,0 +1,4 @@
+[GMC URL warning] Current URL: https://gmcwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================

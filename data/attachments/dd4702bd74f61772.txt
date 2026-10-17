@@ -1,0 +1,6 @@
+[AUDI URL warning] Current URL: https://audiwindowsticker.com/dashboard?greet=true - Error: page.waitForURL: Test timeout of 120000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://audiwindowsticker.com/dashboard?greet=true"
+  "domcontentloaded" event fired
+============================================================
