@@ -1,6 +1,0 @@
-[MCLAREN] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
-[MCLAREN URL warning] Current URL: https://mclarenwindowsticker.com/signup?email=shahnawaz%2Bog2p%40empirepixel.com&password=w4xptCRAdgy%23&confirmPassword=w4xptCRAdgy%23&phone=0753580249 - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://mclarenwindowsticker.com/signup?email=shahnawaz%2Bog2p%40empirepixel.com&password=w4xptCRAdgy%23&confirmPassword=w4xptCRAdgy%23&phone=0753580249"
-============================================================

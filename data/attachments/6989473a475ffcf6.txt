@@ -1,5 +1,0 @@
-[MITSUBISHI URL warning] Current URL: https://mitsubishiwindowsticker.com/dashboard - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://mitsubishiwindowsticker.com/dashboard"
-============================================================

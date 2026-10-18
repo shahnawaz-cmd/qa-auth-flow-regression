@@ -1,8 +1,0 @@
-{
-  "url": "https://chryslerwindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundary96IhRcSU1hu8XMOB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+4dbv@empirepixel.com\r\n------WebKitFormBoundary96IhRcSU1hu8XMOB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nD0Wc4#TMBAH1\r\n------WebKitFormBoundary96IhRcSU1hu8XMOB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0006356368\r\n------WebKitFormBoundary96IhRcSU1hu8XMOB--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

@@ -1,4 +1,0 @@
-[DVH URL warning] Current URL: https://detailedvehiclehistory.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-============================================================

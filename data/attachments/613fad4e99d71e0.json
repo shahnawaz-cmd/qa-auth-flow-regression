@@ -1,8 +1,0 @@
-{
-  "url": "https://hondawindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundarypdGI5zWUnY45IwJv\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+dyvm@empirepixel.com\r\n------WebKitFormBoundarypdGI5zWUnY45IwJv\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nt7LmStRC@Bga\r\n------WebKitFormBoundarypdGI5zWUnY45IwJv\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9595300418\r\n------WebKitFormBoundarypdGI5zWUnY45IwJv--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

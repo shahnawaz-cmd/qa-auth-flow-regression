@@ -1,0 +1,49 @@
+{
+  "url": "https://volkswagenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary2NYQ7EuTqRC3Fhcn\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5f49@empirepixel.com\r\n------WebKitFormBoundary2NYQ7EuTqRC3Fhcn\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\njmNXb$eQFcg1\r\n------WebKitFormBoundary2NYQ7EuTqRC3Fhcn\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3992514830\r\n------WebKitFormBoundary2NYQ7EuTqRC3Fhcn--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530668",
+      "tracking_id": "USER6ad456293f1ef",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "113",
+      "token": "B99DB99D-1515-4B4A-912F-6A0A461CDCC2",
+      "email": "shahnawaz+5f49@empirepixel.com",
+      "authhashed": "jmNXb$eQFcg1",
+      "plain": "jmNXb$eQFcg1",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3992514830",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-18 01:16:25",
+      "udt": "2026-10-18 01:16:25",
+      "utype": null
+    }
+  },
+  "status": 200
+}

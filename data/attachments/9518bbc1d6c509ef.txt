@@ -1,4 +1,0 @@
-[VOLKSWAGEN URL warning] Current URL: https://volkswagenwindowsticker.com/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-============================================================

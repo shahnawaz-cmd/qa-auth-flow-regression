@@ -1,7 +1,0 @@
-[MINI] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
-[MINI URL warning] Current URL: https://minicooperwindowsticker.com/signup?email=shahnawaz%2Bkm98%40empirepixel.com&password=grIHk5abDSrJ&confirmPassword=grIHk5abDSrJ&phone=9158108494 - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://minicooperwindowsticker.com/signup?email=shahnawaz%2Bkm98%40empirepixel.com&password=grIHk5abDSrJ&confirmPassword=grIHk5abDSrJ&phone=9158108494"
-  navigated to "https://minicooperwindowsticker.com/signup?email=shahnawaz%2Bkm98%40empirepixel.com&password=grIHk5abDSrJ&confirmPassword=grIHk5abDSrJ&phone=9158108494"
-============================================================

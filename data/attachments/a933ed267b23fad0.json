@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPWDuTXJqIELfU4Kp\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+86eo@empirepixel.com\r\n------WebKitFormBoundaryPWDuTXJqIELfU4Kp\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nVM9K%lFi$d6E\r\n------WebKitFormBoundaryPWDuTXJqIELfU4Kp\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0132858347\r\n------WebKitFormBoundaryPWDuTXJqIELfU4Kp--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530679",
+      "tracking_id": "USER6ad45635b715e",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "5BF95BF9-2020-4091-00E6-0A981FCA9A4D",
+      "email": "shahnawaz+86eo@empirepixel.com",
+      "authhashed": "VM9K%lFi$d6E",
+      "plain": "VM9K%lFi$d6E",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0132858347",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-18 01:16:38",
+      "udt": "2026-10-18 01:16:38",
+      "utype": null
+    }
+  },
+  "status": 200
+}

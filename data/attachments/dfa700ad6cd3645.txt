@@ -1,7 +1,0 @@
-[FORD] API capture note: page.waitForResponse: Timeout 60000ms exceeded while waiting for event "response"
-[FORD URL warning] Current URL: https://fordwindowstickerlookup.com/signup?email=shahnawaz%2Bw32b%40empirepixel.com&password=yhi89xvChq3c&confirmPassword=yhi89xvChq3c&phone=6976610957 - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://fordwindowstickerlookup.com/signup?email=shahnawaz%2Bw32b%40empirepixel.com&password=yhi89xvChq3c&confirmPassword=yhi89xvChq3c&phone=6976610957"
-  navigated to "https://fordwindowstickerlookup.com/signup?email=shahnawaz%2Bw32b%40empirepixel.com&password=yhi89xvChq3c&confirmPassword=yhi89xvChq3c&phone=6976610957"
-============================================================

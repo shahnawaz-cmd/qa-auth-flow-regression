@@ -1,8 +1,0 @@
-{
-  "url": "https://volkswagenwindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundary3GaJaKstPNPViIoI\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ppiz@empirepixel.com\r\n------WebKitFormBoundary3GaJaKstPNPViIoI\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n^*AWb4IcWPx1\r\n------WebKitFormBoundary3GaJaKstPNPViIoI\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3876386159\r\n------WebKitFormBoundary3GaJaKstPNPViIoI--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}

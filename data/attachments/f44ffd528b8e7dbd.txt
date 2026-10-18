@@ -1,4 +1,0 @@
-[VINNUMBER_CA URL warning] Current URL: https://vinnumber.ca/signup - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-============================================================

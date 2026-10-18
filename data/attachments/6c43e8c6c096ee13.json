@@ -1,8 +1,0 @@
-{
-  "url": "https://hyundaiwindowsticker.com/api-cwa/register",
-  "requestPayload": {
-    "raw": "------WebKitFormBoundaryNibEZKO5BZWOJYBM\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+lqlx@empirepixel.com\r\n------WebKitFormBoundaryNibEZKO5BZWOJYBM\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nWDHNP3c3q$5p\r\n------WebKitFormBoundaryNibEZKO5BZWOJYBM\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9201605744\r\n------WebKitFormBoundaryNibEZKO5BZWOJYBM--\r\n"
-  },
-  "responseBody": {},
-  "status": 500
-}
