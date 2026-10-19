@@ -1,0 +1,49 @@
+{
+  "url": "https://volvowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarylBkPoRkvNGTqnjXy\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+fg4a@empirepixel.com\r\n------WebKitFormBoundarylBkPoRkvNGTqnjXy\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nXK#Can7Y#@cZ\r\n------WebKitFormBoundarylBkPoRkvNGTqnjXy\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4808146038\r\n------WebKitFormBoundarylBkPoRkvNGTqnjXy--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530916",
+      "tracking_id": "USER6ad5aa71276ab",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "121",
+      "token": "227B227B-6363-65F4-6E20-CD10B1A13166",
+      "email": "shahnawaz+fg4a@empirepixel.com",
+      "authhashed": "XK#Can7Y#@cZ",
+      "plain": "XK#Can7Y#@cZ",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4808146038",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-19 01:28:17",
+      "udt": "2026-10-19 01:28:17",
+      "utype": null
+    }
+  },
+  "status": 200
+}

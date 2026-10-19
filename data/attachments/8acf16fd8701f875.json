@@ -1,0 +1,49 @@
+{
+  "url": "https://alfaromeowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryt2BBiuF1WON5l3Mr\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+czte@empirepixel.com\r\n------WebKitFormBoundaryt2BBiuF1WON5l3Mr\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ndnI%CrwCb^d^\r\n------WebKitFormBoundaryt2BBiuF1WON5l3Mr\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4814526190\r\n------WebKitFormBoundaryt2BBiuF1WON5l3Mr--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530905",
+      "tracking_id": "USER6ad5aa4329a1c",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "122",
+      "token": "CA6CCA6C-C3C3-AB92-9C3B-ABBF14BCD2DF",
+      "email": "shahnawaz+czte@empirepixel.com",
+      "authhashed": "dnI%CrwCb^d^",
+      "plain": "dnI%CrwCb^d^",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4814526190",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-19 01:27:31",
+      "udt": "2026-10-19 01:27:31",
+      "utype": null
+    }
+  },
+  "status": 200
+}

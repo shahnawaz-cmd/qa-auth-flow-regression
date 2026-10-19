@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarymDgardnYR0VNe413\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+iopq@empirepixel.com\r\n------WebKitFormBoundarymDgardnYR0VNe413\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nHbaAvtDKL5!M\r\n------WebKitFormBoundarymDgardnYR0VNe413\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9016878120\r\n------WebKitFormBoundarymDgardnYR0VNe413--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "530910",
+      "tracking_id": "USER6ad5aa48b3aad",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "115",
+      "token": "08A408A4-5858-BC94-B1B3-E4696ABB9567",
+      "email": "shahnawaz+iopq@empirepixel.com",
+      "authhashed": "HbaAvtDKL5!M",
+      "plain": "HbaAvtDKL5!M",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Queretaro City",
+      "country": "MX",
+      "pincode": "0",
+      "phone": "9016878120",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-19 01:27:37",
+      "udt": "2026-10-19 01:27:37",
+      "utype": null
+    }
+  },
+  "status": 200
+}
