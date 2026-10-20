@@ -1,0 +1,28 @@
+{
+  "site": "VINNUMBER_CA",
+  "stage": "signup",
+  "url": "https://vinnumber.ca/dashboard?greet=true&_rsc=1mnzs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7FIFq7h76fi8c6tnOACvQ2yZRHF8wW8j0boUzOakZvq4NU3wVORabZ2jV6VW%2BGy5PLOdc30doAzUXfLmZi0xM%2BGxv6E1hCBvnH4ldSGS2FIT3hSqVD%2BZAdaiP8nyA2c%3D\"}]}",
+    "cf-ray": "a4d5a1085a8c45f5-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Tue, 20 Oct 2026 05:30:10 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare",
+    "priority": "u=1,i"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-20T05:30:15.271Z"
+}
