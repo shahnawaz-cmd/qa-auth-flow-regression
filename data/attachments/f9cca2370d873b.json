@@ -1,0 +1,51 @@
+{
+  "url": "https://classicdecoder.com/api/register",
+  "requestPayload": {
+    "email": "shahnawaz+qku8@empirepixel.com",
+    "password": "rgSq7hvIdk!z",
+    "phone": "4053545562"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "531267",
+      "tracking_id": "USER6ad78b671b692",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "Z4F19th47gYs1rbiDyJ4uVrKCT92",
+      "site": "91",
+      "token": "58C958C9-8282-7B0A-7D68-35F5A5BA0601",
+      "email": "shahnawaz+qku8@empirepixel.com",
+      "authhashed": "rgSq7hvIdk!z",
+      "plain": "rgSq7hvIdk!z",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4053545562",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-20 11:40:28",
+      "udt": "2026-10-20 11:40:28",
+      "utype": null
+    }
+  },
+  "status": 200
+}

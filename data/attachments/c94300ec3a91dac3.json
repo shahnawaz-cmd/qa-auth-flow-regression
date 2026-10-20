@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerbyvin.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJ8fyIt4hqkifmAuu\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+p37u@empirepixel.com\r\n------WebKitFormBoundaryJ8fyIt4hqkifmAuu\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nImRzJEe1iSyF\r\n------WebKitFormBoundaryJ8fyIt4hqkifmAuu\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9673333942\r\n------WebKitFormBoundaryJ8fyIt4hqkifmAuu--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "531260",
+      "tracking_id": "USER6ad78b66c89e9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "110",
+      "token": "4A1F4A1F-2C2C-2489-1339-BE10E2B29E39",
+      "email": "shahnawaz+p37u@empirepixel.com",
+      "authhashed": "ImRzJEe1iSyF",
+      "plain": "ImRzJEe1iSyF",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9673333942",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-20 11:40:23",
+      "udt": "2026-10-20 11:40:23",
+      "utype": null
+    }
+  },
+  "status": 200
+}
