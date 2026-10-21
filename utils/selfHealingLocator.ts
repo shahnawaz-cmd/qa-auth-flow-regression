@@ -20,15 +20,22 @@ export async function locateInputWithHealing(
   options: HealingOptions = {}
 ): Promise<Locator> {
   const isSlowNetwork = options.isSlowNetwork || process.env.SLOW_NETWORK === 'true';
-  const baseTimeout = options.timeout || (isSlowNetwork ? 20000 : 8000);
-  const strategyTimeout = options.strategyTimeout || Math.max(2500, Math.floor(baseTimeout / 3));
+  const strategyTimeout = options.strategyTimeout
+    ? Math.min(options.strategyTimeout, 2000)
+    : (isSlowNetwork ? 2000 : 1200);
 
-  const rawStrategies: (() => Locator)[] = [
+  // Check concrete configured fallback selectors first, then semantic strategies
+  const fallbackLocators = fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)));
+  const semanticStrategies: (() => Locator)[] = [
     () => page.getByRole('textbox', { name: new RegExp(labelText, 'i') }),
     () => page.getByPlaceholder(new RegExp(labelText, 'i')),
     () => page.getByLabel(new RegExp(labelText, 'i')),
     () => page.getByTestId(labelText.toLowerCase().replace(/\s+/g, '-')),
-    ...fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)))
+  ];
+
+  const rawStrategies: (() => Locator)[] = [
+    ...fallbackLocators,
+    ...semanticStrategies
   ];
 
   // Pass 1: Look for currently VISIBLE elements first (crucial for responsive DOM duplicates)
@@ -47,7 +54,7 @@ export async function locateInputWithHealing(
   for (let i = 0; i < rawStrategies.length; i++) {
     try {
       const loc = rawStrategies[i]().first();
-      const isVisible = await loc.isVisible({ timeout: 1000 }).catch(() => false);
+      const isVisible = await loc.isVisible({ timeout: 800 }).catch(() => false);
       if (isVisible) {
         return loc;
       }
@@ -104,16 +111,22 @@ export async function locateElementWithHealing(
   options: HealingOptions = {}
 ): Promise<Locator> {
   const isSlowNetwork = options.isSlowNetwork || process.env.SLOW_NETWORK === 'true';
-  const baseTimeout = options.timeout || (isSlowNetwork ? 20000 : 8000);
-  const strategyTimeout = options.strategyTimeout || Math.max(2500, Math.floor(baseTimeout / 3));
+  const strategyTimeout = options.strategyTimeout
+    ? Math.min(options.strategyTimeout, 2000)
+    : (isSlowNetwork ? 2000 : 1200);
 
-  const rawStrategies: (() => Locator)[] = [
+  const fallbackLocators = fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)));
+  const semanticStrategies: (() => Locator)[] = [
     () => page.getByRole('button', { name: new RegExp(labelText, 'i') }),
     () => page.getByRole('tab', { name: new RegExp(labelText, 'i') }),
     () => page.getByRole('link', { name: new RegExp(labelText, 'i') }),
     () => page.locator(`text=${labelText}`),
     () => page.getByTestId(labelText.toLowerCase().replace(/\s+/g, '-')),
-    ...fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)))
+  ];
+
+  const rawStrategies: (() => Locator)[] = [
+    ...fallbackLocators,
+    ...semanticStrategies
   ];
 
   // Pass 1: Look for VISIBLE elements first
@@ -132,7 +145,7 @@ export async function locateElementWithHealing(
   for (let i = 0; i < rawStrategies.length; i++) {
     try {
       const loc = rawStrategies[i]().first();
-      const isVisible = await loc.isVisible({ timeout: 1000 }).catch(() => false);
+      const isVisible = await loc.isVisible({ timeout: 800 }).catch(() => false);
       if (isVisible) {
         return loc;
       }
@@ -156,15 +169,23 @@ export async function clickWithHealing(
   fallbackSelectors: SelectorFallback[] = [],
   options: HealingOptions = {}
 ): Promise<void> {
-  const rawStrategies: (() => Locator)[] = [
+  const isSlowNetwork = options.isSlowNetwork || process.env.SLOW_NETWORK === 'true';
+  const strategyTimeout = options.strategyTimeout
+    ? Math.min(options.strategyTimeout, 2000)
+    : (isSlowNetwork ? 2000 : 1200);
+
+  const fallbackLocators = fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)));
+  const semanticStrategies: (() => Locator)[] = [
     () => page.getByRole('button', { name: new RegExp(buttonTextOrLabel, 'i') }),
     () => page.locator(`button:has-text("${buttonTextOrLabel}")`),
     () => page.locator(`text=${buttonTextOrLabel}`),
     () => page.getByTestId(buttonTextOrLabel.toLowerCase().replace(/\s+/g, '-')),
-    ...fallbackSelectors.map(sel => () => (typeof sel === 'function' ? sel(page) : page.locator(sel)))
   ];
 
-  const strategyTimeout = options.strategyTimeout || 6000;
+  const rawStrategies: (() => Locator)[] = [
+    ...fallbackLocators,
+    ...semanticStrategies
+  ];
 
   // Pass 1: Try visible match first
   for (let i = 0; i < rawStrategies.length; i++) {
@@ -183,7 +204,7 @@ export async function clickWithHealing(
   for (let i = 0; i < rawStrategies.length; i++) {
     try {
       const loc = rawStrategies[i]().first();
-      const isVisible = await loc.isVisible({ timeout: 1000 }).catch(() => false);
+      const isVisible = await loc.isVisible({ timeout: 800 }).catch(() => false);
       if (isVisible) {
         await loc.click({ force: true });
         return;

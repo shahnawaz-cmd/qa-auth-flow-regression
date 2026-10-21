@@ -3,7 +3,8 @@ const { defineConfig } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: true,
-  workers: process.env.CI ? 2 : '50%',
+  forbidOnly: !!process.env.CI,
+  workers: process.env.CI ? 1 : '50%',
   retries: 1,
   reporter: [
     ['list'],
@@ -20,15 +21,15 @@ module.exports = defineConfig({
     }],
     ...(process.env.CI ? [['blob']] : [])
   ],
-  timeout: 120000,
+  timeout: 150000,
   expect: {
     timeout: 30000
   },
   use: {
-    trace: 'on',
+    trace: 'retain-on-failure',
     video: 'retain-on-failure',
-    screenshot: 'on',
-    actionTimeout: 40000,
+    screenshot: 'only-on-failure',
+    actionTimeout: 30000,
     navigationTimeout: 60000,
   },
 });

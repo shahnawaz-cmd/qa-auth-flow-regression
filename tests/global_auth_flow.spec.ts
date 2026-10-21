@@ -40,14 +40,17 @@ test.describe('Global Signup & Login Tests', () => {
   });
 
   for (const site of sites) {
-    test(`Auth Signup Test: ${site.name}`, { timeout: 120000 }, async ({ page }, testInfo) => {
+    test(`Auth Signup Test: ${site.name}`, { timeout: 150000 }, async ({ page }, testInfo) => {
       const actor = new Actor('User', page);
       try {
         const supportsPhone = site.name !== 'SCC';
 
         // STEP 1: Navigate & Generate User Credentials
         const { email, password, phone } = await test.step('Generate Credentials & Navigate to Signup', async () => {
-          await page.goto(site.signupUrl, { waitUntil: 'domcontentloaded' });
+          await page.goto(site.signupUrl, { waitUntil: 'domcontentloaded' }).catch(async (err) => {
+            console.warn(`[Navigation retry] Retrying initial goto for ${site.name}:`, err.message);
+            await page.goto(site.signupUrl, { waitUntil: 'domcontentloaded' });
+          });
           
           const emailTask = new EmailGenerator();
           const passwordTask = new PasswordGenerator();
@@ -75,7 +78,7 @@ test.describe('Global Signup & Login Tests', () => {
 
           const capturePromise = page.waitForResponse(
             (response) => response.url().includes(site.apiEndpoint) && response.request().method() === 'POST',
-            { timeout: 60000 }
+            { timeout: 15000 }
           ).then(async (response) => {
             const request = response.request();
             const rawPayload = request.postData() || '{}';
@@ -111,7 +114,10 @@ test.describe('Global Signup & Login Tests', () => {
 
         // STEP 4: Perform Login & Verify Dashboard
         await test.step('Execute Login & Verify Dashboard', async () => {
-          await page.goto(site.loginUrl, { waitUntil: 'domcontentloaded' });
+          await page.goto(site.loginUrl, { waitUntil: 'domcontentloaded' }).catch(async (err) => {
+            console.warn(`[Navigation retry] Retrying login goto for ${site.name}:`, err.message);
+            await page.goto(site.loginUrl, { waitUntil: 'domcontentloaded' });
+          });
           
           const loginDashboardCapture = new CaptureDashboardApiResponseTask(site, testInfo, 'login');
           loginDashboardCapture.startListening(page);

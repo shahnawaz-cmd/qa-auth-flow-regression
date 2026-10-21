@@ -5,7 +5,14 @@ import { Actor } from '../actors/Actor';
  * Robust helper function to accept terms & conditions checkbox.
  * Handles native checkboxes, custom React/Vue/MUI wrappers, and labels.
  */
-export async function acceptTermsCheckbox(page: Page, timeout: number = 5000): Promise<boolean> {
+export async function acceptTermsCheckbox(page: Page, timeout: number = 2000): Promise<boolean> {
+  // Fast pre-flight check: exit immediately if form has no visible checkbox
+  const quickCheck = page.locator('input[type="checkbox"], [role="checkbox"], label:has(input[type="checkbox"])').first();
+  const hasCheckbox = await quickCheck.isVisible({ timeout: 800 }).catch(() => false);
+  if (!hasCheckbox) {
+    return false;
+  }
+
   const checkboxStrategies: (() => Locator)[] = [
     () => page.getByRole('checkbox').first(),
     () => page.locator('input[type="checkbox"]').first(),
@@ -17,7 +24,7 @@ export async function acceptTermsCheckbox(page: Page, timeout: number = 5000): P
   for (let i = 0; i < checkboxStrategies.length; i++) {
     try {
       const loc = checkboxStrategies[i]();
-      const isVisible = await loc.isVisible({ timeout: 1500 }).catch(() => false);
+      const isVisible = await loc.isVisible({ timeout: 1000 }).catch(() => false);
       if (isVisible) {
         const isChecked = await loc.isChecked().catch(async () => {
           const input = loc.locator('input[type="checkbox"]');
