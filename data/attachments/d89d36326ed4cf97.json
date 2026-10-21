@@ -1,0 +1,49 @@
+{
+  "url": "https://minicooperwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary4BI4YEikwRJyibtw\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+sjo2@empirepixel.com\r\n------WebKitFormBoundary4BI4YEikwRJyibtw\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n266vP3Zd!cKI\r\n------WebKitFormBoundary4BI4YEikwRJyibtw\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0556979744\r\n------WebKitFormBoundary4BI4YEikwRJyibtw--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "531538",
+      "tracking_id": "USER6ad82e6c78371",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "128",
+      "token": "38203820-8484-075F-14BD-67730388E942",
+      "email": "shahnawaz+sjo2@empirepixel.com",
+      "authhashed": "266vP3Zd!cKI",
+      "plain": "266vP3Zd!cKI",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0556979744",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-20 23:15:56",
+      "udt": "2026-10-20 23:15:56",
+      "utype": null
+    }
+  },
+  "status": 200
+}

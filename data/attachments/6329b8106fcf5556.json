@@ -1,0 +1,49 @@
+{
+  "url": "https://lincolnwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryBR45OZ3B0xUm5lG4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+opb6@empirepixel.com\r\n------WebKitFormBoundaryBR45OZ3B0xUm5lG4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ndHgdcxJy#8T^\r\n------WebKitFormBoundaryBR45OZ3B0xUm5lG4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9232280441\r\n------WebKitFormBoundaryBR45OZ3B0xUm5lG4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "531545",
+      "tracking_id": "USER6ad82e868ea81",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "126",
+      "token": "B1EAB1EA-8D8D-92E9-6907-F91164010563",
+      "email": "shahnawaz+opb6@empirepixel.com",
+      "authhashed": "dHgdcxJy#8T^",
+      "plain": "dHgdcxJy#8T^",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9232280441",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-20 23:16:22",
+      "udt": "2026-10-20 23:16:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}
