@@ -110,10 +110,9 @@ export class CaptureDashboardApiResponseTask {
     const siteName = this.siteConfig?.name || 'UnknownSite';
     console.log(`⏳ [CaptureDashboardApiResponseTask] Waiting for dashboard page to fully load & render on ${siteName}...`);
 
-    // 1. Wait for document load states
+    // 1. Wait for document load states (avoiding networkidle hang)
     await page.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
     await page.waitForLoadState('load', { timeout: 15000 }).catch(() => {});
-    await page.waitForLoadState('networkidle', { timeout: 8000 }).catch(() => {});
 
     // 2. Wait for Next.js Suspense skeleton loaders, shimmers, or spinners to finish/hide
     const loadingElements = page.locator('.animate-pulse, [class*="skeleton" i], [class*="shimmer" i], [class*="loading" i], [id*="loading" i], .spinner, [aria-busy="true"]');
@@ -121,34 +120,18 @@ export class CaptureDashboardApiResponseTask {
       const isStillLoading = await loadingElements.first().isVisible({ timeout: 1000 }).catch(() => false);
       if (isStillLoading) {
         console.log(`⏳ [CaptureDashboardApiResponseTask] Skeleton/spinner detected on ${siteName}, waiting for full render...`);
-        await loadingElements.first().waitFor({ state: 'hidden', timeout: 8000 }).catch(() => {});
+        await loadingElements.first().waitFor({ state: 'hidden', timeout: 5000 }).catch(() => {});
       }
     } catch (e) {}
 
-    // 3. Condition-based wait for core dashboard DOM elements to be visible
-    const dashboardIndicators = [
-      'main',
-      '[class*="dashboard" i]',
-      '[class*="member" i]',
-      '[class*="report" i]',
-      'input[placeholder*="VIN" i]',
-      'input[placeholder*="search" i]',
-      'button:has-text("Search")',
-      'button:has-text("Generate")',
-      'header',
-      'nav'
-    ];
-
-    for (const selector of dashboardIndicators) {
-      try {
-        const loc = page.locator(selector).first();
-        const isVisible = await loc.isVisible({ timeout: 1000 }).catch(() => false);
-        if (isVisible) {
-          console.log(`✅ [CaptureDashboardApiResponseTask] Core dashboard component rendered ("${selector}") on ${siteName}`);
-          break;
-        }
-      } catch (e) {}
-    }
+    // 3. Condition-based fast compound check for core dashboard DOM elements
+    const dashboardIndicatorsSelector = 'main, [class*="dashboard" i], [class*="member" i], [class*="report" i], input[placeholder*="VIN" i], input[placeholder*="search" i], button:has-text("Search"), button:has-text("Generate"), header, nav';
+    try {
+      const isRendered = await page.locator(dashboardIndicatorsSelector).first().isVisible({ timeout: 2500 }).catch(() => false);
+      if (isRendered) {
+        console.log(`✅ [CaptureDashboardApiResponseTask] Core dashboard component rendered on ${siteName}`);
+      }
+    } catch (e) {}
 
     // 4. Dismiss any newly loaded welcome tours or promotional modals
     await dismissAllPopups(page, 1500);

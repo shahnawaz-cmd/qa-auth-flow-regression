@@ -88,21 +88,21 @@ export async function dismissAllPopups(page: Page, customTimeout: number = 2000)
     'button[class*="chat-close"]'
   ];
 
-  for (const sel of dismissSelectors) {
-    try {
-      const locator = page.locator(sel).locator('visible=true').first();
-      const isVisible = await locator.isVisible({ timeout: customTimeout }).catch(() => false);
-      if (isVisible) {
-        console.log(`🛡️ [Smart Dismiss] External popup / Cookie banner detected ("${sel}"). Dismissing...`);
-        await locator.scrollIntoViewIfNeeded().catch(() => {});
-        await locator.click({ force: true }).catch(() => {});
-        await locator.waitFor({ state: 'hidden', timeout: 1500 }).catch(() => {});
-        console.log('✅ [Smart Dismiss] Popup dismissed successfully.');
-        dismissedAny = true;
-      }
-    } catch (e) {
-      // Gracefully continue to next selector
+  // Fast compound check to avoid linear sequential polling timeout
+  try {
+    const combinedSelector = dismissSelectors.join(', ');
+    const popupBtn = page.locator(combinedSelector).locator('visible=true').first();
+    const isVisible = await popupBtn.isVisible({ timeout: Math.min(customTimeout, 1000) }).catch(() => false);
+    if (isVisible) {
+      console.log(`🛡️ [Smart Dismiss] External popup / Cookie banner detected. Dismissing...`);
+      await popupBtn.scrollIntoViewIfNeeded().catch(() => {});
+      await popupBtn.click({ force: true }).catch(() => {});
+      await popupBtn.waitFor({ state: 'hidden', timeout: 1500 }).catch(() => {});
+      console.log('✅ [Smart Dismiss] Popup dismissed successfully.');
+      dismissedAny = true;
     }
+  } catch (e) {
+    // Gracefully handle if combined locator syntax is not supported in frame
   }
 
   // 3. Check embedded iframes for overlays and close buttons

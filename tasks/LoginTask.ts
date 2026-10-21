@@ -22,12 +22,12 @@ export class LoginTask {
     // 0. Dismiss any external popups, cookie dialogs, or banner overlays
     await dismissAllPopups(page, 1500);
 
-    // Optional: Setup API capture
+    // Optional: Setup API capture (non-blocking diagnostic telemetry)
     let capturePromise: Promise<void> | undefined;
     if (this.testInfo && loginApiEndpoint) {
       capturePromise = page.waitForResponse(
         (response) => response.url().includes(loginApiEndpoint) && response.request().method() === 'POST',
-        { timeout: 45000 }
+        { timeout: 12000 }
       ).then(async (response) => {
         let responseBody: any = {};
         try {
@@ -128,7 +128,7 @@ export class LoginTask {
       page,
       'Access Dashboard',
       submitFallbacks,
-      { isSlowNetwork: this.isSlowNetwork, strategyTimeout: timeout }
+      { isSlowNetwork: this.isSlowNetwork, strategyTimeout: 2000 }
     );
 
     if (capturePromise) {

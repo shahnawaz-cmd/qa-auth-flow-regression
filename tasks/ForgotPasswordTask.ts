@@ -18,12 +18,12 @@ export class ForgotPasswordTask {
 
     console.log(`[ForgotPasswordTask] Testing forgot password flow on "${name}" (${this.email})...`);
 
-    // Setup API capture with condition-based timeout
+    // Setup API capture with condition-based timeout (capped for non-blocking telemetry)
     let capturePromise: Promise<void> | undefined;
     if (forgotApiEndpoint) {
       capturePromise = page.waitForResponse(
         (response) => response.url().includes(forgotApiEndpoint) && response.request().method() === 'POST',
-        { timeout }
+        { timeout: 12000 }
       ).then(async (response) => {
         let responseBody: any = {};
         try {
@@ -96,7 +96,7 @@ export class ForgotPasswordTask {
       page,
       'Reset Password',
       submitFallbacks,
-      { isSlowNetwork: this.isSlowNetwork, strategyTimeout: timeout }
+      { isSlowNetwork: this.isSlowNetwork, strategyTimeout: 2000 }
     );
 
     if (capturePromise) {
