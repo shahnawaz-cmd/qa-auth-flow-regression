@@ -1,0 +1,49 @@
+{
+  "url": "https://cadillacwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary1FBSAeyHP7HopNH5\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+52f5@empirepixel.com\r\n------WebKitFormBoundary1FBSAeyHP7HopNH5\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\njZ&Q#pvWoOg@\r\n------WebKitFormBoundary1FBSAeyHP7HopNH5\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3009312849\r\n------WebKitFormBoundary1FBSAeyHP7HopNH5--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532238",
+      "tracking_id": "USER6ad9a066ba3d1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "125",
+      "token": "2A5F2A5F-6E6E-DD31-499E-9F80D4B9D69A",
+      "email": "shahnawaz+52f5@empirepixel.com",
+      "authhashed": "jZ&Q#pvWoOg@",
+      "plain": "jZ&Q#pvWoOg@",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3009312849",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-22 01:34:31",
+      "udt": "2026-10-22 01:34:31",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,28 @@
+{
+  "site": "VSR",
+  "stage": "login",
+  "url": "https://vehiclesreport.com/dashboard?greet=true&_rsc=1e8xs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YGOXzipuUaq9AeZEKIUyl6gbje%2BuL0jty6KEf3QCkXuaM4N8FCEll2kewRytyLEwMe%2BLEAEogpsl1DjRDZvP2LlKcSkmOPyJkrgKCvbMo%2FhefiFhUAn7IrGuTclwe4nX7MpCDqg%3D\"}]}",
+    "cf-ray": "a4e622499b9210fb-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Thu, 22 Oct 2026 05:34:37 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare",
+    "priority": "u=1,i"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-22T05:34:37.617Z"
+}
