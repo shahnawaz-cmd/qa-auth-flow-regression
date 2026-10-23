@@ -1,0 +1,28 @@
+{
+  "site": "MOTORCYCLEVIN",
+  "stage": "signup",
+  "url": "https://motorcyclevinlookup.com/dashboard?greet=true&_rsc=1mnzs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2T7xxMJ32ZKqB0C2YiOFsD8lf66PEDvY5izuzJVbMDXnOlkmB16pYn87wybdz%2Fmlgh5SjOh32oGNkVWH9D8Ebv4XxCMacP0IbZiUj3QBOXZMF3t1ZFckH%2F96Z5MaH1m9G9fHWiAvREghxw%3D%3D\"}]}",
+    "cf-ray": "a4ee5e034cb6d9df-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Fri, 23 Oct 2026 05:33:29 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare",
+    "priority": "u=1,i"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-23T05:33:30.484Z"
+}

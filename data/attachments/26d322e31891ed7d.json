@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarybQMBNFlKUA1jGKJc\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+hykm@empirepixel.com\r\n------WebKitFormBoundarybQMBNFlKUA1jGKJc\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nv!T8PX1SQCye\r\n------WebKitFormBoundarybQMBNFlKUA1jGKJc\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1487558243\r\n------WebKitFormBoundarybQMBNFlKUA1jGKJc--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532546",
+      "tracking_id": "USER6adaf180dc6aa",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "9A3C9A3C-2D2D-4ADC-F687-8A1EC23DA784",
+      "email": "shahnawaz+hykm@empirepixel.com",
+      "authhashed": "v!T8PX1SQCye",
+      "plain": "v!T8PX1SQCye",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1487558243",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 01:32:49",
+      "udt": "2026-10-23 01:32:49",
+      "utype": null
+    }
+  },
+  "status": 200
+}

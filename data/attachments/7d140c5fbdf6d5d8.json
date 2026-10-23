@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary67GhrWliUbVEgNA4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+rvai@empirepixel.com\r\n------WebKitFormBoundary67GhrWliUbVEgNA4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nOmwjzxhgSztP\r\n------WebKitFormBoundary67GhrWliUbVEgNA4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0156458342\r\n------WebKitFormBoundary67GhrWliUbVEgNA4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532550",
+      "tracking_id": "USER6adaf183414cd",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "smDgnElpnxQNgimH4gjvgleanJh1",
+      "site": "1",
+      "token": "E474E474-9A9A-F3C8-5B0E-0C09870B4DC1",
+      "email": "shahnawaz+rvai@empirepixel.com",
+      "authhashed": "OmwjzxhgSztP",
+      "plain": "OmwjzxhgSztP",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0156458342",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 01:32:52",
+      "udt": "2026-10-23 01:32:52",
+      "utype": null
+    }
+  },
+  "status": 200
+}

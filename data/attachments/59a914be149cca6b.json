@@ -1,0 +1,49 @@
+{
+  "url": "https://hyundaiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryXNosuMfMxAGvCgxu\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+sbuy@empirepixel.com\r\n------WebKitFormBoundaryXNosuMfMxAGvCgxu\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n78ns6wgloqs9\r\n------WebKitFormBoundaryXNosuMfMxAGvCgxu\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0455429964\r\n------WebKitFormBoundaryXNosuMfMxAGvCgxu--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532532",
+      "tracking_id": "USER6adaf17c2b78f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "119",
+      "token": "D68FD68F-A7A7-34F4-782C-E2D39EF6FAED",
+      "email": "shahnawaz+sbuy@empirepixel.com",
+      "authhashed": "78ns6wgloqs9",
+      "plain": "78ns6wgloqs9",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0455429964",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 01:32:44",
+      "udt": "2026-10-23 01:32:44",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryLCI1kHQIVxy5G6z4\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+gyjl@empirepixel.com\r\n------WebKitFormBoundaryLCI1kHQIVxy5G6z4\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n3WSCR%kbPOun\r\n------WebKitFormBoundaryLCI1kHQIVxy5G6z4\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7743063834\r\n------WebKitFormBoundaryLCI1kHQIVxy5G6z4--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532554",
+      "tracking_id": "USER6adaf19975ae3",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "46564656-0707-C4C9-99DE-2F23EAC77EE7",
+      "email": "shahnawaz+gyjl@empirepixel.com",
+      "authhashed": "3WSCR%kbPOun",
+      "plain": "3WSCR%kbPOun",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7743063834",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 01:33:13",
+      "udt": "2026-10-23 01:33:13",
+      "utype": null
+    }
+  },
+  "status": 200
+}

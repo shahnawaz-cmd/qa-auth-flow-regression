@@ -1,0 +1,49 @@
+{
+  "url": "https://jeepwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryCKzc0Y4KM1PwCAgo\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+mncr@empirepixel.com\r\n------WebKitFormBoundaryCKzc0Y4KM1PwCAgo\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ncjF#iQqyUk$L\r\n------WebKitFormBoundaryCKzc0Y4KM1PwCAgo\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3054894158\r\n------WebKitFormBoundaryCKzc0Y4KM1PwCAgo--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532552",
+      "tracking_id": "USER6adaf196171a7",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "105",
+      "token": "D5F3D5F3-D8D8-2811-F5E6-7D474C14AAED",
+      "email": "shahnawaz+mncr@empirepixel.com",
+      "authhashed": "cjF#iQqyUk$L",
+      "plain": "cjF#iQqyUk$L",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3054894158",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 01:33:10",
+      "udt": "2026-10-23 01:33:10",
+      "utype": null
+    }
+  },
+  "status": 200
+}
