@@ -1,0 +1,49 @@
+{
+  "url": "https://hondawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundarysLZL4DZZtpJOL99g\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+whcj@empirepixel.com\r\n------WebKitFormBoundarysLZL4DZZtpJOL99g\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n4kqWlnA$RFJr\r\n------WebKitFormBoundarysLZL4DZZtpJOL99g\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4495136965\r\n------WebKitFormBoundarysLZL4DZZtpJOL99g--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532600",
+      "tracking_id": "USER6adb3decae8d1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "116",
+      "token": "9DA59DA5-7C7C-ACA9-30D9-165F866AD751",
+      "email": "shahnawaz+whcj@empirepixel.com",
+      "authhashed": "4kqWlnA$RFJr",
+      "plain": "4kqWlnA$RFJr",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "pincode": "0",
+      "phone": "4495136965",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 06:58:53",
+      "udt": "2026-10-23 06:58:53",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,4 @@
+[Navigation retry] Retrying login goto for VINNUMBER_CA: page.goto: net::ERR_ABORTED at https://vinnumber.ca/login
+Call log:
+  - navigating to "https://vinnumber.ca/login", waiting until "domcontentloaded"
+

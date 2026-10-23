@@ -1,0 +1,49 @@
+{
+  "url": "https://toyotawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryciKclzu5xAl9JGif\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+6zfz@empirepixel.com\r\n------WebKitFormBoundaryciKclzu5xAl9JGif\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n8ODs$m3@HbuY\r\n------WebKitFormBoundaryciKclzu5xAl9JGif\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8599890681\r\n------WebKitFormBoundaryciKclzu5xAl9JGif--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532604",
+      "tracking_id": "USER6adb3e02c3e34",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "106",
+      "token": "40D140D1-BCBC-021A-6BC6-96DBEF4AC195",
+      "email": "shahnawaz+6zfz@empirepixel.com",
+      "authhashed": "8ODs$m3@HbuY",
+      "plain": "8ODs$m3@HbuY",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "pincode": "0",
+      "phone": "8599890681",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-23 06:59:15",
+      "udt": "2026-10-23 06:59:15",
+      "utype": null
+    }
+  },
+  "status": 200
+}
