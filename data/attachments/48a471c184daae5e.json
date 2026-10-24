@@ -1,0 +1,49 @@
+{
+  "url": "https://vwwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryBCZ2xTy2cfldBdVV\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5pj6@empirepixel.com\r\n------WebKitFormBoundaryBCZ2xTy2cfldBdVV\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n^TdWyKQAc1Fa\r\n------WebKitFormBoundaryBCZ2xTy2cfldBdVV\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1312732560\r\n------WebKitFormBoundaryBCZ2xTy2cfldBdVV--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "532840",
+      "tracking_id": "USER6adc3e315c433",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "118",
+      "token": "78847884-A6A6-A5F3-CA1D-D040CF586D32",
+      "email": "shahnawaz+5pj6@empirepixel.com",
+      "authhashed": "^TdWyKQAc1Fa",
+      "plain": "^TdWyKQAc1Fa",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1312732560",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-24 01:12:17",
+      "udt": "2026-10-24 01:12:17",
+      "utype": null
+    }
+  },
+  "status": 200
+}

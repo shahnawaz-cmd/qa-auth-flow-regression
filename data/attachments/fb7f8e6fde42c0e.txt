@@ -1,4 +1,0 @@
-[Navigation retry] Retrying login goto for DVH: page.goto: net::ERR_ABORTED at https://detailedvehiclehistory.com/login
-Call log:
-  - navigating to "https://detailedvehiclehistory.com/login", waiting until "domcontentloaded"
-
