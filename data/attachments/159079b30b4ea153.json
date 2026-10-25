@@ -1,0 +1,49 @@
+{
+  "url": "https://volvowindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryn3LVWG7JWOdJgR5z\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9tay@empirepixel.com\r\n------WebKitFormBoundaryn3LVWG7JWOdJgR5z\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nkP7FFgW4QDtu\r\n------WebKitFormBoundaryn3LVWG7JWOdJgR5z\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1857472490\r\n------WebKitFormBoundaryn3LVWG7JWOdJgR5z--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533071",
+      "tracking_id": "USER6add939f9eb2e",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "121",
+      "token": "55795579-C1C1-0180-BBA7-E61FA6AB4F52",
+      "email": "shahnawaz+9tay@empirepixel.com",
+      "authhashed": "kP7FFgW4QDtu",
+      "plain": "kP7FFgW4QDtu",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1857472490",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-25 01:29:04",
+      "udt": "2026-10-25 01:29:04",
+      "utype": null
+    }
+  },
+  "status": 200
+}

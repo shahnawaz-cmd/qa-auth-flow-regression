@@ -1,0 +1,51 @@
+{
+  "url": "https://classicdecoder.com/api/register",
+  "requestPayload": {
+    "email": "shahnawaz+56mh@empirepixel.com",
+    "password": "uoTf$rc2&%Du",
+    "phone": "0648687574"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533069",
+      "tracking_id": "USER6add939bb2c84",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "NtO1YM15wTSvspH70VUz0b2Y7si2",
+      "site": "91",
+      "token": "B48DB48D-BCBC-402F-6516-B8C086BB1774",
+      "email": "shahnawaz+56mh@empirepixel.com",
+      "authhashed": "uoTf$rc2&%Du",
+      "plain": "uoTf$rc2&%Du",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0648687574",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-25 01:29:01",
+      "udt": "2026-10-25 01:29:01",
+      "utype": null
+    }
+  },
+  "status": 200
+}

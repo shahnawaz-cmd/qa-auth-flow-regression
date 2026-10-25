@@ -1,0 +1,49 @@
+{
+  "url": "https://infinitiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryAccOUatlB5PElOmP\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+s56n@empirepixel.com\r\n------WebKitFormBoundaryAccOUatlB5PElOmP\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\noxIwiGhc%dxI\r\n------WebKitFormBoundaryAccOUatlB5PElOmP\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6415182930\r\n------WebKitFormBoundaryAccOUatlB5PElOmP--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533051",
+      "tracking_id": "USER6add937c247db",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "123",
+      "token": "DD7FDD7F-5252-E9EA-7B90-FE1118765164",
+      "email": "shahnawaz+s56n@empirepixel.com",
+      "authhashed": "oxIwiGhc%dxI",
+      "plain": "oxIwiGhc%dxI",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6415182930",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-25 01:28:28",
+      "udt": "2026-10-25 01:28:28",
+      "utype": null
+    }
+  },
+  "status": 200
+}
