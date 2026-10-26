@@ -1,0 +1,49 @@
+{
+  "url": "https://jeepwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryhuABsDj5gcCRQGQK\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+xyfp@empirepixel.com\r\n------WebKitFormBoundaryhuABsDj5gcCRQGQK\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nX7f2*Wfz*&5g\r\n------WebKitFormBoundaryhuABsDj5gcCRQGQK\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6225039614\r\n------WebKitFormBoundaryhuABsDj5gcCRQGQK--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533251",
+      "tracking_id": "USER6adee622c713c",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "105",
+      "token": "4C614C61-6262-7206-8B88-4DCE99E792C2",
+      "email": "shahnawaz+xyfp@empirepixel.com",
+      "authhashed": "X7f2*Wfz*&5g",
+      "plain": "X7f2*Wfz*&5g",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6225039614",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-26 01:33:23",
+      "udt": "2026-10-26 01:33:23",
+      "utype": null
+    }
+  },
+  "status": 200
+}

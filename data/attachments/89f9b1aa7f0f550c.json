@@ -1,0 +1,49 @@
+{
+  "url": "https://vwwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary2Zt3WKAX9BqqAA1W\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5u1j@empirepixel.com\r\n------WebKitFormBoundary2Zt3WKAX9BqqAA1W\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nC7X#&k@uBg44\r\n------WebKitFormBoundary2Zt3WKAX9BqqAA1W\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9548641255\r\n------WebKitFormBoundary2Zt3WKAX9BqqAA1W--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533277",
+      "tracking_id": "USER6adee64b9f3bc",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "118",
+      "token": "18751875-5757-3D51-B95C-B7ED641BECBD",
+      "email": "shahnawaz+5u1j@empirepixel.com",
+      "authhashed": "C7X#&k@uBg44",
+      "plain": "C7X#&k@uBg44",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9548641255",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-26 01:34:04",
+      "udt": "2026-10-26 01:34:04",
+      "utype": null
+    }
+  },
+  "status": 200
+}

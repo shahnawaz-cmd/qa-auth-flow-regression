@@ -1,0 +1,32 @@
+{
+  "site": "INFINITI",
+  "stage": "login",
+  "url": "https://infinitiwindowsticker.com/dashboard?greet=true&_rsc=1e8xs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=a0T%2BFX1gQ1zltisG%2FE7gOApWzs2E47lAgoBlmLZ1%2BSzp386%2FstoKF6pAJfHn%2Bj%2Fuovy9etdSA1Q4jaDTbB%2Buxf%2FeXbN0f8853s4H5eDaE2sxc7tE4uswq%2BE%2Fa1yPMYuG4l0ZOZyAFk%2Fmewym\"}]}",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Mon, 26 Oct 2026 05:34:13 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a50717348a554809-SJC",
+    "permissions-policy": "microphone=(), camera=()",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-26T05:34:13.902Z"
+}

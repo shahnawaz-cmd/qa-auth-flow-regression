@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryeGZov4vlwDpAuId6\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+9wgk@empirepixel.com\r\n------WebKitFormBoundaryeGZov4vlwDpAuId6\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n8^XinOmqhWDf\r\n------WebKitFormBoundaryeGZov4vlwDpAuId6\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7233929748\r\n------WebKitFormBoundaryeGZov4vlwDpAuId6--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533275",
+      "tracking_id": "USER6adee64b1b29a",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "8A5A8A5A-2E2E-1151-DAA3-0253DD1BD431",
+      "email": "shahnawaz+9wgk@empirepixel.com",
+      "authhashed": "8^XinOmqhWDf",
+      "plain": "8^XinOmqhWDf",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7233929748",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-26 01:34:03",
+      "udt": "2026-10-26 01:34:03",
+      "utype": null
+    }
+  },
+  "status": 200
+}
