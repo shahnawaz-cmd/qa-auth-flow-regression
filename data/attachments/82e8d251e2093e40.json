@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerbyvin.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary2UUfHoyKJaXxeHGh\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+s635@empirepixel.com\r\n------WebKitFormBoundary2UUfHoyKJaXxeHGh\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n0KkBgVXv7ucE\r\n------WebKitFormBoundary2UUfHoyKJaXxeHGh\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7305275572\r\n------WebKitFormBoundary2UUfHoyKJaXxeHGh--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533764",
+      "tracking_id": "USER6ae195992f222",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "110",
+      "token": "32743274-D8D8-9AFE-231E-AA7435BDD2D3",
+      "email": "shahnawaz+s635@empirepixel.com",
+      "authhashed": "0KkBgVXv7ucE",
+      "plain": "0KkBgVXv7ucE",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7305275572",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-28 02:26:33",
+      "udt": "2026-10-28 02:26:33",
+      "utype": null
+    }
+  },
+  "status": 200
+}

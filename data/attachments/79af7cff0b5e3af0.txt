@@ -1,0 +1,10 @@
+[Navigation retry] Retrying initial goto for KIA: page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://kiawindowsticker.com/signup", waiting until "domcontentloaded"
+
+[KIA URL warning] Current URL: https://kiawindowsticker.com/dashboard?greet=true - Error: page.waitForURL: Test timeout of 150000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://kiawindowsticker.com/dashboard?greet=true"
+  "domcontentloaded" event fired
+============================================================
