@@ -1,6 +1,0 @@
-[VW URL warning] Current URL: https://vwwindowstickers.com/dashboard?greet=true - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://vwwindowstickers.com/dashboard?greet=true"
-  "domcontentloaded" event fired
-============================================================

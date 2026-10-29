@@ -1,0 +1,49 @@
+{
+  "url": "https://subaruwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryO05iWpIJJF093kky\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+pa4u@empirepixel.com\r\n------WebKitFormBoundaryO05iWpIJJF093kky\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n1VyZU!9x2lVX\r\n------WebKitFormBoundaryO05iWpIJJF093kky\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2727367102\r\n------WebKitFormBoundaryO05iWpIJJF093kky--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "533979",
+      "tracking_id": "USER6ae2e97ee3485",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "111",
+      "token": "42104210-9D9D-C18F-B55B-1FBA2CADDA05",
+      "email": "shahnawaz+pa4u@empirepixel.com",
+      "authhashed": "1VyZU!9x2lVX",
+      "plain": "1VyZU!9x2lVX",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2727367102",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-29 02:36:47",
+      "udt": "2026-10-29 02:36:47",
+      "utype": null
+    }
+  },
+  "status": 200
+}

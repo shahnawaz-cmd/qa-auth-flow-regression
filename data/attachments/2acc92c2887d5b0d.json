@@ -1,0 +1,32 @@
+{
+  "site": "BMW",
+  "stage": "signup",
+  "url": "https://bmwwindowsticker.com/dashboard?greet=true&_rsc=1mnzs",
+  "method": "GET",
+  "status": 200,
+  "statusText": "",
+  "headers": {
+    "content-encoding": "zstd",
+    "cf-cache-status": "DYNAMIC",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=6RPicVU4WfGig%2FllmIr2BhsOusGBvOJQY3YOEuQDtuS0RGLVd0dJan5YarEvfsBO1X1EhU4Z6jh2kfMMWZuCMpXILQpD1cdWjy8nYTcFW4pBovqxs%2FxxzmaUSqW13yS3qTpijgAQ%2BA%3D%3D\"}]}",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "server-timing": "cfExtPri",
+    "date": "Thu, 29 Oct 2026 06:36:46 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding, rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "priority": "u=1,i",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'self';   script-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;   style-src 'self' 'unsafe-inline' https:;   img-src 'self' https: data: blob:;   font-src 'self' https: data:;   frame-src 'self' https:;   connect-src 'self' https: wss:;   media-src 'self' https: blob:;   object-src 'none';   base-uri 'self';   form-action 'self' https:;   frame-ancestors 'self';",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "cf-ray": "a5202aea2fb24fb3-EWR",
+    "permissions-policy": "microphone=(), camera=()",
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+  },
+  "responseBody": {
+    "note": "Could not read response body"
+  },
+  "timestamp": "2026-10-29T06:36:47.074Z"
+}

@@ -1,6 +1,0 @@
-[INFINITI] API capture note: page.waitForResponse: Timeout 15000ms exceeded while waiting for event "response"
-[INFINITI URL warning] Current URL: https://infinitiwindowsticker.com/dashboard?greet=true - Error: page.waitForURL: Timeout 60000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://infinitiwindowsticker.com/dashboard?greet=true"
-============================================================
