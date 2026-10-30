@@ -1,0 +1,49 @@
+{
+  "url": "https://chevroletwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary4rRg2RY2PtpBKanz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+38y7@empirepixel.com\r\n------WebKitFormBoundary4rRg2RY2PtpBKanz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nLgkN1m416MT#\r\n------WebKitFormBoundary4rRg2RY2PtpBKanz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n6112987695\r\n------WebKitFormBoundary4rRg2RY2PtpBKanz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534211",
+      "tracking_id": "USER6ae43b12d4b3f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "107",
+      "token": "BF20BF20-5B5B-1694-58E1-2E7A9C7BCCE6",
+      "email": "shahnawaz+38y7@empirepixel.com",
+      "authhashed": "LgkN1m416MT#",
+      "plain": "LgkN1m416MT#",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "6112987695",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-30 02:37:07",
+      "udt": "2026-10-30 02:37:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}
