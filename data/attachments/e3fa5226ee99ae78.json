@@ -1,0 +1,49 @@
+{
+  "url": "https://kiawindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryaudgAkEqpMDhCHbD\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+sftr@empirepixel.com\r\n------WebKitFormBoundaryaudgAkEqpMDhCHbD\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nD*%8MntcT%Yy\r\n------WebKitFormBoundaryaudgAkEqpMDhCHbD\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8555873163\r\n------WebKitFormBoundaryaudgAkEqpMDhCHbD--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534411",
+      "tracking_id": "USER6ae589ffa14e2",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "120",
+      "token": "6E186E18-0505-3B14-CBFE-365833407261",
+      "email": "shahnawaz+sftr@empirepixel.com",
+      "authhashed": "D*%8MntcT%Yy",
+      "plain": "D*%8MntcT%Yy",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8555873163",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:26:08",
+      "udt": "2026-10-31 02:26:08",
+      "utype": null
+    }
+  },
+  "status": 200
+}

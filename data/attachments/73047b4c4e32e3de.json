@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary0M6E3D4q1z2iCux5\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+lf2n@empirepixel.com\r\n------WebKitFormBoundary0M6E3D4q1z2iCux5\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nz&2dvFdt47nM\r\n------WebKitFormBoundary0M6E3D4q1z2iCux5\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0291738085\r\n------WebKitFormBoundary0M6E3D4q1z2iCux5--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534435",
+      "tracking_id": "USER6ae58a33632ff",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "EFB3EFB3-6C6C-AC40-DD31-1FD51EBCC188",
+      "email": "shahnawaz+lf2n@empirepixel.com",
+      "authhashed": "z&2dvFdt47nM",
+      "plain": "z&2dvFdt47nM",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0291738085",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:26:59",
+      "udt": "2026-10-31 02:26:59",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://audiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryksCD1uJErsRnyS5i\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+4dqd@empirepixel.com\r\n------WebKitFormBoundaryksCD1uJErsRnyS5i\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nBx6gnP3BhMbc\r\n------WebKitFormBoundaryksCD1uJErsRnyS5i\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2942914918\r\n------WebKitFormBoundaryksCD1uJErsRnyS5i--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534439",
+      "tracking_id": "USER6ae58a38450a2",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "117",
+      "token": "D359D359-D3D3-13E7-BA3F-44C2DCB47701",
+      "email": "shahnawaz+4dqd@empirepixel.com",
+      "authhashed": "Bx6gnP3BhMbc",
+      "plain": "Bx6gnP3BhMbc",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Cheyenne",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2942914918",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:27:04",
+      "udt": "2026-10-31 02:27:04",
+      "utype": null
+    }
+  },
+  "status": 200
+}

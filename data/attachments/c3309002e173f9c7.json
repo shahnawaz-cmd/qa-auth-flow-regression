@@ -1,0 +1,49 @@
+{
+  "url": "https://mitsubishiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryiZkH7PxwH891j6x6\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5ibg@empirepixel.com\r\n------WebKitFormBoundaryiZkH7PxwH891j6x6\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nIdR6!FksMkRz\r\n------WebKitFormBoundaryiZkH7PxwH891j6x6\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5416605047\r\n------WebKitFormBoundaryiZkH7PxwH891j6x6--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534438",
+      "tracking_id": "USER6ae58a3820260",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "129",
+      "token": "20BF20BF-0E0E-7E26-16B1-D44A09F4804A",
+      "email": "shahnawaz+5ibg@empirepixel.com",
+      "authhashed": "IdR6!FksMkRz",
+      "plain": "IdR6!FksMkRz",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5416605047",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:27:04",
+      "udt": "2026-10-31 02:27:04",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://lincolnwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryLUTjb87uOBjbY4mQ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ijp8@empirepixel.com\r\n------WebKitFormBoundaryLUTjb87uOBjbY4mQ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nz%C@ILfAwa9*\r\n------WebKitFormBoundaryLUTjb87uOBjbY4mQ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n7280232919\r\n------WebKitFormBoundaryLUTjb87uOBjbY4mQ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534432",
+      "tracking_id": "USER6ae58a2fe52f3",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "126",
+      "token": "9A1A9A1A-B3B3-CA87-1B00-276678107F53",
+      "email": "shahnawaz+ijp8@empirepixel.com",
+      "authhashed": "z%C@ILfAwa9*",
+      "plain": "z%C@ILfAwa9*",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "7280232919",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:26:56",
+      "udt": "2026-10-31 02:26:56",
+      "utype": null
+    }
+  },
+  "status": 200
+}

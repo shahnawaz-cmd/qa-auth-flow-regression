@@ -1,0 +1,49 @@
+{
+  "url": "https://vinnumber.ca/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryQ68NBdAQfv2XQ2MF\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+3fp8@empirepixel.com\r\n------WebKitFormBoundaryQ68NBdAQfv2XQ2MF\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nfm^FaAsFLrnc\r\n------WebKitFormBoundaryQ68NBdAQfv2XQ2MF\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5454420272\r\n------WebKitFormBoundaryQ68NBdAQfv2XQ2MF--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534410",
+      "tracking_id": "USER6ae589fe14068",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "98",
+      "token": "B052B052-6F6F-AB60-D1AE-7882AC571BB1",
+      "email": "shahnawaz+3fp8@empirepixel.com",
+      "authhashed": "fm^FaAsFLrnc",
+      "plain": "fm^FaAsFLrnc",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5454420272",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-10-31 02:26:07",
+      "udt": "2026-10-31 02:26:07",
+      "utype": null
+    }
+  },
+  "status": 200
+}
