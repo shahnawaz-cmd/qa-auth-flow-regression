@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryogKipJkhrfReGZ7A\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+95uk@empirepixel.com\r\n------WebKitFormBoundaryogKipJkhrfReGZ7A\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nFCqCwP2l7RBG\r\n------WebKitFormBoundaryogKipJkhrfReGZ7A\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9433515705\r\n------WebKitFormBoundaryogKipJkhrfReGZ7A--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534613",
+      "tracking_id": "USER6ae6e356c8423",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "C1E2C1E2-8E8E-A817-3E70-D8FCA8A8395F",
+      "email": "shahnawaz+95uk@empirepixel.com",
+      "authhashed": "FCqCwP2l7RBG",
+      "plain": "FCqCwP2l7RBG",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9433515705",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-01 01:59:35",
+      "udt": "2026-11-01 01:59:35",
+      "utype": null
+    }
+  },
+  "status": 200
+}
