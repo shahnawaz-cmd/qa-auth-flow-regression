@@ -1,0 +1,49 @@
+{
+  "url": "https://hyundaiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryQhdnPeSp38DIdeXz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0b4p@empirepixel.com\r\n------WebKitFormBoundaryQhdnPeSp38DIdeXz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nZgcj6r8l8Tfj\r\n------WebKitFormBoundaryQhdnPeSp38DIdeXz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1945489474\r\n------WebKitFormBoundaryQhdnPeSp38DIdeXz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534771",
+      "tracking_id": "USER6ae834838f9ab",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "119",
+      "token": "265A265A-5555-91D9-9C22-E68F6E1E0318",
+      "email": "shahnawaz+0b4p@empirepixel.com",
+      "authhashed": "Zgcj6r8l8Tfj",
+      "plain": "Zgcj6r8l8Tfj",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1945489474",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-02 01:58:12",
+      "udt": "2026-11-02 01:58:12",
+      "utype": null
+    }
+  },
+  "status": 200
+}

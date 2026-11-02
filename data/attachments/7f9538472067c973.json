@@ -1,0 +1,49 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryyN08YTQPa0WcjaGi\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+8sp4@empirepixel.com\r\n------WebKitFormBoundaryyN08YTQPa0WcjaGi\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nK@FrOF&@VMEM\r\n------WebKitFormBoundaryyN08YTQPa0WcjaGi\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1635963224\r\n------WebKitFormBoundaryyN08YTQPa0WcjaGi--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534789",
+      "tracking_id": "USER6ae834a7e7135",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "124",
+      "token": "CEB2CEB2-7474-38E1-CBFA-E72A2EADB72A",
+      "email": "shahnawaz+8sp4@empirepixel.com",
+      "authhashed": "K@FrOF&@VMEM",
+      "plain": "K@FrOF&@VMEM",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Boydton",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1635963224",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-02 01:58:48",
+      "udt": "2026-11-02 01:58:48",
+      "utype": null
+    }
+  },
+  "status": 200
+}

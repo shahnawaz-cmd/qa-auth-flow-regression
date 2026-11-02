@@ -1,0 +1,49 @@
+{
+  "url": "https://ramwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary9Vgq9RsnuZupM3BB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+dl1a@empirepixel.com\r\n------WebKitFormBoundary9Vgq9RsnuZupM3BB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nEGItz0Qkvr*i\r\n------WebKitFormBoundary9Vgq9RsnuZupM3BB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4454146076\r\n------WebKitFormBoundary9Vgq9RsnuZupM3BB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "534781",
+      "tracking_id": "USER6ae8349d258a9",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "101",
+      "token": "CC88CC88-0F0F-F350-9423-C00E7A4531BE",
+      "email": "shahnawaz+dl1a@empirepixel.com",
+      "authhashed": "EGItz0Qkvr*i",
+      "plain": "EGItz0Qkvr*i",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Redmond",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4454146076",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-02 01:58:37",
+      "udt": "2026-11-02 01:58:37",
+      "utype": null
+    }
+  },
+  "status": 200
+}
