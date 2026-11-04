@@ -1,0 +1,49 @@
+{
+  "url": "https://buickwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary42HjuGLeQbyxnBmB\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+fu94@empirepixel.com\r\n------WebKitFormBoundary42HjuGLeQbyxnBmB\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nCByBnD0$ECLV\r\n------WebKitFormBoundary42HjuGLeQbyxnBmB\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4390167057\r\n------WebKitFormBoundary42HjuGLeQbyxnBmB--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535126",
+      "tracking_id": "USER6aead8f5dc0ef",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "124",
+      "token": "ADE2ADE2-5E5E-B0AB-3147-EA5D2BB3F7D2",
+      "email": "shahnawaz+fu94@empirepixel.com",
+      "authhashed": "CByBnD0$ECLV",
+      "plain": "CByBnD0$ECLV",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Chicago",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4390167057",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-04 02:04:22",
+      "udt": "2026-11-04 02:04:22",
+      "utype": null
+    }
+  },
+  "status": 200
+}

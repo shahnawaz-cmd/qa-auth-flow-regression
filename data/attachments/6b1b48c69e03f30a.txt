@@ -1,0 +1,4 @@
+[Navigation retry] Retrying initial goto for BMW: page.goto: net::ERR_NAME_NOT_RESOLVED at https://bmwwindowsticker.com/signup
+Call log:
+  - navigating to "https://bmwwindowsticker.com/signup", waiting until "domcontentloaded"
+

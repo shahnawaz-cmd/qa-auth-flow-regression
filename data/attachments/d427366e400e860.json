@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary9BaQeBeofKjVMI5e\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+v5fb@empirepixel.com\r\n------WebKitFormBoundary9BaQeBeofKjVMI5e\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nr6BJ^AD9DKEe\r\n------WebKitFormBoundary9BaQeBeofKjVMI5e\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4254672223\r\n------WebKitFormBoundary9BaQeBeofKjVMI5e--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535142",
+      "tracking_id": "USER6aead9167cddd",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "115",
+      "token": "70EB70EB-1111-6F87-6D02-6917DB37B0C2",
+      "email": "shahnawaz+v5fb@empirepixel.com",
+      "authhashed": "r6BJ^AD9DKEe",
+      "plain": "r6BJ^AD9DKEe",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4254672223",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-04 02:04:54",
+      "udt": "2026-11-04 02:04:54",
+      "utype": null
+    }
+  },
+  "status": 200
+}

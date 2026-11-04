@@ -1,0 +1,49 @@
+{
+  "url": "https://chryslerwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryYPS0vlK9bac4qmcG\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5s9k@empirepixel.com\r\n------WebKitFormBoundaryYPS0vlK9bac4qmcG\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nax2@zLUiZWG&\r\n------WebKitFormBoundaryYPS0vlK9bac4qmcG\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n1515970055\r\n------WebKitFormBoundaryYPS0vlK9bac4qmcG--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535145",
+      "tracking_id": "USER6aead917ebf73",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "102",
+      "token": "5D775D77-5050-E8B1-18A6-8052E9E876FE",
+      "email": "shahnawaz+5s9k@empirepixel.com",
+      "authhashed": "ax2@zLUiZWG&",
+      "plain": "ax2@zLUiZWG&",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "1515970055",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-04 02:04:56",
+      "udt": "2026-11-04 02:04:56",
+      "utype": null
+    }
+  },
+  "status": 200
+}

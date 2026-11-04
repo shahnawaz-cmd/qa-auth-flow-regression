@@ -1,0 +1,49 @@
+{
+  "url": "https://dodgewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary0uscOFQi03I45C6w\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+yyhi@empirepixel.com\r\n------WebKitFormBoundary0uscOFQi03I45C6w\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nmFGH4Yv1Djp&\r\n------WebKitFormBoundary0uscOFQi03I45C6w\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2983600725\r\n------WebKitFormBoundary0uscOFQi03I45C6w--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535134",
+      "tracking_id": "USER6aead8f846720",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "100",
+      "token": "657E657E-FEFE-19AA-A2B8-58EB36558F77",
+      "email": "shahnawaz+yyhi@empirepixel.com",
+      "authhashed": "mFGH4Yv1Djp&",
+      "plain": "mFGH4Yv1Djp&",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2983600725",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-04 02:04:24",
+      "udt": "2026-11-04 02:04:24",
+      "utype": null
+    }
+  },
+  "status": 200
+}
