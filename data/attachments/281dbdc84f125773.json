@@ -1,0 +1,49 @@
+{
+  "url": "https://subaruwindowstickers.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPBLCzY5AIBgq9GQQ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+jnxk@empirepixel.com\r\n------WebKitFormBoundaryPBLCzY5AIBgq9GQQ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ntQz2ke2lu1C5\r\n------WebKitFormBoundaryPBLCzY5AIBgq9GQQ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9103497326\r\n------WebKitFormBoundaryPBLCzY5AIBgq9GQQ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535319",
+      "tracking_id": "USER6aec309b3871c",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "111",
+      "token": "5C185C18-D8D8-40CC-E5ED-D2195B9C1857",
+      "email": "shahnawaz+jnxk@empirepixel.com",
+      "authhashed": "tQz2ke2lu1C5",
+      "plain": "tQz2ke2lu1C5",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9103497326",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-05 02:30:36",
+      "udt": "2026-11-05 02:30:36",
+      "utype": null
+    }
+  },
+  "status": 200
+}

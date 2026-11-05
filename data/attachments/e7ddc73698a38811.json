@@ -1,0 +1,49 @@
+{
+  "url": "https://audiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryGBjPvTGzUfc0r8D1\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+qyz1@empirepixel.com\r\n------WebKitFormBoundaryGBjPvTGzUfc0r8D1\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n#zazOjwq%T4E\r\n------WebKitFormBoundaryGBjPvTGzUfc0r8D1\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5428270595\r\n------WebKitFormBoundaryGBjPvTGzUfc0r8D1--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535309",
+      "tracking_id": "USER6aec309863caf",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "117",
+      "token": "59035903-F1F1-7F48-3810-07C41528866C",
+      "email": "shahnawaz+qyz1@empirepixel.com",
+      "authhashed": "#zazOjwq%T4E",
+      "plain": "#zazOjwq%T4E",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5428270595",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-05 02:30:34",
+      "udt": "2026-11-05 02:30:34",
+      "utype": null
+    }
+  },
+  "status": 200
+}
