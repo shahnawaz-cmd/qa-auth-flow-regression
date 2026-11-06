@@ -1,0 +1,49 @@
+{
+  "url": "https://mitsubishiwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary9aBBiVbQcvBKAFF9\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+wish@empirepixel.com\r\n------WebKitFormBoundary9aBBiVbQcvBKAFF9\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n9J8KxneYn@tN\r\n------WebKitFormBoundary9aBBiVbQcvBKAFF9\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n5898620034\r\n------WebKitFormBoundary9aBBiVbQcvBKAFF9--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535520",
+      "tracking_id": "USER6aed81ef993f1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "129",
+      "token": "DA3ADA3A-2424-4B79-1C38-C39DECB8A30B",
+      "email": "shahnawaz+wish@empirepixel.com",
+      "authhashed": "9J8KxneYn@tN",
+      "plain": "9J8KxneYn@tN",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "5898620034",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-06 02:29:52",
+      "udt": "2026-11-06 02:29:52",
+      "utype": null
+    }
+  },
+  "status": 200
+}
