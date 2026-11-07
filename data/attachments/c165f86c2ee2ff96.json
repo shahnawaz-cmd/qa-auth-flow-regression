@@ -1,0 +1,49 @@
+{
+  "url": "https://bmwwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary0YT3WQWTA0AF7bkj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+5ugh@empirepixel.com\r\n------WebKitFormBoundary0YT3WQWTA0AF7bkj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nBKaetzf1%J@G\r\n------WebKitFormBoundary0YT3WQWTA0AF7bkj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3323423758\r\n------WebKitFormBoundary0YT3WQWTA0AF7bkj--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535661",
+      "tracking_id": "USER6aeec84d0f1d0",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "108",
+      "token": "721E721E-E4E4-86D8-F68D-7B644387AAA9",
+      "email": "shahnawaz+5ugh@empirepixel.com",
+      "authhashed": "BKaetzf1%J@G",
+      "plain": "BKaetzf1%J@G",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3323423758",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-07 01:42:21",
+      "udt": "2026-11-07 01:42:21",
+      "utype": null
+    }
+  },
+  "status": 200
+}

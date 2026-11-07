@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryKB71yhgfAbv0gJ1N\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+s2vw@empirepixel.com\r\n------WebKitFormBoundaryKB71yhgfAbv0gJ1N\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nf@gQ8#KX8oa8\r\n------WebKitFormBoundaryKB71yhgfAbv0gJ1N\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3613565747\r\n------WebKitFormBoundaryKB71yhgfAbv0gJ1N--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535667",
+      "tracking_id": "USER6aeec84fa5fc1",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "8AD08AD0-9494-76A2-6F9B-5053E670EFEB",
+      "email": "shahnawaz+s2vw@empirepixel.com",
+      "authhashed": "f@gQ8#KX8oa8",
+      "plain": "f@gQ8#KX8oa8",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3613565747",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-07 01:42:24",
+      "udt": "2026-11-07 01:42:24",
+      "utype": null
+    }
+  },
+  "status": 200
+}

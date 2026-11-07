@@ -1,4 +1,0 @@
-[ForgotPasswordTask] Testing forgot password flow on "MOTORCYCLEVIN" (shahnawaz+mc@empirepixel.com)...
-✅ [Self-Healing Input] Located visible field "email" using strategy #1
-✅ [Self-Healing Click] Located button "Reset Password" using strategy #1
-✅ [ForgotPasswordTask] Completed reset request for MOTORCYCLEVIN
