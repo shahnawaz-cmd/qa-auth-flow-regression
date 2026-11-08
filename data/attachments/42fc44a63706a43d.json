@@ -1,0 +1,49 @@
+{
+  "url": "https://instantvinreports.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryJ6GtqyoQOO8LWIMZ\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+j4xe@empirepixel.com\r\n------WebKitFormBoundaryJ6GtqyoQOO8LWIMZ\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\np*ex0jU8&!!J\r\n------WebKitFormBoundaryJ6GtqyoQOO8LWIMZ\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n4463195360\r\n------WebKitFormBoundaryJ6GtqyoQOO8LWIMZ--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535818",
+      "tracking_id": "USER6af01b5e9f8f4",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "3",
+      "token": "1B1F1B1F-CFCF-CA6D-0F23-9C128E701CEC",
+      "email": "shahnawaz+j4xe@empirepixel.com",
+      "authhashed": "p*ex0jU8&!!J",
+      "plain": "p*ex0jU8&!!J",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Atlanta",
+      "country": "US",
+      "pincode": "0",
+      "phone": "4463195360",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-08 01:49:03",
+      "udt": "2026-11-08 01:49:03",
+      "utype": null
+    }
+  },
+  "status": 200
+}

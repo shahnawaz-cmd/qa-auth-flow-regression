@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclehistory.eu/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryPjYAkoBASiA6mCqc\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+ahs3@empirepixel.com\r\n------WebKitFormBoundaryPjYAkoBASiA6mCqc\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n14zzX#WHL!uk\r\n------WebKitFormBoundaryPjYAkoBASiA6mCqc\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8515739737\r\n------WebKitFormBoundaryPjYAkoBASiA6mCqc--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535801",
+      "tracking_id": "USER6af01b3e5e0ee",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "92",
+      "token": "66C166C1-A7A7-2893-8801-604F605E9D52",
+      "email": "shahnawaz+ahs3@empirepixel.com",
+      "authhashed": "14zzX#WHL!uk",
+      "plain": "14zzX#WHL!uk",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Des Moines",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8515739737",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-08 01:48:33",
+      "udt": "2026-11-08 01:48:33",
+      "utype": null
+    }
+  },
+  "status": 200
+}

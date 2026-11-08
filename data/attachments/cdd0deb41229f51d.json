@@ -1,0 +1,49 @@
+{
+  "url": "https://chevroletwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryQ2nWUSCgZoTDOD46\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+0xr9@empirepixel.com\r\n------WebKitFormBoundaryQ2nWUSCgZoTDOD46\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nJeHkU1XeLAeF\r\n------WebKitFormBoundaryQ2nWUSCgZoTDOD46\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0531559361\r\n------WebKitFormBoundaryQ2nWUSCgZoTDOD46--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535811",
+      "tracking_id": "USER6af01b4297550",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "107",
+      "token": "BF61BF61-B4B4-2E2B-C867-8218D33DAFCD",
+      "email": "shahnawaz+0xr9@empirepixel.com",
+      "authhashed": "JeHkU1XeLAeF",
+      "plain": "JeHkU1XeLAeF",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0531559361",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-08 01:48:35",
+      "udt": "2026-11-08 01:48:35",
+      "utype": null
+    }
+  },
+  "status": 200
+}
