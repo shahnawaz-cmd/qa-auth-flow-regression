@@ -1,0 +1,49 @@
+{
+  "url": "https://fordwindowstickerlookup.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryowNlANA1xZBsVhjj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+r2ka@empirepixel.com\r\n------WebKitFormBoundaryowNlANA1xZBsVhjj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nAW9FGtdgIEln\r\n------WebKitFormBoundaryowNlANA1xZBsVhjj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n3109625414\r\n------WebKitFormBoundaryowNlANA1xZBsVhjj--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535987",
+      "tracking_id": "USER6af1753b18234",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "115",
+      "token": "4A5C4A5C-CECE-469D-0669-03C1C01A9C74",
+      "email": "shahnawaz+r2ka@empirepixel.com",
+      "authhashed": "AW9FGtdgIEln",
+      "plain": "AW9FGtdgIEln",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Phoenix",
+      "country": "US",
+      "pincode": "0",
+      "phone": "3109625414",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:24:43",
+      "udt": "2026-11-09 02:24:43",
+      "utype": null
+    }
+  },
+  "status": 200
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://detailedvehiclehistory.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryixdSZJfBgn894HXj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+qxsg@empirepixel.com\r\n------WebKitFormBoundaryixdSZJfBgn894HXj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nqOeHXcPYoSq4\r\n------WebKitFormBoundaryixdSZJfBgn894HXj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n8086449351\r\n------WebKitFormBoundaryixdSZJfBgn894HXj--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535965",
+      "tracking_id": "USER6af174fe2a914",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "0K9MO3prYHcQTps7l7FmitJnZvL2",
+      "site": "1",
+      "token": "24C124C1-D2D2-2FB4-AFB5-B46F7D87EEA9",
+      "email": "shahnawaz+qxsg@empirepixel.com",
+      "authhashed": "qOeHXcPYoSq4",
+      "plain": "qOeHXcPYoSq4",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Washington",
+      "country": "US",
+      "pincode": "0",
+      "phone": "8086449351",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:23:43",
+      "udt": "2026-11-09 02:23:43",
+      "utype": null
+    }
+  },
+  "status": 200
+}

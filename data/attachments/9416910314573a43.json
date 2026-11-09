@@ -1,0 +1,49 @@
+{
+  "url": "https://vehiclesreport.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryMFLeDKDbrtNRy5hz\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+tlip@empirepixel.com\r\n------WebKitFormBoundaryMFLeDKDbrtNRy5hz\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nb!^3uN#4y!ru\r\n------WebKitFormBoundaryMFLeDKDbrtNRy5hz\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2658088671\r\n------WebKitFormBoundaryMFLeDKDbrtNRy5hz--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535982",
+      "tracking_id": "USER6af1752e64f75",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "85",
+      "token": "1E181E18-CDCD-E4AF-45FD-35E378AA7F93",
+      "email": "shahnawaz+tlip@empirepixel.com",
+      "authhashed": "b!^3uN#4y!ru",
+      "plain": "b!^3uN#4y!ru",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Ashburn",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2658088671",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:24:30",
+      "udt": "2026-11-09 02:24:30",
+      "utype": null
+    }
+  },
+  "status": 200
+}

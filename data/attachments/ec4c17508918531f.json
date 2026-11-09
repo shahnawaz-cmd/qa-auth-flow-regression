@@ -1,0 +1,49 @@
+{
+  "url": "https://gmcwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryZ8w8AFy8D3eezaSr\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+xfvt@empirepixel.com\r\n------WebKitFormBoundaryZ8w8AFy8D3eezaSr\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\nTxYZ*NJ#y@g4\r\n------WebKitFormBoundaryZ8w8AFy8D3eezaSr\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n0812445133\r\n------WebKitFormBoundaryZ8w8AFy8D3eezaSr--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535996",
+      "tracking_id": "USER6af17563bd92f",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "104",
+      "token": "E447E447-0202-DCD7-0D08-C07D9376C3AD",
+      "email": "shahnawaz+xfvt@empirepixel.com",
+      "authhashed": "TxYZ*NJ#y@g4",
+      "plain": "TxYZ*NJ#y@g4",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Antonio",
+      "country": "US",
+      "pincode": "0",
+      "phone": "0812445133",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:25:24",
+      "udt": "2026-11-09 02:25:24",
+      "utype": null
+    }
+  },
+  "status": 200
+}

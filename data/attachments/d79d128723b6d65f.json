@@ -1,0 +1,49 @@
+{
+  "url": "https://mclarenwindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundary1youYewTPhTKyBvj\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+jy73@empirepixel.com\r\n------WebKitFormBoundary1youYewTPhTKyBvj\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\n!nhtgn1@rDSc\r\n------WebKitFormBoundary1youYewTPhTKyBvj\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n2123642798\r\n------WebKitFormBoundary1youYewTPhTKyBvj--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535970",
+      "tracking_id": "USER6af1750106bc3",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "127",
+      "token": "061D061D-3B3B-66D2-87F5-8E53D02E1BEE",
+      "email": "shahnawaz+jy73@empirepixel.com",
+      "authhashed": "!nhtgn1@rDSc",
+      "plain": "!nhtgn1@rDSc",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "San Jose",
+      "country": "US",
+      "pincode": "0",
+      "phone": "2123642798",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:23:45",
+      "udt": "2026-11-09 02:23:45",
+      "utype": null
+    }
+  },
+  "status": 200
+}

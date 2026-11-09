@@ -1,0 +1,49 @@
+{
+  "url": "https://porschewindowsticker.com/api-cwa/register",
+  "requestPayload": {
+    "raw": "------WebKitFormBoundaryfdrU62GmXNQ7mAq6\r\nContent-Disposition: form-data; name=\"email\"\r\n\r\nshahnawaz+l93i@empirepixel.com\r\n------WebKitFormBoundaryfdrU62GmXNQ7mAq6\r\nContent-Disposition: form-data; name=\"pass\"\r\n\r\ngfRZrjHwaKjk\r\n------WebKitFormBoundaryfdrU62GmXNQ7mAq6\r\nContent-Disposition: form-data; name=\"phone\"\r\n\r\n9571457994\r\n------WebKitFormBoundaryfdrU62GmXNQ7mAq6--\r\n"
+  },
+  "responseBody": {
+    "status": "success",
+    "data": {
+      "id": "535971",
+      "tracking_id": "USER6af1750126729",
+      "user_type": "user",
+      "profile_image": null,
+      "firebase_uid": "",
+      "site": "112",
+      "token": "26572657-3E3E-BAD3-7786-ED05CFE0D8F5",
+      "email": "shahnawaz+l93i@empirepixel.com",
+      "authhashed": "gfRZrjHwaKjk",
+      "plain": "gfRZrjHwaKjk",
+      "first": "",
+      "middle": "",
+      "last": "",
+      "address": "",
+      "city": "",
+      "state": "Quincy",
+      "country": "US",
+      "pincode": "0",
+      "phone": "9571457994",
+      "company_name": null,
+      "company_website": null,
+      "company_email": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null,
+      "access": "1",
+      "mod_status": "1",
+      "status": "1",
+      "preffered_odometer_unit": "mi",
+      "no_of_employees": null,
+      "account_type": "personal",
+      "business_type": null,
+      "usource": "WEB",
+      "device": "Desktop - Linux",
+      "cdt": "2026-11-09 02:23:45",
+      "udt": "2026-11-09 02:23:45",
+      "utype": null
+    }
+  },
+  "status": 200
+}
